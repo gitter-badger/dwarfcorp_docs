@@ -1,0 +1,25 @@
+var class_dwarf_corp_1_1_creature_def =
+[
+    [ "BloodParticle", "class_dwarf_corp_1_1_creature_def.html#a70520bd4c3a45d94f4b9aad8154d075f", null ],
+    [ "CanEat", "class_dwarf_corp_1_1_creature_def.html#ab8918c68bd7a5e52eaf44cb886615c3c", null ],
+    [ "CanSleep", "class_dwarf_corp_1_1_creature_def.html#ae135906d4a09234c5af1e30ab3549a6a", null ],
+    [ "ChewSound", "class_dwarf_corp_1_1_creature_def.html#aab491221932a6564f867d6d2dfde4ced", null ],
+    [ "Classes", "class_dwarf_corp_1_1_creature_def.html#a497a4af8b49c43de00903bdef9872c19", null ],
+    [ "DeathSound", "class_dwarf_corp_1_1_creature_def.html#adef5ef9348a1d9f810053372e6741c67", null ],
+    [ "Description", "class_dwarf_corp_1_1_creature_def.html#a83c777fc156fa3af8c8eeb2f2bb5ceac", null ],
+    [ "HasShadow", "class_dwarf_corp_1_1_creature_def.html#a4f0ab5aaecbc78b944573e6475c2e0d6", null ],
+    [ "HurtSounds", "class_dwarf_corp_1_1_creature_def.html#af70d1c78ca63aa8969679a4cce0242f6", null ],
+    [ "InventorySize", "class_dwarf_corp_1_1_creature_def.html#a9db6b08c9cf61765fe37b902a1de8e6d", null ],
+    [ "IsFlammable", "class_dwarf_corp_1_1_creature_def.html#a673eeeae712b392893d27f50a26254e4", null ],
+    [ "JumpSound", "class_dwarf_corp_1_1_creature_def.html#a6b767b8f921df67154eea3d3cd9cd7c2", null ],
+    [ "Mass", "class_dwarf_corp_1_1_creature_def.html#a6f1ffcb83355daaeed3fd5098a6df51a", null ],
+    [ "MinimapIcon", "class_dwarf_corp_1_1_creature_def.html#abb78ba8df7a00b72f7b1f9cf5228e09a", null ],
+    [ "Name", "class_dwarf_corp_1_1_creature_def.html#a1920ab7f0f88233f88a88c5a832ef0b6", null ],
+    [ "Race", "class_dwarf_corp_1_1_creature_def.html#afc42365cecdfd2e9a413682fe44ba13c", null ],
+    [ "SenseRange", "class_dwarf_corp_1_1_creature_def.html#afebae5e4dc9ba240265ec8ed82191815", null ],
+    [ "ShadowScale", "class_dwarf_corp_1_1_creature_def.html#acf6e94d94a0de5fb2e2b877972cb09d7", null ],
+    [ "Size", "class_dwarf_corp_1_1_creature_def.html#a6ad1cc66984d3fd9ce1ddaf375838d9b", null ],
+    [ "SpriteOffset", "class_dwarf_corp_1_1_creature_def.html#a796dec75e9c7917f58c6bc5e53f68977", null ],
+    [ "Tags", "class_dwarf_corp_1_1_creature_def.html#a1c6ff80239b6838fe9242ac6ee3174f8", null ],
+    [ "TriggersMourning", "class_dwarf_corp_1_1_creature_def.html#a1c15f290b3f4796a2e5ca1889a9061b2", null ]
+];
