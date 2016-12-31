@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_creature_a_i_1_1_
 <div class="title">DwarfCorp.CreatureAI.TaskHistory Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>History of a certain task that keeps track of how many times its failed  
+ <a href="class_dwarf_corp_1_1_creature_a_i_1_1_task_history.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -102,15 +105,19 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae9e463f32afd3f70f4ffe7b7c914d497"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_a_i_1_1_task_history.html#ae9e463f32afd3f70f4ffe7b7c914d497">LockoutTimer</a></td></tr>
+<tr class="memdesc:ae9e463f32afd3f70f4ffe7b7c914d497"><td class="mdescLeft">&#160;</td><td class="mdescRight">While the timer is active, the creature will not try to perform the task again.  <a href="#ae9e463f32afd3f70f4ffe7b7c914d497">More...</a><br /></td></tr>
 <tr class="separator:ae9e463f32afd3f70f4ffe7b7c914d497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19fdff949dfdd9a314326d33d5533b0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_a_i_1_1_task_history.html#a19fdff949dfdd9a314326d33d5533b0f">NumFailures</a></td></tr>
+<tr class="memdesc:a19fdff949dfdd9a314326d33d5533b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times the task has failed  <a href="#a19fdff949dfdd9a314326d33d5533b0f">More...</a><br /></td></tr>
 <tr class="separator:a19fdff949dfdd9a314326d33d5533b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac10b7453d22c957c4dd6c70faed80223"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_a_i_1_1_task_history.html#ac10b7453d22c957c4dd6c70faed80223">LockoutTime</a></td></tr>
+<tr class="memdesc:ac10b7453d22c957c4dd6c70faed80223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tasks are locked for this amount of time before being tried again  <a href="#ac10b7453d22c957c4dd6c70faed80223">More...</a><br /></td></tr>
 <tr class="separator:ac10b7453d22c957c4dd6c70faed80223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aede15d29afff54b2a87918dd2b2dcf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_a_i_1_1_task_history.html#a0aede15d29afff54b2a87918dd2b2dcf">MaxFailures</a></td></tr>
+<tr class="memdesc:a0aede15d29afff54b2a87918dd2b2dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a <a class="el" href="class_dwarf_corp_1_1_task.html" title="A task is an abstract object which describes a goal for a creature. Tasks construct acts (or behavior...">Task</a> has failed this many times, it will be locked.  <a href="#a0aede15d29afff54b2a87918dd2b2dcf">More...</a><br /></td></tr>
 <tr class="separator:a0aede15d29afff54b2a87918dd2b2dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -118,7 +125,9 @@ Properties</h2></td></tr>
 <tr class="memitem:af85f89ddde40677190242069452beda5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_a_i_1_1_task_history.html#af85f89ddde40677190242069452beda5">IsLocked</a><code> [get]</code></td></tr>
 <tr class="separator:af85f89ddde40677190242069452beda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>History of a certain task that keeps track of how many times its failed </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a759535895509815e7440d771c8459353"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a759535895509815e7440d771c8459353">&sect;&nbsp;</a></span>TaskHistory()</h2>
 
@@ -175,6 +184,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Tasks are locked for this amount of time before being tried again </p>
+
 </div>
 </div>
 <a id="ae9e463f32afd3f70f4ffe7b7c914d497"></a>
@@ -188,6 +199,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>While the timer is active, the creature will not try to perform the task again. </p>
 
 </div>
 </div>
@@ -211,6 +224,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If a <a class="el" href="class_dwarf_corp_1_1_task.html" title="A task is an abstract object which describes a goal for a creature. Tasks construct acts (or behavior...">Task</a> has failed this many times, it will be locked. </p>
+
 </div>
 </div>
 <a id="a19fdff949dfdd9a314326d33d5533b0f"></a>
@@ -224,6 +239,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Number of times the task has failed </p>
 
 </div>
 </div>

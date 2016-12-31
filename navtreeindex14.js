@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#afa2bb44802a112d788d38e0e4743b205":[1,0,2,1,12,15],
 "class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#afd51570a1d6634464591d5ef287cc9e6":[1,0,2,1,12,19],
 "class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#afd6205310fd6417ea848aa73a252ffd5":[1,0,2,1,12,46],
 "class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#afef97883008373518240f3a84ddc7964":[1,0,2,1,12,27],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "class_dwarf_corp_1_1_guard_tool.html#abc8735251e4d895813f267173792e4bf":[1,0,2,193,5],
 "class_dwarf_corp_1_1_guard_tool.html#aed38c788763fc2264130ef1968c4597b":[1,0,2,193,3],
 "class_dwarf_corp_1_1_guard_voxel_act.html":[1,0,2,194],
-"class_dwarf_corp_1_1_guard_voxel_act.html#a50769b34a0cc6624d74e6fd66d0a72f2":[1,0,2,194,0]
+"class_dwarf_corp_1_1_guard_voxel_act.html#a50769b34a0cc6624d74e6fd66d0a72f2":[1,0,2,194,0],
+"class_dwarf_corp_1_1_guard_voxel_act.html#a551390c12a2c65208fe8b7237c3c74dc":[1,0,2,194,3]
 };

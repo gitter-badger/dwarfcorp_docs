@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"class_dwarf_corp_1_1_room_builder.html#a6601b6e9dbe7bd4e24d6c69ae0e91cd1":[1,0,2,310,5],
 "class_dwarf_corp_1_1_room_builder.html#a846a196d7f707af0512a52b894fff928":[1,0,2,310,9],
 "class_dwarf_corp_1_1_room_builder.html#a861f42ce3433e6d149655e1b11510054":[1,0,2,310,0],
 "class_dwarf_corp_1_1_room_builder.html#a8d2c2edc7c82c9bf86e2029ed4f7bf93":[1,0,2,310,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "class_dwarf_corp_1_1_sky_renderer.html#a99db96e4f9e71eff746e36ceb02b14cc":[1,0,2,334,10],
 "class_dwarf_corp_1_1_sky_renderer.html#aa10cead8a5eed547824ad61e6d470ec0":[1,0,2,334,3],
 "class_dwarf_corp_1_1_sky_renderer.html#abd3c7d3bcd8f92ab8d034163154fabcd":[1,0,2,334,11],
-"class_dwarf_corp_1_1_sky_renderer.html#ac005112af74cdcf159a02e1f25cc9afb":[1,0,2,334,9]
+"class_dwarf_corp_1_1_sky_renderer.html#ac005112af74cdcf159a02e1f25cc9afb":[1,0,2,334,9],
+"class_dwarf_corp_1_1_sky_renderer.html#ac3953afd10ccb9661f965cd767cc07dc":[1,0,2,334,6]
 };

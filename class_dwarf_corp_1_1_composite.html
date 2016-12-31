@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_composite.html','
 <div class="title">DwarfCorp.Composite Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A composite is a list of sub-textures which are overlaid on one another to produce a layered composite texture. This is useful for layering multiple sprites on top of one another (For example, for giving dwarves different weapons). This is accomplished by laying sprites out on a RenderTarget using SpriteBatch.  
+ <a href="class_dwarf_corp_1_1_composite.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for DwarfCorp.Composite:</div>
 <div class="dyncontent">
@@ -103,6 +106,7 @@ Inheritance diagram for DwarfCorp.Composite:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite_1_1_frame.html">Frame</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="class_dwarf_corp_1_1_composite_1_1_frame.html" title="A Frame is a layered sprite consisting of multiple sub-rectangles in multiple sprite sheets with arbi...">Frame</a> is a layered sprite consisting of multiple sub-rectangles in multiple sprite sheets with arbitrary colored tints.  <a href="class_dwarf_corp_1_1_composite_1_1_frame.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -112,37 +116,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0c984e59189a52aa6f186aeed8f0b1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#ac0c984e59189a52aa6f186aeed8f0b1b">Composite</a> (List&lt; <a class="el" href="class_dwarf_corp_1_1_composite_1_1_frame.html">Frame</a> &gt; frames)</td></tr>
 <tr class="separator:ac0c984e59189a52aa6f186aeed8f0b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b0c8444c9d6068c5682799dc3c076be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#a6b0c8444c9d6068c5682799dc3c076be">Dispose</a> ()</td></tr>
+<tr class="memdesc:a6b0c8444c9d6068c5682799dc3c076be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.  <a href="#a6b0c8444c9d6068c5682799dc3c076be">More...</a><br /></td></tr>
 <tr class="separator:a6b0c8444c9d6068c5682799dc3c076be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65daf51ab4a310b9644b36249f525c84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#a65daf51ab4a310b9644b36249f525c84">Initialize</a> ()</td></tr>
+<tr class="memdesc:a65daf51ab4a310b9644b36249f525c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes this instance.  <a href="#a65daf51ab4a310b9644b36249f525c84">More...</a><br /></td></tr>
 <tr class="separator:a65daf51ab4a310b9644b36249f525c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f946b938b981741ce709c79eb22c66d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_billboard_primitive.html">BillboardPrimitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#a7f946b938b981741ce709c79eb22c66d">CreatePrimitive</a> (GraphicsDevice device, Point frame)</td></tr>
+<tr class="memdesc:a7f946b938b981741ce709c79eb22c66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new billboard for the specified frame.  <a href="#a7f946b938b981741ce709c79eb22c66d">More...</a><br /></td></tr>
 <tr class="separator:a7f946b938b981741ce709c79eb22c66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1dddcfcaf3f667732afa2790a85b3cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#ad1dddcfcaf3f667732afa2790a85b3cf">ApplyBillboard</a> (<a class="el" href="class_dwarf_corp_1_1_billboard_primitive.html">BillboardPrimitive</a> primitive, Point offset)</td></tr>
+<tr class="memdesc:ad1dddcfcaf3f667732afa2790a85b3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the UV coordinates of a Billboard to match the frame offset given.  <a href="#ad1dddcfcaf3f667732afa2790a85b3cf">More...</a><br /></td></tr>
 <tr class="separator:ad1dddcfcaf3f667732afa2790a85b3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa392efdfea70fc614a9a3df5767e6e49"><td class="memItemLeft" align="right" valign="top">Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#aa392efdfea70fc614a9a3df5767e6e49">PushFrame</a> (<a class="el" href="class_dwarf_corp_1_1_composite_1_1_frame.html">Frame</a> frame)</td></tr>
+<tr class="memdesc:aa392efdfea70fc614a9a3df5767e6e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new <a class="el" href="class_dwarf_corp_1_1_composite_1_1_frame.html" title="A Frame is a layered sprite consisting of multiple sub-rectangles in multiple sprite sheets with arbi...">Frame</a> to the <a class="el" href="class_dwarf_corp_1_1_composite.html" title="A composite is a list of sub-textures which are overlaid on one another to produce a layered composit...">Composite</a>.  <a href="#aa392efdfea70fc614a9a3df5767e6e49">More...</a><br /></td></tr>
 <tr class="separator:aa392efdfea70fc614a9a3df5767e6e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad816ace322a6d3a35d92e4e89674da09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#ad816ace322a6d3a35d92e4e89674da09">DebugDraw</a> (SpriteBatch batch, int x, int y)</td></tr>
+<tr class="memdesc:ad816ace322a6d3a35d92e4e89674da09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the render target to the screen.  <a href="#ad816ace322a6d3a35d92e4e89674da09">More...</a><br /></td></tr>
 <tr class="separator:ad816ace322a6d3a35d92e4e89674da09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f987547da7d970e752e30965ad2ef61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#a9f987547da7d970e752e30965ad2ef61">Update</a> ()</td></tr>
+<tr class="memdesc:a9f987547da7d970e752e30965ad2ef61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this instance.  <a href="#a9f987547da7d970e752e30965ad2ef61">More...</a><br /></td></tr>
 <tr class="separator:a9f987547da7d970e752e30965ad2ef61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0d507affeaef315019212f562b3643f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#ae0d507affeaef315019212f562b3643f">RenderToTarget</a> (GraphicsDevice device, SpriteBatch batch)</td></tr>
+<tr class="memdesc:ae0d507affeaef315019212f562b3643f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the <a class="el" href="class_dwarf_corp_1_1_composite.html" title="A composite is a list of sub-textures which are overlaid on one another to produce a layered composit...">Composite</a> to the render target.  <a href="#ae0d507affeaef315019212f562b3643f">More...</a><br /></td></tr>
 <tr class="separator:ae0d507affeaef315019212f562b3643f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad13ca292dc0177c31fd4d4abd83a17c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#ad13ca292dc0177c31fd4d4abd83a17c5">HasRendered</a> = false</td></tr>
+<tr class="memdesc:ad13ca292dc0177c31fd4d4abd83a17c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the composite has been rendered.  <a href="#ad13ca292dc0177c31fd4d4abd83a17c5">More...</a><br /></td></tr>
 <tr class="separator:ad13ca292dc0177c31fd4d4abd83a17c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a836578c8c7f6cdd53cbf293bc27d2afe"><td class="memItemLeft" align="right" valign="top">RenderTarget2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#a836578c8c7f6cdd53cbf293bc27d2afe">Target</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a836578c8c7f6cdd53cbf293bc27d2afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the render target that this composite is rendered to.  <a href="#a836578c8c7f6cdd53cbf293bc27d2afe">More...</a><br /></td></tr>
 <tr class="separator:a836578c8c7f6cdd53cbf293bc27d2afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9525f19dc4c92cc202e9242d6f856f1a"><td class="memItemLeft" align="right" valign="top">Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#a9525f19dc4c92cc202e9242d6f856f1a">FrameSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a9525f19dc4c92cc202e9242d6f856f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the size of each frame in pixels.  <a href="#a9525f19dc4c92cc202e9242d6f856f1a">More...</a><br /></td></tr>
 <tr class="separator:a9525f19dc4c92cc202e9242d6f856f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad50aa4d015847884800d5b952b531ab5"><td class="memItemLeft" align="right" valign="top">Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_composite.html#ad50aa4d015847884800d5b952b531ab5">TargetSizeFrames</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad50aa4d015847884800d5b952b531ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the size of the render target in frames. For example, if the render target was 128 x 128 and the FrameSize was 32 x 32, then TargetSizeFrames = 4 x 4  <a href="#ad50aa4d015847884800d5b952b531ab5">More...</a><br /></td></tr>
 <tr class="separator:ad50aa4d015847884800d5b952b531ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A composite is a list of sub-textures which are overlaid on one another to produce a layered composite texture. This is useful for layering multiple sprites on top of one another (For example, for giving dwarves different weapons). This is accomplished by laying sprites out on a RenderTarget using SpriteBatch. </p>
+<dl class="section see"><dt>See also</dt><dd>System.IDisposable</dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac063695a64789e950c69066707ae9814"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac063695a64789e950c69066707ae9814">&sect;&nbsp;</a></span>Composite() <span class="overload">[1/2]</span></h2>
 
@@ -205,6 +224,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Changes the UV coordinates of a Billboard to match the frame offset given. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">primitive</td><td>The primitive.</td></tr>
+    <tr><td class="paramname">offset</td><td>The offset.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a7f946b938b981741ce709c79eb22c66d"></a>
@@ -232,6 +260,16 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a new billboard for the specified frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>The device.</td></tr>
+    <tr><td class="paramname">frame</td><td>The frame to use.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new billboard UV mapped to that coordinate.</dd></dl>
 
 </div>
 </div>
@@ -267,6 +305,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Draws the render target to the screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">batch</td><td>The sprite batch.</td></tr>
+    <tr><td class="paramname">x</td><td>The x position on the screen.</td></tr>
+    <tr><td class="paramname">y</td><td>The y position on the screen.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6b0c8444c9d6068c5682799dc3c076be"></a>
@@ -283,6 +331,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. </p>
 
 </div>
 </div>
@@ -301,6 +351,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes this instance. </p>
+
 </div>
 </div>
 <a id="aa392efdfea70fc614a9a3df5767e6e49"></a>
@@ -318,6 +370,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Adds a new <a class="el" href="class_dwarf_corp_1_1_composite_1_1_frame.html" title="A Frame is a layered sprite consisting of multiple sub-rectangles in multiple sprite sheets with arbi...">Frame</a> to the <a class="el" href="class_dwarf_corp_1_1_composite.html" title="A composite is a list of sub-textures which are overlaid on one another to produce a layered composit...">Composite</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>The frame.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The grid location on the render target that the frame corresponds to.</dd></dl>
 
 </div>
 </div>
@@ -347,6 +408,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Renders the <a class="el" href="class_dwarf_corp_1_1_composite.html" title="A composite is a list of sub-textures which are overlaid on one another to produce a layered composit...">Composite</a> to the render target. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>The device.</td></tr>
+    <tr><td class="paramname">batch</td><td>The batch.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a9f987547da7d970e752e30965ad2ef61"></a>
@@ -364,6 +434,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates this instance. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -378,6 +450,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If true, the composite has been rendered. </p>
 
 </div>
 </div>
@@ -402,6 +476,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the size of each frame in pixels. </p>
+<p>The size of the frame. </p>
+
 </div>
 </div>
 <a id="a836578c8c7f6cdd53cbf293bc27d2afe"></a>
@@ -424,6 +501,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the render target that this composite is rendered to. </p>
+<p>The target. </p>
+
 </div>
 </div>
 <a id="ad50aa4d015847884800d5b952b531ab5"></a>
@@ -445,6 +525,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This is the size of the render target in frames. For example, if the render target was 128 x 128 and the FrameSize was 32 x 32, then TargetSizeFrames = 4 x 4 </p>
+<p>The target size frames. </p>
 
 </div>
 </div>

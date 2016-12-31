@@ -89,17 +89,20 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_creature_1_1_buff
 <div class="title">DwarfCorp.Creature.Buff Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A buff is an ongoing effect applied to a creature. This can heal the creature, damage it, or apply any other kind of effect.  
+ <a href="class_dwarf_corp_1_1_creature_1_1_buff.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for DwarfCorp.Creature.Buff:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_dwarf_corp_1_1_creature_1_1_buff.png" usemap="#DwarfCorp.Creature.Buff_map" alt=""/>
   <map id="DwarfCorp.Creature.Buff_map" name="DwarfCorp.Creature.Buff_map">
-<area href="class_dwarf_corp_1_1_creature_1_1_damage_resist_buff.html" alt="DwarfCorp.Creature.DamageResistBuff" shape="rect" coords="0,56,249,80"/>
-<area href="class_dwarf_corp_1_1_creature_1_1_ongoing_damage_buff.html" alt="DwarfCorp.Creature.OngoingDamageBuff" shape="rect" coords="259,56,508,80"/>
-<area href="class_dwarf_corp_1_1_creature_1_1_ongoing_heal_buff.html" alt="DwarfCorp.Creature.OngoingHealBuff" shape="rect" coords="518,56,767,80"/>
-<area href="class_dwarf_corp_1_1_creature_1_1_stat_buff.html" alt="DwarfCorp.Creature.StatBuff" shape="rect" coords="777,56,1026,80"/>
-<area href="class_dwarf_corp_1_1_creature_1_1_thought_buff.html" alt="DwarfCorp.Creature.ThoughtBuff" shape="rect" coords="1036,56,1285,80"/>
+<area href="class_dwarf_corp_1_1_creature_1_1_damage_resist_buff.html" title="A Buff which allows the creature to resist some amount of damage of a specific kind ..." alt="DwarfCorp.Creature.DamageResistBuff" shape="rect" coords="0,56,249,80"/>
+<area href="class_dwarf_corp_1_1_creature_1_1_ongoing_damage_buff.html" title="Applies damage to the creature over time. " alt="DwarfCorp.Creature.OngoingDamageBuff" shape="rect" coords="259,56,508,80"/>
+<area href="class_dwarf_corp_1_1_creature_1_1_ongoing_heal_buff.html" title="Heals the creature continuously over time. " alt="DwarfCorp.Creature.OngoingHealBuff" shape="rect" coords="518,56,767,80"/>
+<area href="class_dwarf_corp_1_1_creature_1_1_stat_buff.html" title="Increases the creature&#39;s stats for a time " alt="DwarfCorp.Creature.StatBuff" shape="rect" coords="777,56,1026,80"/>
+<area href="class_dwarf_corp_1_1_creature_1_1_thought_buff.html" title="Causes the creature to have a Thought for a specified time " alt="DwarfCorp.Creature.ThoughtBuff" shape="rect" coords="1036,56,1285,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -108,32 +111,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1740264866e036234793518980f6c034"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a1740264866e036234793518980f6c034">Buff</a> ()</td></tr>
 <tr class="separator:a1740264866e036234793518980f6c034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4adf2c5379ffd55da6a1dfe26ff8f12c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a4adf2c5379ffd55da6a1dfe26ff8f12c">Buff</a> (float time)</td></tr>
+<tr class="memdesc:a4adf2c5379ffd55da6a1dfe26ff8f12c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a buff which persists for the specified time.  <a href="#a4adf2c5379ffd55da6a1dfe26ff8f12c">More...</a><br /></td></tr>
 <tr class="separator:a4adf2c5379ffd55da6a1dfe26ff8f12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58d2a611daa606827ec417c5f6ea3ed0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a58d2a611daa606827ec417c5f6ea3ed0">OnApply</a> (<a class="el" href="class_dwarf_corp_1_1_creature.html">Creature</a> creature)</td></tr>
+<tr class="memdesc:a58d2a611daa606827ec417c5f6ea3ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> is added to a <a class="el" href="class_dwarf_corp_1_1_creature.html" title="Component which keeps track of a large number of other components (AI, physics, sprites, etc.) related to creatures (such as dwarves and goblins). ">Creature</a>  <a href="#a58d2a611daa606827ec417c5f6ea3ed0">More...</a><br /></td></tr>
 <tr class="separator:a58d2a611daa606827ec417c5f6ea3ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80c93c526c9aa57939f70533475024fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a80c93c526c9aa57939f70533475024fa">OnEnd</a> (<a class="el" href="class_dwarf_corp_1_1_creature.html">Creature</a> creature)</td></tr>
+<tr class="memdesc:a80c93c526c9aa57939f70533475024fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> is removed from a <a class="el" href="class_dwarf_corp_1_1_creature.html" title="Component which keeps track of a large number of other components (AI, physics, sprites, etc.) related to creatures (such as dwarves and goblins). ">Creature</a>  <a href="#a80c93c526c9aa57939f70533475024fa">More...</a><br /></td></tr>
 <tr class="separator:a80c93c526c9aa57939f70533475024fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3df87f8ae6211809822b564831869b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#aa3df87f8ae6211809822b564831869b1">Update</a> (<a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> time, <a class="el" href="class_dwarf_corp_1_1_creature.html">Creature</a> creature)</td></tr>
+<tr class="memdesc:aa3df87f8ae6211809822b564831869b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a>  <a href="#aa3df87f8ae6211809822b564831869b1">More...</a><br /></td></tr>
 <tr class="separator:aa3df87f8ae6211809822b564831869b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1e86ff9cdc79c6377c30ee7d7f62674"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html">Buff</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#ae1e86ff9cdc79c6377c30ee7d7f62674">Clone</a> ()</td></tr>
+<tr class="memdesc:ae1e86ff9cdc79c6377c30ee7d7f62674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> that is a deep copy of this one.  <a href="#ae1e86ff9cdc79c6377c30ee7d7f62674">More...</a><br /></td></tr>
 <tr class="separator:ae1e86ff9cdc79c6377c30ee7d7f62674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ac20113cfe2a4195ffa2f5038f2f4b10f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#ac20113cfe2a4195ffa2f5038f2f4b10f">EffectTime</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac20113cfe2a4195ffa2f5038f2f4b10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time that the effect persists for  <a href="#ac20113cfe2a4195ffa2f5038f2f4b10f">More...</a><br /></td></tr>
 <tr class="separator:ac20113cfe2a4195ffa2f5038f2f4b10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185a0ae157ab0447fbf203c5c42ec288"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a185a0ae157ab0447fbf203c5c42ec288">IsInEffect</a><code> [get]</code></td></tr>
+<tr class="memdesc:a185a0ae157ab0447fbf203c5c42ec288"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the buff is active.  <a href="#a185a0ae157ab0447fbf203c5c42ec288">More...</a><br /></td></tr>
 <tr class="separator:a185a0ae157ab0447fbf203c5c42ec288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb47617281dd588bd96f6345f000650"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a5fb47617281dd588bd96f6345f000650">Particles</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5fb47617281dd588bd96f6345f000650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particles to generate during the buff.  <a href="#a5fb47617281dd588bd96f6345f000650">More...</a><br /></td></tr>
 <tr class="separator:a5fb47617281dd588bd96f6345f000650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a046ef33a426a52055f6e160cae730fda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a046ef33a426a52055f6e160cae730fda">ParticleTimer</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a046ef33a426a52055f6e160cae730fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every time this triggers, a particle gets released  <a href="#a046ef33a426a52055f6e160cae730fda">More...</a><br /></td></tr>
 <tr class="separator:a046ef33a426a52055f6e160cae730fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15b88c5e5515365a0b3788697b415689"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a15b88c5e5515365a0b3788697b415689">SoundOnStart</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a15b88c5e5515365a0b3788697b415689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sound to play when the buff starts  <a href="#a15b88c5e5515365a0b3788697b415689">More...</a><br /></td></tr>
 <tr class="separator:a15b88c5e5515365a0b3788697b415689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4865a775d78457a642db54a9e6e68bd1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html#a4865a775d78457a642db54a9e6e68bd1">SoundOnEnd</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4865a775d78457a642db54a9e6e68bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sound to play when the buff ends  <a href="#a4865a775d78457a642db54a9e6e68bd1">More...</a><br /></td></tr>
 <tr class="separator:a4865a775d78457a642db54a9e6e68bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A buff is an ongoing effect applied to a creature. This can heal the creature, damage it, or apply any other kind of effect. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1740264866e036234793518980f6c034"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1740264866e036234793518980f6c034">&sect;&nbsp;</a></span>Buff() <span class="overload">[1/2]</span></h2>
 
@@ -167,6 +183,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Create a buff which persists for the specified time. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -192,6 +210,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> that is a deep copy of this one. </p>
 
 <p>Reimplemented in <a class="el" href="class_dwarf_corp_1_1_creature_1_1_thought_buff.html#aa380f88295e9efa3c735ead5e2378497">DwarfCorp.Creature.ThoughtBuff</a>, <a class="el" href="class_dwarf_corp_1_1_creature_1_1_stat_buff.html#a831e8830be61faf6dccee0028cd55cc3">DwarfCorp.Creature.StatBuff</a>, <a class="el" href="class_dwarf_corp_1_1_creature_1_1_ongoing_heal_buff.html#aa28acf3133ae1a26aeb012e61575872d">DwarfCorp.Creature.OngoingHealBuff</a>, <a class="el" href="class_dwarf_corp_1_1_creature_1_1_ongoing_damage_buff.html#a4386b6fa7107a24d43f56c90758f413d">DwarfCorp.Creature.OngoingDamageBuff</a>, and <a class="el" href="class_dwarf_corp_1_1_creature_1_1_damage_resist_buff.html#ad434ee46533b801a8a3639d146cd4b6d">DwarfCorp.Creature.DamageResistBuff</a>.</p>
 
@@ -221,6 +241,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when the <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> is added to a <a class="el" href="class_dwarf_corp_1_1_creature.html" title="Component which keeps track of a large number of other components (AI, physics, sprites, etc.) related to creatures (such as dwarves and goblins). ">Creature</a> </p>
+
 <p>Reimplemented in <a class="el" href="class_dwarf_corp_1_1_creature_1_1_thought_buff.html#abb4a6341d9df7f1565b99c2273e423fd">DwarfCorp.Creature.ThoughtBuff</a>, <a class="el" href="class_dwarf_corp_1_1_creature_1_1_stat_buff.html#a5dffb2d352d5ed728b3d8d586ee8b2e3">DwarfCorp.Creature.StatBuff</a>, and <a class="el" href="class_dwarf_corp_1_1_creature_1_1_damage_resist_buff.html#a3a17d45d6644ea77224137f7599f1833">DwarfCorp.Creature.DamageResistBuff</a>.</p>
 
 </div>
@@ -248,6 +270,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called when the <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> is removed from a <a class="el" href="class_dwarf_corp_1_1_creature.html" title="Component which keeps track of a large number of other components (AI, physics, sprites, etc.) related to creatures (such as dwarves and goblins). ">Creature</a> </p>
 
 <p>Reimplemented in <a class="el" href="class_dwarf_corp_1_1_creature_1_1_thought_buff.html#acf4aae05559686ffbadff45f6c888f60">DwarfCorp.Creature.ThoughtBuff</a>, <a class="el" href="class_dwarf_corp_1_1_creature_1_1_stat_buff.html#a53c007d6db893b30a01862e130083eed">DwarfCorp.Creature.StatBuff</a>, and <a class="el" href="class_dwarf_corp_1_1_creature_1_1_damage_resist_buff.html#a0fe717474216f6143f0ac3be9965e2ad">DwarfCorp.Creature.DamageResistBuff</a>.</p>
 
@@ -287,6 +311,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Updates the <a class="el" href="class_dwarf_corp_1_1_creature_1_1_buff.html" title="A buff is an ongoing effect applied to a creature. This can heal the creature, damage it...">Buff</a> </p>
+
 <p>Reimplemented in <a class="el" href="class_dwarf_corp_1_1_creature_1_1_stat_buff.html#aedbe474f48842c9172f5e4ae92eb7fee">DwarfCorp.Creature.StatBuff</a>, <a class="el" href="class_dwarf_corp_1_1_creature_1_1_ongoing_heal_buff.html#a3be2d9a7ed3aa827430175e2fed0d4f4">DwarfCorp.Creature.OngoingHealBuff</a>, and <a class="el" href="class_dwarf_corp_1_1_creature_1_1_ongoing_damage_buff.html#ab2cb78334c85ebfdf88414d4bd5f7065">DwarfCorp.Creature.OngoingDamageBuff</a>.</p>
 
 </div>
@@ -312,6 +338,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Time that the effect persists for </p>
+
 </div>
 </div>
 <a id="a185a0ae157ab0447fbf203c5c42ec288"></a>
@@ -333,6 +361,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, the buff is active. </p>
 
 </div>
 </div>
@@ -356,6 +386,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Particles to generate during the buff. </p>
+
 </div>
 </div>
 <a id="a046ef33a426a52055f6e160cae730fda"></a>
@@ -377,6 +409,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Every time this triggers, a particle gets released </p>
 
 </div>
 </div>
@@ -400,6 +434,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sound to play when the buff ends </p>
+
 </div>
 </div>
 <a id="a15b88c5e5515365a0b3788697b415689"></a>
@@ -421,6 +457,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sound to play when the buff starts </p>
 
 </div>
 </div>

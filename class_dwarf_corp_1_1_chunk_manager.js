@@ -32,7 +32,6 @@ var class_dwarf_corp_1_1_chunk_manager =
     [ "UpdateRenderList", "class_dwarf_corp_1_1_chunk_manager.html#a78e9d1c24027f696a8b99bbcae53c691", null ],
     [ "UpdateWaterThread", "class_dwarf_corp_1_1_chunk_manager.html#aa8cc99c47729cec8781c166a76c60576", null ],
     [ "drawDistSq", "class_dwarf_corp_1_1_chunk_manager.html#aee59e89cae3650560fa40dee8d145aa0", null ],
-    [ "RebuildTest", "class_dwarf_corp_1_1_chunk_manager.html#ae9d2267563e5442adc62164dd6d406a6", null ],
     [ "Bounds", "class_dwarf_corp_1_1_chunk_manager.html#a8f9d9f85c9d8483ed9f9a437f442695d", null ],
     [ "ChunkData", "class_dwarf_corp_1_1_chunk_manager.html#a2eb75583c15514473167ddcf6234c2fd", null ],
     [ "ChunkGen", "class_dwarf_corp_1_1_chunk_manager.html#a668ce75855d32aefccb029d36e45cbcf", null ],

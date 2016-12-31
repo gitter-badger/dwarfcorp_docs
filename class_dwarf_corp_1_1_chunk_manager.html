@@ -84,7 +84,6 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_chunk_manager.htm
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_dwarf_corp_1_1_chunk_manager-members.html">List of all members</a>  </div>
@@ -101,117 +100,161 @@ Public Types</h2></td></tr>
 <tr class="memitem:abd4fd303d5174e253b26c4ff0240bc8d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#abd4fd303d5174e253b26c4ff0240bc8d">SliceMode</a> { <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#abd4fd303d5174e253b26c4ff0240bc8da02129bb861061d1a052c592e2dc6b383">SliceMode.X</a>, 
 <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#abd4fd303d5174e253b26c4ff0240bc8da57cec4137b614c87cb4e24a3d003a3e0">SliceMode.Y</a>, 
 <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#abd4fd303d5174e253b26c4ff0240bc8da21c2e59531c8710156d34a3c30ac81d5">SliceMode.Z</a>
- }</td></tr>
+ }<tr class="memdesc:abd4fd303d5174e253b26c4ff0240bc8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directions that the user can slice in.  <a href="class_dwarf_corp_1_1_chunk_manager.html#abd4fd303d5174e253b26c4ff0240bc8d">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:abd4fd303d5174e253b26c4ff0240bc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adeb49bfbcf54ca2b2a606cfdea613cf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#adeb49bfbcf54ca2b2a606cfdea613cf5">ChunkManager</a> (ContentManager content, uint chunkSizeX, uint chunkSizeY, uint chunkSizeZ, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, GraphicsDevice graphics, <a class="el" href="class_dwarf_corp_1_1_chunk_generator.html">ChunkGenerator</a> chunkGen, int maxChunksX, int maxChunksY, int maxChunksZ)</td></tr>
+<tr class="memdesc:adeb49bfbcf54ca2b2a606cfdea613cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> class.  <a href="#adeb49bfbcf54ca2b2a606cfdea613cf5">More...</a><br /></td></tr>
 <tr class="separator:adeb49bfbcf54ca2b2a606cfdea613cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac9b1045ecd6022500fb049b5728f53e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#aac9b1045ecd6022500fb049b5728f53e">StartThreads</a> ()</td></tr>
+<tr class="memdesc:aac9b1045ecd6022500fb049b5728f53e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the threads.  <a href="#aac9b1045ecd6022500fb049b5728f53e">More...</a><br /></td></tr>
 <tr class="separator:aac9b1045ecd6022500fb049b5728f53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8cc99c47729cec8781c166a76c60576"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#aa8cc99c47729cec8781c166a76c60576">UpdateWaterThread</a> ()</td></tr>
+<tr class="memdesc:aa8cc99c47729cec8781c166a76c60576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the water thread.  <a href="#aa8cc99c47729cec8781c166a76c60576">More...</a><br /></td></tr>
 <tr class="separator:aa8cc99c47729cec8781c166a76c60576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab96e57283530f2b678fffb0e7ec7efff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ab96e57283530f2b678fffb0e7ec7efff">RebuildLiquidsThread</a> ()</td></tr>
+<tr class="memdesc:ab96e57283530f2b678fffb0e7ec7efff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread that rebuilds liquid vertex buffers.  <a href="#ab96e57283530f2b678fffb0e7ec7efff">More...</a><br /></td></tr>
 <tr class="separator:ab96e57283530f2b678fffb0e7ec7efff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac685d66c1882bf03225b915018eb6dbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ac685d66c1882bf03225b915018eb6dbf">RebuildVoxelsThread</a> ()</td></tr>
+<tr class="memdesc:ac685d66c1882bf03225b915018eb6dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread that rebuilds the voxel vertex buffers.  <a href="#ac685d66c1882bf03225b915018eb6dbf">More...</a><br /></td></tr>
 <tr class="separator:ac685d66c1882bf03225b915018eb6dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7625eefae07f43a78b3f13808a414608"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a7625eefae07f43a78b3f13808a414608">CompareChunkDistance</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> a, <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> b)</td></tr>
+<tr class="memdesc:a7625eefae07f43a78b3f13808a414608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparator that compares the distance to the camera of two chunks a and b.  <a href="#a7625eefae07f43a78b3f13808a414608">More...</a><br /></td></tr>
 <tr class="separator:a7625eefae07f43a78b3f13808a414608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e9d1c24027f696a8b99bbcae53c691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a78e9d1c24027f696a8b99bbcae53c691">UpdateRenderList</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera)</td></tr>
+<tr class="memdesc:a78e9d1c24027f696a8b99bbcae53c691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates a list of voxel chunks to render given a camera  <a href="#a78e9d1c24027f696a8b99bbcae53c691">More...</a><br /></td></tr>
 <tr class="separator:a78e9d1c24027f696a8b99bbcae53c691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6ba4a35a719fb9813c61af7c3fbe771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ae6ba4a35a719fb9813c61af7c3fbe771">UpdateRebuildList</a> ()</td></tr>
+<tr class="memdesc:ae6ba4a35a719fb9813c61af7c3fbe771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the list of chunks to rebuild.  <a href="#ae6ba4a35a719fb9813c61af7c3fbe771">More...</a><br /></td></tr>
 <tr class="separator:ae6ba4a35a719fb9813c61af7c3fbe771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61d2d15123e90f137cf44bc88bcf726f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a61d2d15123e90f137cf44bc88bcf726f">BoundingBoxIntersectsWorld</a> (BoundingBox box)</td></tr>
+<tr class="memdesc:a61d2d15123e90f137cf44bc88bcf726f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether or not the given bounding box intersects any existing chunk.  <a href="#a61d2d15123e90f137cf44bc88bcf726f">More...</a><br /></td></tr>
 <tr class="separator:a61d2d15123e90f137cf44bc88bcf726f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e058f753de3353d79cbc627543b2630"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a6e058f753de3353d79cbc627543b2630">GenerateThread</a> ()</td></tr>
+<tr class="memdesc:a6e058f753de3353d79cbc627543b2630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread that generates new chunks.  <a href="#a6e058f753de3353d79cbc627543b2630">More...</a><br /></td></tr>
 <tr class="separator:a6e058f753de3353d79cbc627543b2630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af21fc2a9fc5743ddfc4a85822c8b17fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#af21fc2a9fc5743ddfc4a85822c8b17fb">SimpleRender</a> (GraphicsDevice graphicsDevice, Effect effect, Texture2D tilemap)</td></tr>
+<tr class="memdesc:af21fc2a9fc5743ddfc4a85822c8b17fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders all of the chunks using the given shader.  <a href="#af21fc2a9fc5743ddfc4a85822c8b17fb">More...</a><br /></td></tr>
 <tr class="separator:af21fc2a9fc5743ddfc4a85822c8b17fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc878628f046f07e51b1f39199832165"><td class="memItemLeft" align="right" valign="top">BoundingBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#adc878628f046f07e51b1f39199832165">GetVisibileBoundingBox</a> ()</td></tr>
+<tr class="memdesc:adc878628f046f07e51b1f39199832165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a bounding box whih is the union of all chunk bounding boxes.  <a href="#adc878628f046f07e51b1f39199832165">More...</a><br /></td></tr>
 <tr class="separator:adc878628f046f07e51b1f39199832165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeeb26d4133aa1be0d9d43f2433185ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#abeeb26d4133aa1be0d9d43f2433185ab">RenderAll</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> renderCamera, <a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> gameTime, GraphicsDevice graphicsDevice, Effect effect, Matrix worldMatrix, Texture2D tilemap)</td></tr>
+<tr class="memdesc:abeeb26d4133aa1be0d9d43f2433185ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders all the chunks which intersect the given camera's frustum.  <a href="#abeeb26d4133aa1be0d9d43f2433185ab">More...</a><br /></td></tr>
 <tr class="separator:abeeb26d4133aa1be0d9d43f2433185ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad330c9e9300523c1806b5fa48feb0b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ad330c9e9300523c1806b5fa48feb0b8d">RenderShadowmap</a> (Effect effect, GraphicsDevice graphicsDevice, <a class="el" href="class_dwarf_corp_1_1_shadow_renderer.html">ShadowRenderer</a> shadowRenderer, Matrix worldMatrix, Texture2D tilemap)</td></tr>
+<tr class="memdesc:ad330c9e9300523c1806b5fa48feb0b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders a shadow map for all the visible chunks.  <a href="#ad330c9e9300523c1806b5fa48feb0b8d">More...</a><br /></td></tr>
 <tr class="separator:ad330c9e9300523c1806b5fa48feb0b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a524b4a05df37e81779649ae5cf73ef05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a524b4a05df37e81779649ae5cf73ef05">RenderLightmaps</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> renderCamera, <a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> gameTime, GraphicsDevice graphicsDevice, Effect effect, Matrix worldMatrix)</td></tr>
+<tr class="memdesc:a524b4a05df37e81779649ae5cf73ef05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders light maps for all the chunks.  <a href="#a524b4a05df37e81779649ae5cf73ef05">More...</a><br /></td></tr>
 <tr class="separator:a524b4a05df37e81779649ae5cf73ef05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13a13fd0fbbf2d32be015becfa7655a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ac13a13fd0fbbf2d32be015becfa7655a">Render</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> renderCamera, <a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> gameTime, GraphicsDevice graphicsDevice, Effect effect, Matrix worldMatrix)</td></tr>
+<tr class="memdesc:ac13a13fd0fbbf2d32be015becfa7655a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders all the visible chunks.  <a href="#ac13a13fd0fbbf2d32be015becfa7655a">More...</a><br /></td></tr>
 <tr class="separator:ac13a13fd0fbbf2d32be015becfa7655a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89dc8ebbd95fba2667147fe839fcb97c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a89dc8ebbd95fba2667147fe839fcb97c">GenerateOres</a> ()</td></tr>
+<tr class="memdesc:a89dc8ebbd95fba2667147fe839fcb97c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate ore veins/clusters for all chunks. (TODO: Move this to chunk generator!)  <a href="#a89dc8ebbd95fba2667147fe839fcb97c">More...</a><br /></td></tr>
 <tr class="separator:a89dc8ebbd95fba2667147fe839fcb97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ed8e8d43e24075fb8ec05ffe2f2fc84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a4ed8e8d43e24075fb8ec05ffe2f2fc84">GenerateInitialChunks</a> (<a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> origin, ref string message)</td></tr>
+<tr class="memdesc:a4ed8e8d43e24075fb8ec05ffe2f2fc84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a set of chunks to start the game with.  <a href="#a4ed8e8d43e24075fb8ec05ffe2f2fc84">More...</a><br /></td></tr>
 <tr class="separator:a4ed8e8d43e24075fb8ec05ffe2f2fc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2c8eab45af2c9629478153476480072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#aa2c8eab45af2c9629478153476480072">GetChunksIntersecting</a> (BoundingBox box, HashSet&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt; chunks)</td></tr>
+<tr class="memdesc:aa2c8eab45af2c9629478153476480072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the chunks intersecting the given bounding box.  <a href="#aa2c8eab45af2c9629478153476480072">More...</a><br /></td></tr>
 <tr class="separator:aa2c8eab45af2c9629478153476480072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ee64979ead65552ac66a3d0ff88731e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a0ee64979ead65552ac66a3d0ff88731e">GetChunksIntersecting</a> (BoundingFrustum frustum, HashSet&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt; chunks)</td></tr>
+<tr class="memdesc:a0ee64979ead65552ac66a3d0ff88731e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the chunks intersecting the given bounding frustum.  <a href="#a0ee64979ead65552ac66a3d0ff88731e">More...</a><br /></td></tr>
 <tr class="separator:a0ee64979ead65552ac66a3d0ff88731e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0dc94d99caaf43fa1922c9ce0fed51f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ae0dc94d99caaf43fa1922c9ce0fed51f">Update</a> (<a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> gameTime, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, GraphicsDevice g)</td></tr>
+<tr class="memdesc:ae0dc94d99caaf43fa1922c9ce0fed51f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the chunks.  <a href="#ae0dc94d99caaf43fa1922c9ce0fed51f">More...</a><br /></td></tr>
 <tr class="separator:ae0dc94d99caaf43fa1922c9ce0fed51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dc326cc013141158882930e9a923fb5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a4dc326cc013141158882930e9a923fb5">GetVoxelsIntersecting</a> (BoundingBox box)</td></tr>
+<tr class="memdesc:a4dc326cc013141158882930e9a923fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of voxels intersecting the given bounding box.  <a href="#a4dc326cc013141158882930e9a923fb5">More...</a><br /></td></tr>
 <tr class="separator:a4dc326cc013141158882930e9a923fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17f1f1afcc98a221ae700d16076e808a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a17f1f1afcc98a221ae700d16076e808a">CreateGraphics</a> (ref string message, <a class="el" href="class_dwarf_corp_1_1_chunk_data.html">ChunkData</a> chunkData)</td></tr>
+<tr class="memdesc:a17f1f1afcc98a221ae700d16076e808a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the vertex buffers for the initial chunks.  <a href="#a17f1f1afcc98a221ae700d16076e808a">More...</a><br /></td></tr>
 <tr class="separator:a17f1f1afcc98a221ae700d16076e808a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eca65ea7fcc0656f22d0bef7e22afac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a6eca65ea7fcc0656f22d0bef7e22afac">UpdateBounds</a> ()</td></tr>
+<tr class="memdesc:a6eca65ea7fcc0656f22d0bef7e22afac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the world's bounding box TODO(mklingen) doesn't this already exist!?  <a href="#a6eca65ea7fcc0656f22d0bef7e22afac">More...</a><br /></td></tr>
 <tr class="separator:a6eca65ea7fcc0656f22d0bef7e22afac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad658ebab420d51c1740c7e6563f6886a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ad658ebab420d51c1740c7e6563f6886a">Destroy</a> ()</td></tr>
+<tr class="memdesc:ad658ebab420d51c1740c7e6563f6886a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys this instance.  <a href="#ad658ebab420d51c1740c7e6563f6886a">More...</a><br /></td></tr>
 <tr class="separator:ad658ebab420d51c1740c7e6563f6886a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b111b7b3992dc38c65be7824eccc631"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a9b111b7b3992dc38c65be7824eccc631">BreadthFirstSearch</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> seed, float radiusSquared, bool searchEmpty=true)</td></tr>
+<tr class="memdesc:a9b111b7b3992dc38c65be7824eccc631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the voxels within a radius of the given voxel which match a criteria.  <a href="#a9b111b7b3992dc38c65be7824eccc631">More...</a><br /></td></tr>
 <tr class="separator:a9b111b7b3992dc38c65be7824eccc631"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ae9d2267563e5442adc62164dd6d406a6"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ae9d2267563e5442adc62164dd6d406a6">RebuildTest</a> = new List&lt;<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a>&gt;()</td></tr>
-<tr class="separator:ae9d2267563e5442adc62164dd6d406a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aee59e89cae3650560fa40dee8d145aa0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#aee59e89cae3650560fa40dee8d145aa0">drawDistSq</a> = 0</td></tr>
+<tr class="memdesc:aee59e89cae3650560fa40dee8d145aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The square of the maximum draw distance in voxels.  <a href="#aee59e89cae3650560fa40dee8d145aa0">More...</a><br /></td></tr>
 <tr class="separator:aee59e89cae3650560fa40dee8d145aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ae57517db5df9328d6bcad8f2adc05197"><td class="memItemLeft" align="right" valign="top">ConcurrentQueue&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ae57517db5df9328d6bcad8f2adc05197">RenderList</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae57517db5df9328d6bcad8f2adc05197"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current list of chunks to render.  <a href="#ae57517db5df9328d6bcad8f2adc05197">More...</a><br /></td></tr>
 <tr class="separator:ae57517db5df9328d6bcad8f2adc05197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52df8cfbbaefa1d1eb7c34084b22cbbb"><td class="memItemLeft" align="right" valign="top">ConcurrentQueue&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a52df8cfbbaefa1d1eb7c34084b22cbbb">RebuildList</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a52df8cfbbaefa1d1eb7c34084b22cbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current list of chunks whose vertex buffers are to be rebuilt.  <a href="#a52df8cfbbaefa1d1eb7c34084b22cbbb">More...</a><br /></td></tr>
 <tr class="separator:a52df8cfbbaefa1d1eb7c34084b22cbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43e44b5afbdc993bc5d0fc6b3587835a"><td class="memItemLeft" align="right" valign="top">ConcurrentQueue&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a43e44b5afbdc993bc5d0fc6b3587835a">RebuildLiquidsList</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a43e44b5afbdc993bc5d0fc6b3587835a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current list of chunks whose liquid (water/lava) vertex buffers are to be rebuilt.  <a href="#a43e44b5afbdc993bc5d0fc6b3587835a">More...</a><br /></td></tr>
 <tr class="separator:a43e44b5afbdc993bc5d0fc6b3587835a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a61a2ceb58a4971777bf83121f161c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a1a61a2ceb58a4971777bf83121f161c1">WorldSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1a61a2ceb58a4971777bf83121f161c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the size of the world in chunks.  <a href="#a1a61a2ceb58a4971777bf83121f161c1">More...</a><br /></td></tr>
 <tr class="separator:a1a61a2ceb58a4971777bf83121f161c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a668ce75855d32aefccb029d36e45cbcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html">ChunkGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a668ce75855d32aefccb029d36e45cbcf">ChunkGen</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a668ce75855d32aefccb029d36e45cbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the chunk generator.  <a href="#a668ce75855d32aefccb029d36e45cbcf">More...</a><br /></td></tr>
 <tr class="separator:a668ce75855d32aefccb029d36e45cbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ebae0e341e71c1020d8a990df869fb9"><td class="memItemLeft" align="right" valign="top">ConcurrentQueue&lt; <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a8ebae0e341e71c1020d8a990df869fb9">GeneratedChunks</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8ebae0e341e71c1020d8a990df869fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of chunks that were newly generated.  <a href="#a8ebae0e341e71c1020d8a990df869fb9">More...</a><br /></td></tr>
 <tr class="separator:a8ebae0e341e71c1020d8a990df869fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadcf35f6712ef74b3970ce6e3d27ffde"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#aadcf35f6712ef74b3970ce6e3d27ffde">ToGenerate</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aadcf35f6712ef74b3970ce6e3d27ffde"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of new chunk IDs to generate.  <a href="#aadcf35f6712ef74b3970ce6e3d27ffde">More...</a><br /></td></tr>
 <tr class="separator:aadcf35f6712ef74b3970ce6e3d27ffde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f9d9f85c9d8483ed9f9a437f442695d"><td class="memItemLeft" align="right" valign="top">BoundingBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a8f9d9f85c9d8483ed9f9a437f442695d">Bounds</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8f9d9f85c9d8483ed9f9a437f442695d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounding box of the whole world.  <a href="#a8f9d9f85c9d8483ed9f9a437f442695d">More...</a><br /></td></tr>
 <tr class="separator:a8f9d9f85c9d8483ed9f9a437f442695d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b42eef8a474f0a85720ba9c6662dd4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a46b42eef8a474f0a85720ba9c6662dd4">DrawDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a46b42eef8a474f0a85720ba9c6662dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the draw distance in voxels. Chunks are not drawn beyond this distance.  <a href="#a46b42eef8a474f0a85720ba9c6662dd4">More...</a><br /></td></tr>
 <tr class="separator:a46b42eef8a474f0a85720ba9c6662dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd493c7ac2da0e2e7a2e8dd46fc83813"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#acd493c7ac2da0e2e7a2e8dd46fc83813">DrawDistanceSquared</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acd493c7ac2da0e2e7a2e8dd46fc83813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the draw distance squared.  <a href="#acd493c7ac2da0e2e7a2e8dd46fc83813">More...</a><br /></td></tr>
 <tr class="separator:acd493c7ac2da0e2e7a2e8dd46fc83813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf0ac90a2886402794e6203a4eb4b7b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#acbf0ac90a2886402794e6203a4eb4b7b">RemoveDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acbf0ac90a2886402794e6203a4eb4b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chunks are deleted from memory if they are further than this amount from the camera.  <a href="#acbf0ac90a2886402794e6203a4eb4b7b">More...</a><br /></td></tr>
 <tr class="separator:acbf0ac90a2886402794e6203a4eb4b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb47615b8140c6119b59bed8bd624de6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#acb47615b8140c6119b59bed8bd624de6">GenerateDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acb47615b8140c6119b59bed8bd624de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">New chunks are generated within this distance to the camera.  <a href="#acb47615b8140c6119b59bed8bd624de6">More...</a><br /></td></tr>
 <tr class="separator:acb47615b8140c6119b59bed8bd624de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1733abcd47a863967ea8d543e629be4d"><td class="memItemLeft" align="right" valign="top">GraphicsDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a1733abcd47a863967ea8d543e629be4d">Graphics</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1733abcd47a863967ea8d543e629be4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the graphics device.  <a href="#a1733abcd47a863967ea8d543e629be4d">More...</a><br /></td></tr>
 <tr class="separator:a1733abcd47a863967ea8d543e629be4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42859b95cf298d03f991cbc8c5933d2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a42859b95cf298d03f991cbc8c5933d2c">PauseThreads</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a42859b95cf298d03f991cbc8c5933d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this value is true, the generation/update threads are paused.  <a href="#a42859b95cf298d03f991cbc8c5933d2c">More...</a><br /></td></tr>
 <tr class="separator:a42859b95cf298d03f991cbc8c5933d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1910d746342c59126c7f0d52c9537e76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a1910d746342c59126c7f0d52c9537e76">ExitThreads</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1910d746342c59126c7f0d52c9537e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this value is true, the generation/update threads are destroyed.  <a href="#a1910d746342c59126c7f0d52c9537e76">More...</a><br /></td></tr>
 <tr class="separator:a1910d746342c59126c7f0d52c9537e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8cb3a32b334bb98496b5206a2a920ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_component_manager.html">ComponentManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ae8cb3a32b334bb98496b5206a2a920ad">Components</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae8cb3a32b334bb98496b5206a2a920ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the component manager.  <a href="#ae8cb3a32b334bb98496b5206a2a920ad">More...</a><br /></td></tr>
 <tr class="separator:ae8cb3a32b334bb98496b5206a2a920ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd140a257f62c04149c190c06e8960f"><td class="memItemLeft" align="right" valign="top">ContentManager&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a2bd140a257f62c04149c190c06e8960f">Content</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2bd140a257f62c04149c190c06e8960f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the content manager.  <a href="#a2bd140a257f62c04149c190c06e8960f">More...</a><br /></td></tr>
 <tr class="separator:a2bd140a257f62c04149c190c06e8960f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03b6121651d02e18d1b407049a898423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_water_manager.html">WaterManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a03b6121651d02e18d1b407049a898423">Water</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a03b6121651d02e18d1b407049a898423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the water manager.  <a href="#a03b6121651d02e18d1b407049a898423">More...</a><br /></td></tr>
 <tr class="separator:a03b6121651d02e18d1b407049a898423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae35eaed948d72cf0abfeb031fcbf2259"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_dynamic_light.html">DynamicLight</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#ae35eaed948d72cf0abfeb031fcbf2259">DynamicLights</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae35eaed948d72cf0abfeb031fcbf2259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the dynamic lights.  <a href="#ae35eaed948d72cf0abfeb031fcbf2259">More...</a><br /></td></tr>
 <tr class="separator:ae35eaed948d72cf0abfeb031fcbf2259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb75583c15514473167ddcf6234c2fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_chunk_data.html">ChunkData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a2eb75583c15514473167ddcf6234c2fd">ChunkData</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2eb75583c15514473167ddcf6234c2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the chunk data (containing the actual data inside chunks)  <a href="#a2eb75583c15514473167ddcf6234c2fd">More...</a><br /></td></tr>
 <tr class="separator:a2eb75583c15514473167ddcf6234c2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d1381242f24b2e72aaed7d0004580c"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html#a42d1381242f24b2e72aaed7d0004580c">KilledVoxels</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a42d1381242f24b2e72aaed7d0004580c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the list of voxels destroyed during this frame.  <a href="#a42d1381242f24b2e72aaed7d0004580c">More...</a><br /></td></tr>
 <tr class="separator:a42d1381242f24b2e72aaed7d0004580c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -236,6 +279,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Directions that the user can slice in. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abd4fd303d5174e253b26c4ff0240bc8da02129bb861061d1a052c592e2dc6b383"></a>X&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abd4fd303d5174e253b26c4ff0240bc8da57cec4137b614c87cb4e24a3d003a3e0"></a>Y&#160;</td><td class="fielddoc"></td></tr>
@@ -319,6 +364,23 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes a new instance of the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">content</td><td>The content manager.</td></tr>
+    <tr><td class="paramname">chunkSizeX</td><td>The number of voxels in a chunk in the X direction.</td></tr>
+    <tr><td class="paramname">chunkSizeY</td><td>The number of voxels in a chunk in the Y direction.</td></tr>
+    <tr><td class="paramname">chunkSizeZ</td><td>The number of voxels in a chunk in the Z direction.</td></tr>
+    <tr><td class="paramname">camera</td><td>The camera.</td></tr>
+    <tr><td class="paramname">graphics</td><td>The graphics.</td></tr>
+    <tr><td class="paramname">chunkGen</td><td>The chunk generator.</td></tr>
+    <tr><td class="paramname">maxChunksX</td><td>The maximum number of chunks in x.</td></tr>
+    <tr><td class="paramname">maxChunksY</td><td>The maximum number of chunks in y.</td></tr>
+    <tr><td class="paramname">maxChunksZ</td><td>The maximum number of chunks in z.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -337,6 +399,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines whether or not the given bounding box intersects any existing chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>The box.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the box intersects the world, false otherwise.</dd></dl>
 
 </div>
 </div>
@@ -372,6 +443,17 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets all the voxels within a radius of the given voxel which match a criteria. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seed</td><td>The seed voxel.</td></tr>
+    <tr><td class="paramname">radiusSquared</td><td>The radius squared of the search.</td></tr>
+    <tr><td class="paramname">searchEmpty</td><td>if set to <code>true</code> search only empty voxels, otherwise search filled ones..</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of voxels that can be reached from the seed matching the criteria.</dd></dl>
+
 </div>
 </div>
 <a id="a7625eefae07f43a78b3f13808a414608"></a>
@@ -399,6 +481,16 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Comparator that compares the distance to the camera of two chunks a and b. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>The first chunk</td></tr>
+    <tr><td class="paramname">b</td><td>The second chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Comparison between a and b's distance.</dd></dl>
 
 </div>
 </div>
@@ -428,6 +520,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates the vertex buffers for the initial chunks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>The message.</td></tr>
+    <tr><td class="paramname">chunkData</td><td>The chunk data.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad658ebab420d51c1740c7e6563f6886a"></a>
@@ -444,6 +545,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destroys this instance. </p>
 
 </div>
 </div>
@@ -473,6 +576,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates a set of chunks to start the game with. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origin</td><td>The origin of the world.</td></tr>
+    <tr><td class="paramname">message</td><td>The loading message.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a89dc8ebbd95fba2667147fe839fcb97c"></a>
@@ -490,6 +602,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generate ore veins/clusters for all chunks. (TODO: Move this to chunk generator!) </p>
+
 </div>
 </div>
 <a id="a6e058f753de3353d79cbc627543b2630"></a>
@@ -506,6 +620,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Thread that generates new chunks. </p>
 
 </div>
 </div>
@@ -535,6 +651,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the chunks intersecting the given bounding box. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>The box.</td></tr>
+    <tr><td class="paramname">chunks</td><td>The chunks which intersect.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a0ee64979ead65552ac66a3d0ff88731e"></a>
@@ -563,6 +688,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the chunks intersecting the given bounding frustum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frustum</td><td>The frustum.</td></tr>
+    <tr><td class="paramname">chunks</td><td>The chunks which intersect.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="adc878628f046f07e51b1f39199832165"></a>
@@ -579,6 +713,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a bounding box whih is the union of all chunk bounding boxes. </p>
 
 </div>
 </div>
@@ -598,6 +734,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the list of voxels intersecting the given bounding box. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>The bounding box.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of voxels intersecting the given bounding box.</dd></dl>
+
 </div>
 </div>
 <a id="ab96e57283530f2b678fffb0e7ec7efff"></a>
@@ -615,6 +760,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Thread that rebuilds liquid vertex buffers. </p>
+
 </div>
 </div>
 <a id="ac685d66c1882bf03225b915018eb6dbf"></a>
@@ -631,6 +778,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Thread that rebuilds the voxel vertex buffers. </p>
 
 </div>
 </div>
@@ -677,6 +826,18 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Renders all the visible chunks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderCamera</td><td>The render camera.</td></tr>
+    <tr><td class="paramname">gameTime</td><td>The game time.</td></tr>
+    <tr><td class="paramname">graphicsDevice</td><td>The graphics device.</td></tr>
+    <tr><td class="paramname">effect</td><td>The effect.</td></tr>
+    <tr><td class="paramname">worldMatrix</td><td>The world matrix.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -730,6 +891,19 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Renders all the chunks which intersect the given camera's frustum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderCamera</td><td>The camera to render from.</td></tr>
+    <tr><td class="paramname">gameTime</td><td>The game time.</td></tr>
+    <tr><td class="paramname">graphicsDevice</td><td>The graphics device.</td></tr>
+    <tr><td class="paramname">effect</td><td>The shader.</td></tr>
+    <tr><td class="paramname">worldMatrix</td><td>The world matrix.</td></tr>
+    <tr><td class="paramname">tilemap</td><td>The tilemap.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a524b4a05df37e81779649ae5cf73ef05"></a>
@@ -775,6 +949,18 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Renders light maps for all the chunks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderCamera</td><td>The render camera.</td></tr>
+    <tr><td class="paramname">gameTime</td><td>The game time.</td></tr>
+    <tr><td class="paramname">graphicsDevice</td><td>The graphics device.</td></tr>
+    <tr><td class="paramname">effect</td><td>The effect.</td></tr>
+    <tr><td class="paramname">worldMatrix</td><td>The world matrix.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -822,6 +1008,18 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Renders a shadow map for all the visible chunks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">effect</td><td>The effect.</td></tr>
+    <tr><td class="paramname">graphicsDevice</td><td>The graphics device.</td></tr>
+    <tr><td class="paramname">shadowRenderer</td><td>The shadow renderer.</td></tr>
+    <tr><td class="paramname">worldMatrix</td><td>The world matrix.</td></tr>
+    <tr><td class="paramname">tilemap</td><td>The tilemap.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="af21fc2a9fc5743ddfc4a85822c8b17fb"></a>
@@ -856,6 +1054,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Renders all of the chunks using the given shader. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graphicsDevice</td><td>The graphics device.</td></tr>
+    <tr><td class="paramname">effect</td><td>The effect.</td></tr>
+    <tr><td class="paramname">tilemap</td><td>The tilemap.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aac9b1045ecd6022500fb049b5728f53e"></a>
@@ -872,6 +1080,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Starts the threads. </p>
 
 </div>
 </div>
@@ -907,6 +1117,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the chunks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameTime</td><td>The game time.</td></tr>
+    <tr><td class="paramname">camera</td><td>The camera.</td></tr>
+    <tr><td class="paramname">g</td><td>The g.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6eca65ea7fcc0656f22d0bef7e22afac"></a>
@@ -924,6 +1144,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the world's bounding box TODO(mklingen) doesn't this already exist!? </p>
+
 </div>
 </div>
 <a id="ae6ba4a35a719fb9813c61af7c3fbe771"></a>
@@ -940,6 +1162,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the list of chunks to rebuild. </p>
 
 </div>
 </div>
@@ -959,6 +1183,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates a list of voxel chunks to render given a camera </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">camera</td><td>The camera.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aa8cc99c47729cec8781c166a76c60576"></a>
@@ -975,6 +1207,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the water thread. </p>
 
 </div>
 </div>
@@ -999,19 +1233,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ae9d2267563e5442adc62164dd6d406a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d2267563e5442adc62164dd6d406a6">&sect;&nbsp;</a></span>RebuildTest</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a>&gt; DwarfCorp.ChunkManager.RebuildTest = new List&lt;<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a>&gt;()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>The square of the maximum draw distance in voxels. </p>
 
 </div>
 </div>
@@ -1036,6 +1258,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The bounding box of the whole world. </p>
+<p>The bounds. </p>
+
 </div>
 </div>
 <a id="a2eb75583c15514473167ddcf6234c2fd"></a>
@@ -1057,6 +1282,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets the chunk data (containing the actual data inside chunks) </p>
+<p>The chunk data. </p>
 
 </div>
 </div>
@@ -1080,6 +1308,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the chunk generator. </p>
+<p>The chunk generator. </p>
+
 </div>
 </div>
 <a id="ae8cb3a32b334bb98496b5206a2a920ad"></a>
@@ -1101,6 +1332,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets the component manager. </p>
+<p>The components. </p>
 
 </div>
 </div>
@@ -1124,6 +1358,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the content manager. </p>
+<p>The content. </p>
+
 </div>
 </div>
 <a id="a46b42eef8a474f0a85720ba9c6662dd4"></a>
@@ -1145,6 +1382,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the draw distance in voxels. Chunks are not drawn beyond this distance. </p>
+<p>The draw distance. </p>
 
 </div>
 </div>
@@ -1168,6 +1408,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the draw distance squared. </p>
+<p>The draw distance squared. </p>
+
 </div>
 </div>
 <a id="ae35eaed948d72cf0abfeb031fcbf2259"></a>
@@ -1189,6 +1432,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the dynamic lights. </p>
+<p>The dynamic lights. </p>
 
 </div>
 </div>
@@ -1212,6 +1458,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If this value is true, the generation/update threads are destroyed. </p>
+<p><code>true</code> if [exit threads]; otherwise, <code>false</code>. </p>
+
 </div>
 </div>
 <a id="a8ebae0e341e71c1020d8a990df869fb9"></a>
@@ -1233,6 +1482,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>List of chunks that were newly generated. </p>
+<p>The generated chunks. </p>
 
 </div>
 </div>
@@ -1256,6 +1508,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>New chunks are generated within this distance to the camera. </p>
+<p>The generate distance. </p>
+
 </div>
 </div>
 <a id="a1733abcd47a863967ea8d543e629be4d"></a>
@@ -1277,6 +1532,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the graphics device. </p>
+<p>The graphics. </p>
 
 </div>
 </div>
@@ -1300,6 +1558,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the list of voxels destroyed during this frame. </p>
+<p>The killed voxels. </p>
+
 </div>
 </div>
 <a id="a42859b95cf298d03f991cbc8c5933d2c"></a>
@@ -1321,6 +1582,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If this value is true, the generation/update threads are paused. </p>
+<p><code>true</code> if [pause threads]; otherwise, <code>false</code>. </p>
 
 </div>
 </div>
@@ -1344,6 +1608,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The current list of chunks whose liquid (water/lava) vertex buffers are to be rebuilt. </p>
+<p>The rebuild liquids list. </p>
+
 </div>
 </div>
 <a id="a52df8cfbbaefa1d1eb7c34084b22cbbb"></a>
@@ -1365,6 +1632,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The current list of chunks whose vertex buffers are to be rebuilt. </p>
+<p>The rebuild list. </p>
 
 </div>
 </div>
@@ -1388,6 +1658,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Chunks are deleted from memory if they are further than this amount from the camera. </p>
+<p>The remove distance. </p>
+
 </div>
 </div>
 <a id="ae57517db5df9328d6bcad8f2adc05197"></a>
@@ -1409,6 +1682,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The current list of chunks to render. </p>
+<p>The render list. </p>
 
 </div>
 </div>
@@ -1432,6 +1708,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>List of new chunk IDs to generate. </p>
+<p>To generate. </p>
+
 </div>
 </div>
 <a id="a03b6121651d02e18d1b407049a898423"></a>
@@ -1454,6 +1733,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the water manager. </p>
+<p>The water. </p>
+
 </div>
 </div>
 <a id="a1a61a2ceb58a4971777bf83121f161c1"></a>
@@ -1475,6 +1757,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the size of the world in chunks. </p>
+<p>The size of the world in chunks. </p>
 
 </div>
 </div>

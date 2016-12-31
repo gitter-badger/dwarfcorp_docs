@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"class_dwarf_corp_1_1_minion_panel.html#a0711634fa0aabd2522a8ade65b661b61":[1,0,2,244,1],
 "class_dwarf_corp_1_1_minion_panel.html#a103e8a264969e37ee0cd1939fcd676c4":[1,0,2,244,7],
 "class_dwarf_corp_1_1_minion_panel.html#a15c65f440607d5f6942773576dfc4019":[1,0,2,244,6],
 "class_dwarf_corp_1_1_minion_panel.html#a304ab474d4b98a41a5e7c56488afbb30":[1,0,2,244,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "class_dwarf_corp_1_1_overworld.html#ae4a9467f0c0c9d9d6cf30c3bd3734cf2a977fe39d1cc13e3e5e6abec301be214d":[1,0,2,265,1,6],
 "class_dwarf_corp_1_1_overworld.html#ae4a9467f0c0c9d9d6cf30c3bd3734cf2aac12ee4aedb176eb73ce3f6c0d1e9036":[1,0,2,265,1,2],
 "class_dwarf_corp_1_1_overworld.html#ae4a9467f0c0c9d9d6cf30c3bd3734cf2ac63e2bf2eb1c92832e0a76fb3734abe8":[1,0,2,265,1,3],
-"class_dwarf_corp_1_1_overworld.html#ae4a9467f0c0c9d9d6cf30c3bd3734cf2ad4e3b74fb352a9f0977f9b86258daddb":[1,0,2,265,1,1]
+"class_dwarf_corp_1_1_overworld.html#ae4a9467f0c0c9d9d6cf30c3bd3734cf2ad4e3b74fb352a9f0977f9b86258daddb":[1,0,2,265,1,1],
+"class_dwarf_corp_1_1_overworld.html#af300edd471bf5afbf26f57e9e6b9b941":[1,0,2,265,3]
 };

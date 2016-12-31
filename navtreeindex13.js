@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"class_dwarf_corp_1_1_game_states_1_1_g_u_i_test.html#a1f378d41d7abe9f059d53728ac6135eb":[1,0,2,1,5,5],
 "class_dwarf_corp_1_1_game_states_1_1_g_u_i_test.html#a34edc4f4a0ac508970e8c9fa4dde379d":[1,0,2,1,5,0],
 "class_dwarf_corp_1_1_game_states_1_1_g_u_i_test.html#a796f1726311f43b9b93b1e2c16e15bec":[1,0,2,1,5,4],
 "class_dwarf_corp_1_1_game_states_1_1_g_u_i_test.html#a8a000112c40adc9d43a533825c002aa1":[1,0,2,1,5,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#aee6268276ff7d6c46ece2ccee94a448d":[1,0,2,1,12,34],
 "class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#af33d6f4c535770f7fda93b6411349ce1":[1,0,2,1,12,41],
 "class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#af6c3d074949433d8a21772f27945219e":[1,0,2,1,12,18],
-"class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#af974509bc1f1dddec18d2021c403e0f6":[1,0,2,1,12,20]
+"class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#af974509bc1f1dddec18d2021c403e0f6":[1,0,2,1,12,20],
+"class_dwarf_corp_1_1_game_states_1_1_world_generator_state.html#afa2bb44802a112d788d38e0e4743b205":[1,0,2,1,12,15]
 };

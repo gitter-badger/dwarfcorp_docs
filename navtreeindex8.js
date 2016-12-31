@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"class_dwarf_corp_1_1_creature_stats.html#aa258a8aeef03c1356ab0c055b4135614":[1,0,2,105,15],
 "class_dwarf_corp_1_1_creature_stats.html#aa77e4220b0576c1695ad2539ac9c9c21":[1,0,2,105,29],
 "class_dwarf_corp_1_1_creature_stats.html#aae171e042ffb311f9f625b48682e7758":[1,0,2,105,42],
 "class_dwarf_corp_1_1_creature_stats.html#ab056a4a6e3bf82746ca7858eba05e485":[1,0,2,105,20],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "class_dwarf_corp_1_1_drag_grid.html#afe9e75f3921c4e3181568f980750eedc":[1,0,2,122,4],
 "class_dwarf_corp_1_1_drag_manager.html":[1,0,2,123],
 "class_dwarf_corp_1_1_drag_manager.html#a0122b75a57f52fc6a37885214125cd8c":[1,0,2,123,9],
-"class_dwarf_corp_1_1_drag_manager.html#a072e0fba7c01632df9f29380c752d158":[1,0,2,123,5]
+"class_dwarf_corp_1_1_drag_manager.html#a072e0fba7c01632df9f29380c752d158":[1,0,2,123,5],
+"class_dwarf_corp_1_1_drag_manager.html#a097d21a58bd8f146999702373ee099bd":[1,0,2,123,6]
 };

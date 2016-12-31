@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"class_dwarf_corp_1_1_flammable.html#af0a3e3125a2bef54ef5792132e495e76":[1,0,2,162,3],
 "class_dwarf_corp_1_1_fly_wander_act.html":[1,0,2,163],
 "class_dwarf_corp_1_1_fly_wander_act.html#a20d5eaba7e6720fc6c5b06e0869151ef":[1,0,2,163,7],
 "class_dwarf_corp_1_1_fly_wander_act.html#a3ae0783d86c4bc90ec2fc9113133f873":[1,0,2,163,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "class_dwarf_corp_1_1_g_u_i_skin.html#afc3794a03886e09adfc3fd428e988872a740e0c401a588c10d38a31509c92c5eb":[1,0,2,196,1,89],
 "class_dwarf_corp_1_1_g_u_i_skin.html#afc3794a03886e09adfc3fd428e988872a75d42fc68fa0449406822a08d664df80":[1,0,2,196,1,31],
 "class_dwarf_corp_1_1_g_u_i_skin.html#afc3794a03886e09adfc3fd428e988872a772f9d0086d6f40cdf49f4acee993088":[1,0,2,196,1,16],
-"class_dwarf_corp_1_1_g_u_i_skin.html#afc3794a03886e09adfc3fd428e988872a774e5ec084382c5ff0ef2f35adf2b284":[1,0,2,196,1,42]
+"class_dwarf_corp_1_1_g_u_i_skin.html#afc3794a03886e09adfc3fd428e988872a774e5ec084382c5ff0ef2f35adf2b284":[1,0,2,196,1,42],
+"class_dwarf_corp_1_1_g_u_i_skin.html#afc3794a03886e09adfc3fd428e988872a7c2dd5171c6efdbe57681db4f589c659":[1,0,2,196,1,58]
 };

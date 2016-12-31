@@ -91,86 +91,119 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_chunk_generator.h
 </div><!--header-->
 <div class="contents">
 
-<p>Creates randomly generated voxel chunks using data from the overworld.  
+<p>Creates randomly generated voxel chunks using data from the <a class="el" href="class_dwarf_corp_1_1_overworld.html" title="The overworld is a 2D map specifying biomes, temperature, terrain height, etc. Chunks are generated f...">Overworld</a>.  
  <a href="class_dwarf_corp_1_1_chunk_generator.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad651723705d4a843d32a7699b3057efa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#ad651723705d4a843d32a7699b3057efa">ChunkGenerator</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_library.html">VoxelLibrary</a> voxLibrary, int randomSeed, float noiseScale, float maxMountainHeight)</td></tr>
+<tr class="memdesc:ad651723705d4a843d32a7699b3057efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_dwarf_corp_1_1_chunk_generator.html" title="Creates randomly generated voxel chunks using data from the Overworld. ">ChunkGenerator</a> class.  <a href="#ad651723705d4a843d32a7699b3057efa">More...</a><br /></td></tr>
 <tr class="separator:ad651723705d4a843d32a7699b3057efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afadb41d611283d26f6f52caa956edf46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#afadb41d611283d26f6f52caa956edf46">GenerateCluster</a> (<a class="el" href="struct_dwarf_corp_1_1_ore_cluster.html">OreCluster</a> cluster, <a class="el" href="class_dwarf_corp_1_1_chunk_data.html">ChunkData</a> chunks)</td></tr>
+<tr class="memdesc:afadb41d611283d26f6f52caa956edf46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an ore cluster.  <a href="#afadb41d611283d26f6f52caa956edf46">More...</a><br /></td></tr>
 <tr class="separator:afadb41d611283d26f6f52caa956edf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab8444dc3186d7c6ceff8fa70561ee56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#aab8444dc3186d7c6ceff8fa70561ee56">GenerateVein</a> (<a class="el" href="struct_dwarf_corp_1_1_ore_vein.html">OreVein</a> vein, <a class="el" href="class_dwarf_corp_1_1_chunk_data.html">ChunkData</a> chunks)</td></tr>
+<tr class="memdesc:aab8444dc3186d7c6ceff8fa70561ee56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an <a class="el" href="struct_dwarf_corp_1_1_ore_vein.html" title="An OreVein is a strip of a particular type of ore that snakes off in a random direction. ">OreVein</a>.  <a href="#aab8444dc3186d7c6ceff8fa70561ee56">More...</a><br /></td></tr>
 <tr class="separator:aab8444dc3186d7c6ceff8fa70561ee56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab357e159296e071b520e04c21ab8a02f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#ab357e159296e071b520e04c21ab8a02f">GenerateEmptyChunk</a> (Vector3 origin, int chunkSizeX, int chunkSizeY, int chunkSizeZ)</td></tr>
+<tr class="memdesc:ab357e159296e071b520e04c21ab8a02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an empty chunk.  <a href="#ab357e159296e071b520e04c21ab8a02f">More...</a><br /></td></tr>
 <tr class="separator:ab357e159296e071b520e04c21ab8a02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeebd73fa2d279a49f2eb14cb3dd572ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#aeebd73fa2d279a49f2eb14cb3dd572ca">GenerateWater</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk)</td></tr>
+<tr class="memdesc:aeebd73fa2d279a49f2eb14cb3dd572ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates water for the given voxel chunk.  <a href="#aeebd73fa2d279a49f2eb14cb3dd572ca">More...</a><br /></td></tr>
 <tr class="separator:aeebd73fa2d279a49f2eb14cb3dd572ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0dd245b8416a033a8c7d77da5dd8993"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#af0dd245b8416a033a8c7d77da5dd8993">GenerateLava</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk)</td></tr>
+<tr class="memdesc:af0dd245b8416a033a8c7d77da5dd8993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates lava for the given voxel chunk.  <a href="#af0dd245b8416a033a8c7d77da5dd8993">More...</a><br /></td></tr>
 <tr class="separator:af0dd245b8416a033a8c7d77da5dd8993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe64eb2288a2af2343865931ceb7ed1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#abe64eb2288a2af2343865931ceb7ed1d">GenerateFauna</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk, <a class="el" href="class_dwarf_corp_1_1_component_manager.html">ComponentManager</a> components, ContentManager content, GraphicsDevice graphics, <a class="el" href="class_dwarf_corp_1_1_faction_library.html">FactionLibrary</a> factions)</td></tr>
+<tr class="memdesc:abe64eb2288a2af2343865931ceb7ed1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the fauna (animals) of the chunk.  <a href="#abe64eb2288a2af2343865931ceb7ed1d">More...</a><br /></td></tr>
 <tr class="separator:abe64eb2288a2af2343865931ceb7ed1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50d2221d8064a73a305ef3848eca0daf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a50d2221d8064a73a305ef3848eca0daf">GenerateVegetation</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk, <a class="el" href="class_dwarf_corp_1_1_component_manager.html">ComponentManager</a> components, ContentManager content, GraphicsDevice graphics)</td></tr>
+<tr class="memdesc:a50d2221d8064a73a305ef3848eca0daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the vegetation (plants) in the chunk.  <a href="#a50d2221d8064a73a305ef3848eca0daf">More...</a><br /></td></tr>
 <tr class="separator:a50d2221d8064a73a305ef3848eca0daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd394d37d56289f6e2941b4cbf973c8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#abd394d37d56289f6e2941b4cbf973c8d">GenerateLavaTubes</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk)</td></tr>
+<tr class="memdesc:abd394d37d56289f6e2941b4cbf973c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the lava tubes for the specified chunk.  <a href="#abd394d37d56289f6e2941b4cbf973c8d">More...</a><br /></td></tr>
 <tr class="separator:abd394d37d56289f6e2941b4cbf973c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76686ff56f93d17ed5cfe8b3bd02d36a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a76686ff56f93d17ed5cfe8b3bd02d36a">GenerateCaves</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk)</td></tr>
+<tr class="memdesc:a76686ff56f93d17ed5cfe8b3bd02d36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the caves for the specified chunk.  <a href="#a76686ff56f93d17ed5cfe8b3bd02d36a">More...</a><br /></td></tr>
 <tr class="separator:a76686ff56f93d17ed5cfe8b3bd02d36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a228821a22cd0bdb0381490287b9b0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a8a228821a22cd0bdb0381490287b9b0a">GenerateAquifers</a> (<a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> chunk)</td></tr>
+<tr class="memdesc:a8a228821a22cd0bdb0381490287b9b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the aquifers for the chunk.  <a href="#a8a228821a22cd0bdb0381490287b9b0a">More...</a><br /></td></tr>
 <tr class="separator:a8a228821a22cd0bdb0381490287b9b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaef58544c07e94a7124626c54fc1596"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#aeaef58544c07e94a7124626c54fc1596">GenerateChunk</a> (Vector3 origin, int chunkSizeX, int chunkSizeY, int chunkSizeZ, <a class="el" href="class_dwarf_corp_1_1_component_manager.html">ComponentManager</a> components, ContentManager content, GraphicsDevice graphics)</td></tr>
+<tr class="memdesc:aeaef58544c07e94a7124626c54fc1596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new randomly generated chunk.  <a href="#aeaef58544c07e94a7124626c54fc1596">More...</a><br /></td></tr>
 <tr class="separator:aeaef58544c07e94a7124626c54fc1596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5aa7788ab3286adb104cf27a7c1e4d2f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_dwarf_corp_1_1_biome_data.html">BiomeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a5aa7788ab3286adb104cf27a7c1e4d2f">GetBiomeAt</a> (Vector3 worldPosition)</td></tr>
+<tr class="memdesc:a5aa7788ab3286adb104cf27a7c1e4d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the biome at the specified world location.  <a href="#a5aa7788ab3286adb104cf27a7c1e4d2f">More...</a><br /></td></tr>
 <tr class="separator:a5aa7788ab3286adb104cf27a7c1e4d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3c9bb1de9e080f65fff7ff4bcd456a4"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#ac3c9bb1de9e080f65fff7ff4bcd456a4">GetValueAt</a> (Vector3 worldPosition, <a class="el" href="class_dwarf_corp_1_1_overworld.html#a3339ab5973590b137e9ae9fa80a45a47">Overworld.ScalarFieldType</a> T)</td></tr>
+<tr class="memdesc:ac3c9bb1de9e080f65fff7ff4bcd456a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scalar field value at the given world location from the <a class="el" href="class_dwarf_corp_1_1_overworld.html" title="The overworld is a 2D map specifying biomes, temperature, terrain height, etc. Chunks are generated f...">Overworld</a>.  <a href="#ac3c9bb1de9e080f65fff7ff4bcd456a4">More...</a><br /></td></tr>
 <tr class="separator:ac3c9bb1de9e080f65fff7ff4bcd456a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f3982c68aabd6c34e4d50383f01453"><td class="memItemLeft" align="right" valign="top">static T [][][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#ac4f3982c68aabd6c34e4d50383f01453">Allocate&lt; T &gt;</a> (int chunkSizeX, int chunkSizeY, int chunkSizeZ)</td></tr>
+<tr class="memdesc:ac4f3982c68aabd6c34e4d50383f01453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates data for the chunk.  <a href="#ac4f3982c68aabd6c34e4d50383f01453">More...</a><br /></td></tr>
 <tr class="separator:ac4f3982c68aabd6c34e4d50383f01453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df5ada4537a4d9f612d8fd67ccff244"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> [][][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a7df5ada4537a4d9f612d8fd67ccff244">Allocate</a> (int chunkSizeX, int chunkSizeY, int chunkSizeZ)</td></tr>
+<tr class="memdesc:a7df5ada4537a4d9f612d8fd67ccff244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a voxel grid of the given size.  <a href="#a7df5ada4537a4d9f612d8fd67ccff244">More...</a><br /></td></tr>
 <tr class="separator:a7df5ada4537a4d9f612d8fd67ccff244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a49e310019f6f2bc36e490e3a1cb3546c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_library.html">VoxelLibrary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a49e310019f6f2bc36e490e3a1cb3546c">VoxLibrary</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a49e310019f6f2bc36e490e3a1cb3546c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the voxel library (list of all voxel types).  <a href="#a49e310019f6f2bc36e490e3a1cb3546c">More...</a><br /></td></tr>
 <tr class="separator:a49e310019f6f2bc36e490e3a1cb3546c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3120805e09609d732258ac6555df1c47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a3120805e09609d732258ac6555df1c47">NoiseGenerator</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3120805e09609d732258ac6555df1c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the noise generator for creating <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise.  <a href="#a3120805e09609d732258ac6555df1c47">More...</a><br /></td></tr>
 <tr class="separator:a3120805e09609d732258ac6555df1c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f4a3d0a648f02e95a56bbee9474538"><td class="memItemLeft" align="right" valign="top">FastRidgedMultifractal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a49f4a3d0a648f02e95a56bbee9474538">CaveNoise</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a49f4a3d0a648f02e95a56bbee9474538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the cave noise generator (used for populating caves)  <a href="#a49f4a3d0a648f02e95a56bbee9474538">More...</a><br /></td></tr>
 <tr class="separator:a49f4a3d0a648f02e95a56bbee9474538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfad46ecb0e6b1d24710bb4cf8b1da46"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#acfad46ecb0e6b1d24710bb4cf8b1da46">NoiseScale</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acfad46ecb0e6b1d24710bb4cf8b1da46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise scale.  <a href="#acfad46ecb0e6b1d24710bb4cf8b1da46">More...</a><br /></td></tr>
 <tr class="separator:acfad46ecb0e6b1d24710bb4cf8b1da46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d99dc774203727bde84613b90723296"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a3d99dc774203727bde84613b90723296">CaveNoiseScale</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3d99dc774203727bde84613b90723296"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise scale for caves.  <a href="#a3d99dc774203727bde84613b90723296">More...</a><br /></td></tr>
 <tr class="separator:a3d99dc774203727bde84613b90723296"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a896207ad6070e9f4fc173dfb38204d71"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a896207ad6070e9f4fc173dfb38204d71">SeaLevel</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a896207ad6070e9f4fc173dfb38204d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the sea level (height of the sea in proportion [0-1] of max chunk height)  <a href="#a896207ad6070e9f4fc173dfb38204d71">More...</a><br /></td></tr>
 <tr class="separator:a896207ad6070e9f4fc173dfb38204d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea9623553f0641b7464d860da38b8d4e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#aea9623553f0641b7464d860da38b8d4e">MaxMountainHeight</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aea9623553f0641b7464d860da38b8d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the maximum height of mountains in proportion [0-1] of max chunk height)  <a href="#aea9623553f0641b7464d860da38b8d4e">More...</a><br /></td></tr>
 <tr class="separator:aea9623553f0641b7464d860da38b8d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dda3136d74a491a2d830477a36183d7"><td class="memItemLeft" align="right" valign="top">FastRidgedMultifractal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a2dda3136d74a491a2d830477a36183d7">AquiferNoise</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2dda3136d74a491a2d830477a36183d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise generator for aquifers.  <a href="#a2dda3136d74a491a2d830477a36183d7">More...</a><br /></td></tr>
 <tr class="separator:a2dda3136d74a491a2d830477a36183d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf8cb15852a835b96ff4d93a0b6e9734"><td class="memItemLeft" align="right" valign="top">FastRidgedMultifractal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#abf8cb15852a835b96ff4d93a0b6e9734">LavaNoise</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abf8cb15852a835b96ff4d93a0b6e9734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise generator for lava tubes.  <a href="#abf8cb15852a835b96ff4d93a0b6e9734">More...</a><br /></td></tr>
 <tr class="separator:abf8cb15852a835b96ff4d93a0b6e9734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f116dd096c28ded3aa074afb6b9178b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html">ChunkManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a6f116dd096c28ded3aa074afb6b9178b">Manager</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6f116dd096c28ded3aa074afb6b9178b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the chunk manager.  <a href="#a6f116dd096c28ded3aa074afb6b9178b">More...</a><br /></td></tr>
 <tr class="separator:a6f116dd096c28ded3aa074afb6b9178b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df385e1983dff268cbaf16da958a69b"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a8df385e1983dff268cbaf16da958a69b">CaveLevels</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8df385e1983dff268cbaf16da958a69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the list of Y levels on which there are cave systems.  <a href="#a8df385e1983dff268cbaf16da958a69b">More...</a><br /></td></tr>
 <tr class="separator:a8df385e1983dff268cbaf16da958a69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac192bed81c198e192ff6e291f60592d7"><td class="memItemLeft" align="right" valign="top">List&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#ac192bed81c198e192ff6e291f60592d7">CaveFrequencies</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac192bed81c198e192ff6e291f60592d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the list of <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise frequencies for each cave system.  <a href="#ac192bed81c198e192ff6e291f60592d7">More...</a><br /></td></tr>
 <tr class="separator:ac192bed81c198e192ff6e291f60592d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ceaacc2e48622289cb47971ed520c6e"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a5ceaacc2e48622289cb47971ed520c6e">AquiverLevels</a><code> [get, set]</code></td></tr>
-<tr class="separator:a5ceaacc2e48622289cb47971ed520c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9dec0578664e3311f6beeee567ec2b3"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#ad9dec0578664e3311f6beeee567ec2b3">AquiferLevels</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad9dec0578664e3311f6beeee567ec2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the list of Y levels on which there are aquifers.  <a href="#ad9dec0578664e3311f6beeee567ec2b3">More...</a><br /></td></tr>
+<tr class="separator:ad9dec0578664e3311f6beeee567ec2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8898369aef3da2c29e7992931c76e232"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a8898369aef3da2c29e7992931c76e232">LavaLevels</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8898369aef3da2c29e7992931c76e232"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the list of Y levels on which there are lava tubes.  <a href="#a8898369aef3da2c29e7992931c76e232">More...</a><br /></td></tr>
 <tr class="separator:a8898369aef3da2c29e7992931c76e232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa61b414a5fad546424c13eee72318bd4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#aa61b414a5fad546424c13eee72318bd4">CaveSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa61b414a5fad546424c13eee72318bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the size of caves in percetage of [0-1], where 1 is maximum caviness.  <a href="#aa61b414a5fad546424c13eee72318bd4">More...</a><br /></td></tr>
 <tr class="separator:aa61b414a5fad546424c13eee72318bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108bb3cc8e6d223550f83707dfa59488"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a108bb3cc8e6d223550f83707dfa59488">AquiferSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a108bb3cc8e6d223550f83707dfa59488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the size of the aquifers in percentage of [0-1] where 1 is maximum aquifers.  <a href="#a108bb3cc8e6d223550f83707dfa59488">More...</a><br /></td></tr>
 <tr class="separator:a108bb3cc8e6d223550f83707dfa59488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35782055250581f385c32c6107683a5f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_chunk_generator.html#a35782055250581f385c32c6107683a5f">LavaSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a35782055250581f385c32c6107683a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the size of the lava tubes in percentage [0-1] where 1 is maximum lava tube size.  <a href="#a35782055250581f385c32c6107683a5f">More...</a><br /></td></tr>
 <tr class="separator:a35782055250581f385c32c6107683a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Creates randomly generated voxel chunks using data from the overworld. </p>
+<div class="textblock"><p>Creates randomly generated voxel chunks using data from the <a class="el" href="class_dwarf_corp_1_1_overworld.html" title="The overworld is a 2D map specifying biomes, temperature, terrain height, etc. Chunks are generated f...">Overworld</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad651723705d4a843d32a7699b3057efa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad651723705d4a843d32a7699b3057efa">&sect;&nbsp;</a></span>ChunkGenerator()</h2>
@@ -209,6 +242,17 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initializes a new instance of the <a class="el" href="class_dwarf_corp_1_1_chunk_generator.html" title="Creates randomly generated voxel chunks using data from the Overworld. ">ChunkGenerator</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxLibrary</td><td>The voxel library.</td></tr>
+    <tr><td class="paramname">randomSeed</td><td>The random seed.</td></tr>
+    <tr><td class="paramname">noiseScale</td><td>The scale of the perlin noise.</td></tr>
+    <tr><td class="paramname">maxMountainHeight</td><td>Maximum height of the mountains [0 - 1]</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -253,6 +297,17 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Allocates a voxel grid of the given size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunkSizeX</td><td>The chunk size x.</td></tr>
+    <tr><td class="paramname">chunkSizeY</td><td>The chunk size y.</td></tr>
+    <tr><td class="paramname">chunkSizeZ</td><td>The chunk size z.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A 3D array of voxels of the given size.</dd></dl>
+
 </div>
 </div>
 <a id="ac4f3982c68aabd6c34e4d50383f01453"></a>
@@ -295,6 +350,23 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Allocates data for the chunk. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of the data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunkSizeX</td><td>The chunk size x.</td></tr>
+    <tr><td class="paramname">chunkSizeY</td><td>The chunk size y.</td></tr>
+    <tr><td class="paramname">chunkSizeZ</td><td>The chunk size z.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A 3D array containing data of type T.</dd></dl>
+
 </div>
 </div>
 <a id="a8a228821a22cd0bdb0381490287b9b0a"></a>
@@ -313,6 +385,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates the aquifers for the chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a76686ff56f93d17ed5cfe8b3bd02d36a"></a>
@@ -330,6 +410,14 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates the caves for the specified chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -389,6 +477,21 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates a new randomly generated chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origin</td><td>The origin (leastmost corner) of the chunk..</td></tr>
+    <tr><td class="paramname">chunkSizeX</td><td>The number of voxels in x.</td></tr>
+    <tr><td class="paramname">chunkSizeY</td><td>The number of voxels in y.</td></tr>
+    <tr><td class="paramname">chunkSizeZ</td><td>The number of voxels in z.</td></tr>
+    <tr><td class="paramname">components</td><td>The component manager.</td></tr>
+    <tr><td class="paramname">content</td><td>The content manager.</td></tr>
+    <tr><td class="paramname">graphics</td><td>The graphics.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new voxel chunk of the given size.</dd></dl>
+
 </div>
 </div>
 <a id="afadb41d611283d26f6f52caa956edf46"></a>
@@ -416,6 +519,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates an ore cluster. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cluster</td><td>The ore cluster.</td></tr>
+    <tr><td class="paramname">chunks</td><td>The chunks.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -456,6 +568,18 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates an empty chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origin</td><td>The origin (leastmost coord) of the chunk.</td></tr>
+    <tr><td class="paramname">chunkSizeX</td><td>The number of voxels in x.</td></tr>
+    <tr><td class="paramname">chunkSizeY</td><td>The number of voxels in y.</td></tr>
+    <tr><td class="paramname">chunkSizeZ</td><td>The number of voxels in z..</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new empty chunk at the given location.</dd></dl>
 
 </div>
 </div>
@@ -503,6 +627,18 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates the fauna (animals) of the chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+    <tr><td class="paramname">components</td><td>The components.</td></tr>
+    <tr><td class="paramname">content</td><td>The content manager.</td></tr>
+    <tr><td class="paramname">graphics</td><td>The graphics.</td></tr>
+    <tr><td class="paramname">factions</td><td>The factions.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="af0dd245b8416a033a8c7d77da5dd8993"></a>
@@ -521,6 +657,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates lava for the given voxel chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="abd394d37d56289f6e2941b4cbf973c8d"></a>
@@ -538,6 +682,14 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates the lava tubes for the specified chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -579,6 +731,17 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates the vegetation (plants) in the chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+    <tr><td class="paramname">components</td><td>The component manager.</td></tr>
+    <tr><td class="paramname">content</td><td>The content manager</td></tr>
+    <tr><td class="paramname">graphics</td><td>The graphics.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aab8444dc3186d7c6ceff8fa70561ee56"></a>
@@ -607,6 +770,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates an <a class="el" href="struct_dwarf_corp_1_1_ore_vein.html" title="An OreVein is a strip of a particular type of ore that snakes off in a random direction. ">OreVein</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vein</td><td>The vein.</td></tr>
+    <tr><td class="paramname">chunks</td><td>The chunks.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aeebd73fa2d279a49f2eb14cb3dd572ca"></a>
@@ -624,6 +796,14 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates water for the given voxel chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chunk</td><td>The chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -650,6 +830,15 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets the biome at the specified world location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldPosition</td><td>The world position.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The Biome at that location.</dd></dl>
 
 </div>
 </div>
@@ -687,9 +876,44 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the scalar field value at the given world location from the <a class="el" href="class_dwarf_corp_1_1_overworld.html" title="The overworld is a 2D map specifying biomes, temperature, terrain height, etc. Chunks are generated f...">Overworld</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldPosition</td><td>The world position.</td></tr>
+    <tr><td class="paramname">T</td><td>The scalar field type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value of the scalar field at the world position.</dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="ad9dec0578664e3311f6beeee567ec2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9dec0578664e3311f6beeee567ec2b3">&sect;&nbsp;</a></span>AquiferLevels</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;int&gt; DwarfCorp.ChunkGenerator.AquiferLevels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets the list of Y levels on which there are aquifers. </p>
+<p>The aquifer levels. </p>
+
+</div>
+</div>
 <a id="a2dda3136d74a491a2d830477a36183d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2dda3136d74a491a2d830477a36183d7">&sect;&nbsp;</a></span>AquiferNoise</h2>
 
@@ -709,6 +933,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise generator for aquifers. </p>
+<p>The aquifer noise. </p>
 
 </div>
 </div>
@@ -732,27 +959,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a5ceaacc2e48622289cb47971ed520c6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ceaacc2e48622289cb47971ed520c6e">&sect;&nbsp;</a></span>AquiverLevels</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;int&gt; DwarfCorp.ChunkGenerator.AquiverLevels</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Gets or sets the size of the aquifers in percentage of [0-1] where 1 is maximum aquifers. </p>
+<p>The size of the aquifer. </p>
 
 </div>
 </div>
@@ -776,6 +984,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the list of <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise frequencies for each cave system. </p>
+<p>The cave frequencies. </p>
+
 </div>
 </div>
 <a id="a8df385e1983dff268cbaf16da958a69b"></a>
@@ -797,6 +1008,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the list of Y levels on which there are cave systems. </p>
+<p>The cave levels. </p>
 
 </div>
 </div>
@@ -820,6 +1034,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the cave noise generator (used for populating caves) </p>
+<p>The cave noise. </p>
+
 </div>
 </div>
 <a id="a3d99dc774203727bde84613b90723296"></a>
@@ -841,6 +1058,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise scale for caves. </p>
+<p>The cave noise scale. </p>
 
 </div>
 </div>
@@ -864,6 +1084,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the size of caves in percetage of [0-1], where 1 is maximum caviness. </p>
+<p>The size of the cave. </p>
+
 </div>
 </div>
 <a id="a8898369aef3da2c29e7992931c76e232"></a>
@@ -885,6 +1108,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the list of Y levels on which there are lava tubes. </p>
+<p>The lava levels. </p>
 
 </div>
 </div>
@@ -908,6 +1134,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise generator for lava tubes. </p>
+<p>The lava noise. </p>
+
 </div>
 </div>
 <a id="a35782055250581f385c32c6107683a5f"></a>
@@ -929,6 +1158,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the size of the lava tubes in percentage [0-1] where 1 is maximum lava tube size. </p>
+<p>The size of the lava. </p>
 
 </div>
 </div>
@@ -952,6 +1184,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the chunk manager. </p>
+<p>The chunk manager. </p>
+
 </div>
 </div>
 <a id="aea9623553f0641b7464d860da38b8d4e"></a>
@@ -973,6 +1208,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the maximum height of mountains in proportion [0-1] of max chunk height) </p>
+<p>The maximum height of the mountain. </p>
 
 </div>
 </div>
@@ -996,6 +1234,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the noise generator for creating <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise. </p>
+<p>The noise generator. </p>
+
 </div>
 </div>
 <a id="acfad46ecb0e6b1d24710bb4cf8b1da46"></a>
@@ -1017,6 +1258,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise scale. </p>
+<p>The <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise scale. </p>
 
 </div>
 </div>
@@ -1040,6 +1284,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets or sets the sea level (height of the sea in proportion [0-1] of max chunk height) </p>
+<p>The sea level. </p>
+
 </div>
 </div>
 <a id="a49e310019f6f2bc36e490e3a1cb3546c"></a>
@@ -1061,6 +1308,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets or sets the voxel library (list of all voxel types). </p>
+<p>The voxel library. </p>
 
 </div>
 </div>

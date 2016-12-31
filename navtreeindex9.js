@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"class_dwarf_corp_1_1_drag_manager.html#a097d21a58bd8f146999702373ee099bd":[1,0,2,123,6],
 "class_dwarf_corp_1_1_drag_manager.html#a200658d77cbf7cc930ea3e11985c9f85":[1,0,2,123,3],
 "class_dwarf_corp_1_1_drag_manager.html#a369189f0c9322732463d3aaaa68790cb":[1,0,2,123,4],
 "class_dwarf_corp_1_1_drag_manager.html#a3a82f31346ebb2b41c14bd75e0655740":[1,0,2,123,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "class_dwarf_corp_1_1_employee_class_def.html#ac29640ad0dab5744396531c9716b23f4":[1,0,2,144,3],
 "class_dwarf_corp_1_1_employee_class_def.html#ad9546a4dc9f3f05717f39d563bb1d112":[1,0,2,144,4],
 "class_dwarf_corp_1_1_employee_display.html":[1,0,2,145],
-"class_dwarf_corp_1_1_employee_display.html#a18df61ce3d0f0ab1c4c55373f4f8a45b":[1,0,2,145,1]
+"class_dwarf_corp_1_1_employee_display.html#a18df61ce3d0f0ab1c4c55373f4f8a45b":[1,0,2,145,1],
+"class_dwarf_corp_1_1_employee_display.html#a1ba83451f1d824324f3c232ba7c9c43f":[1,0,2,145,0]
 };

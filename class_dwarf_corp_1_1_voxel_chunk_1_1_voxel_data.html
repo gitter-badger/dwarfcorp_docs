@@ -89,46 +89,67 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_voxel_chunk_1_1_v
 <div class="title">DwarfCorp.VoxelChunk.VoxelData Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html" title="VoxelData contains the raw data associated with the VoxelChunk ">VoxelData</a> contains the raw data associated with the <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a>  
+ <a href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a070cf05d0387c65a34eed44a5410d21c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a070cf05d0387c65a34eed44a5410d21c">SetColor</a> (int x, int y, int z, <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> v, Color color)</td></tr>
+<tr class="memdesc:a070cf05d0387c65a34eed44a5410d21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color of a vertex of a specified voxel to a color.  <a href="#a070cf05d0387c65a34eed44a5410d21c">More...</a><br /></td></tr>
 <tr class="separator:a070cf05d0387c65a34eed44a5410d21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adad717f48ad19891a9fcc639880c3ae5"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#adad717f48ad19891a9fcc639880c3ae5">GetColor</a> (int x, int y, int z, <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> v)</td></tr>
+<tr class="memdesc:adad717f48ad19891a9fcc639880c3ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color of the specified voxel vertex.  <a href="#adad717f48ad19891a9fcc639880c3ae5">More...</a><br /></td></tr>
 <tr class="separator:adad717f48ad19891a9fcc639880c3ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afee055974f3dae4d780074e7e5b6bbbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#afee055974f3dae4d780074e7e5b6bbbf">VertIndex</a> (int x, int y, int z, <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> v)</td></tr>
+<tr class="memdesc:afee055974f3dae4d780074e7e5b6bbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the linear index of the voxel vertex.  <a href="#afee055974f3dae4d780074e7e5b6bbbf">More...</a><br /></td></tr>
 <tr class="separator:afee055974f3dae4d780074e7e5b6bbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ba701d9855b1cb843a70d76e45cf5e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a42ba701d9855b1cb843a70d76e45cf5e">CornerIndexAt</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a42ba701d9855b1cb843a70d76e45cf5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Superimpose a sub-grid onto the voxel grid such that each vertex is in the center of a grid cell. This returns the linear coordinate of the x, y, z coordinate of that grid cell.  <a href="#a42ba701d9855b1cb843a70d76e45cf5e">More...</a><br /></td></tr>
 <tr class="separator:a42ba701d9855b1cb843a70d76e45cf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb250b35e600f366c316c75ffda470cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#afb250b35e600f366c316c75ffda470cd">IndexAt</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:afb250b35e600f366c316c75ffda470cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the linear index of a voxel at the specified coordinate.  <a href="#afb250b35e600f366c316c75ffda470cd">More...</a><br /></td></tr>
 <tr class="separator:afb250b35e600f366c316c75ffda470cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a554fa7b1c6815e0c31d90cb09511bf20"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a554fa7b1c6815e0c31d90cb09511bf20">CoordsAt</a> (int idx)</td></tr>
+<tr class="memdesc:a554fa7b1c6815e0c31d90cb09511bf20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse of IndexAt  <a href="#a554fa7b1c6815e0c31d90cb09511bf20">More...</a><br /></td></tr>
 <tr class="separator:a554fa7b1c6815e0c31d90cb09511bf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab5a27b465e15087018803cad4e98514a"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#ab5a27b465e15087018803cad4e98514a">Health</a></td></tr>
+<tr class="memdesc:ab5a27b465e15087018803cad4e98514a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The health of each voxel (0-255)  <a href="#ab5a27b465e15087018803cad4e98514a">More...</a><br /></td></tr>
 <tr class="separator:ab5a27b465e15087018803cad4e98514a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace409f6d5bfb6bf1aeac0e53a9cb0ba7"><td class="memItemLeft" align="right" valign="top">bool []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#ace409f6d5bfb6bf1aeac0e53a9cb0ba7">IsExplored</a></td></tr>
+<tr class="memdesc:ace409f6d5bfb6bf1aeac0e53a9cb0ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not each voxel is explored or is obscured by fog of war.  <a href="#ace409f6d5bfb6bf1aeac0e53a9cb0ba7">More...</a><br /></td></tr>
 <tr class="separator:ace409f6d5bfb6bf1aeac0e53a9cb0ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4bbb31b45da2d8f842f8438c809b309"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_dwarf_corp.html#ab2b7e89670c46189f15c30c411decb38">RampType</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#ad4bbb31b45da2d8f842f8438c809b309">RampTypes</a></td></tr>
+<tr class="memdesc:ad4bbb31b45da2d8f842f8438c809b309"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of ramps of each voxel (all, forward, backward, etc.)  <a href="#ad4bbb31b45da2d8f842f8438c809b309">More...</a><br /></td></tr>
 <tr class="separator:ad4bbb31b45da2d8f842f8438c809b309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c082e1ebc8c01c1f63d97628599782e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a0c082e1ebc8c01c1f63d97628599782e">SizeX</a></td></tr>
+<tr class="memdesc:a0c082e1ebc8c01c1f63d97628599782e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of voxels in X.  <a href="#a0c082e1ebc8c01c1f63d97628599782e">More...</a><br /></td></tr>
 <tr class="separator:a0c082e1ebc8c01c1f63d97628599782e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab58ea0d2474b378626286872f55ea62d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#ab58ea0d2474b378626286872f55ea62d">SizeY</a></td></tr>
+<tr class="memdesc:ab58ea0d2474b378626286872f55ea62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of voxels in Y.  <a href="#ab58ea0d2474b378626286872f55ea62d">More...</a><br /></td></tr>
 <tr class="separator:ab58ea0d2474b378626286872f55ea62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52d2efabdc5fb4a82112213422ba6248"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a52d2efabdc5fb4a82112213422ba6248">SizeZ</a></td></tr>
+<tr class="memdesc:a52d2efabdc5fb4a82112213422ba6248"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of voxels in Z.  <a href="#a52d2efabdc5fb4a82112213422ba6248">More...</a><br /></td></tr>
 <tr class="separator:a52d2efabdc5fb4a82112213422ba6248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf3ed9068e50cfb0cd0fde685d880b6b"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#acf3ed9068e50cfb0cd0fde685d880b6b">SunColors</a></td></tr>
+<tr class="memdesc:acf3ed9068e50cfb0cd0fde685d880b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The intensity of sunlight at each voxel.  <a href="#acf3ed9068e50cfb0cd0fde685d880b6b">More...</a><br /></td></tr>
 <tr class="separator:acf3ed9068e50cfb0cd0fde685d880b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19b9ec23a0af35dbae5e7b44d1371b25"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a19b9ec23a0af35dbae5e7b44d1371b25">Types</a></td></tr>
+<tr class="memdesc:a19b9ec23a0af35dbae5e7b44d1371b25"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type index of each voxel.  <a href="#a19b9ec23a0af35dbae5e7b44d1371b25">More...</a><br /></td></tr>
 <tr class="separator:a19b9ec23a0af35dbae5e7b44d1371b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0ab5e6911505310dfeffcb9fe5c240"><td class="memItemLeft" align="right" valign="top">Color []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#a8a0ab5e6911505310dfeffcb9fe5c240">VertexColors</a></td></tr>
+<tr class="memdesc:a8a0ab5e6911505310dfeffcb9fe5c240"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each vertex of each voxel, a color (sunlight, ambient, dynamic)  <a href="#a8a0ab5e6911505310dfeffcb9fe5c240">More...</a><br /></td></tr>
 <tr class="separator:a8a0ab5e6911505310dfeffcb9fe5c240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab1b843cc0f7b3617aa926192cac7552"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_dwarf_corp_1_1_water_cell.html">WaterCell</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#aab1b843cc0f7b3617aa926192cac7552">Water</a></td></tr>
+<tr class="memdesc:aab1b843cc0f7b3617aa926192cac7552"><td class="mdescLeft">&#160;</td><td class="mdescRight">The water at each voxel.  <a href="#aab1b843cc0f7b3617aa926192cac7552">More...</a><br /></td></tr>
 <tr class="separator:aab1b843cc0f7b3617aa926192cac7552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html" title="VoxelData contains the raw data associated with the VoxelChunk ">VoxelData</a> contains the raw data associated with the <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a> </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a554fa7b1c6815e0c31d90cb09511bf20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a554fa7b1c6815e0c31d90cb09511bf20">&sect;&nbsp;</a></span>CoordsAt()</h2>
 
@@ -144,6 +165,15 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Inverse of IndexAt </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>The linear index.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A grid position of the voxel at the given index.</dd></dl>
 
 </div>
 </div>
@@ -178,6 +208,17 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Superimpose a sub-grid onto the voxel grid such that each vertex is in the center of a grid cell. This returns the linear coordinate of the x, y, z coordinate of that grid cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the vertex.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the vertex.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the vertex.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The linear index of the vertex at that coordinate.</dd></dl>
 
 </div>
 </div>
@@ -219,6 +260,18 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the color of the specified voxel vertex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">v</td><td>The vertex.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The color at that vertex.</dd></dl>
+
 </div>
 </div>
 <a id="afb250b35e600f366c316c75ffda470cd"></a>
@@ -252,6 +305,17 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the linear index of a voxel at the specified coordinate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A linear index of the voxel at that coordinate.</dd></dl>
 
 </div>
 </div>
@@ -299,6 +363,18 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the color of a vertex of a specified voxel to a color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coord of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coord of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coord of the voxel.</td></tr>
+    <tr><td class="paramname">v</td><td>The vertex.</td></tr>
+    <tr><td class="paramname">color</td><td>The color to set the vertex to.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="afee055974f3dae4d780074e7e5b6bbbf"></a>
@@ -339,6 +415,18 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the linear index of the voxel vertex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">v</td><td>The vertex.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A linear coordinate of the verex.</dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -354,6 +442,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The health of each voxel (0-255) </p>
+
 </div>
 </div>
 <a id="ace409f6d5bfb6bf1aeac0e53a9cb0ba7"></a>
@@ -367,6 +457,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Whether or not each voxel is explored or is obscured by fog of war. </p>
 
 </div>
 </div>
@@ -382,6 +474,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The state of ramps of each voxel (all, forward, backward, etc.) </p>
+
 </div>
 </div>
 <a id="a0c082e1ebc8c01c1f63d97628599782e"></a>
@@ -395,6 +489,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The number of voxels in X. </p>
 
 </div>
 </div>
@@ -410,6 +506,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The number of voxels in Y. </p>
+
 </div>
 </div>
 <a id="a52d2efabdc5fb4a82112213422ba6248"></a>
@@ -423,6 +521,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The number of voxels in Z. </p>
 
 </div>
 </div>
@@ -438,6 +538,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The intensity of sunlight at each voxel. </p>
+
 </div>
 </div>
 <a id="a19b9ec23a0af35dbae5e7b44d1371b25"></a>
@@ -451,6 +553,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The type index of each voxel. </p>
 
 </div>
 </div>
@@ -466,6 +570,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>For each vertex of each voxel, a color (sunlight, ambient, dynamic) </p>
+
 </div>
 </div>
 <a id="aab1b843cc0f7b3617aa926192cac7552"></a>
@@ -479,6 +585,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The water at each voxel. </p>
 
 </div>
 </div>

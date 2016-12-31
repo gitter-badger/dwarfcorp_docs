@@ -110,226 +110,328 @@ Inheritance diagram for DwarfCorp.VoxelChunk:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_dwarf_corp_1_1_voxel_chunk_1_1_vertex_color_info.html">VertexColorInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors are lookups into a ramp (0-255) for ambient light, dynamic light and sunlight.  <a href="struct_dwarf_corp_1_1_voxel_chunk_1_1_vertex_color_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html">VoxelData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html" title="VoxelData contains the raw data associated with the VoxelChunk ">VoxelData</a> contains the raw data associated with the <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a>  <a href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9642872bbeb02356962dde769038f8ce"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9642872bbeb02356962dde769038f8ce">VoxelDestroyed</a> (<a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> voxelID)</td></tr>
+<tr class="memdesc:a9642872bbeb02356962dde769038f8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whenever a voxel at the given coordinate is destroyed  <a href="#a9642872bbeb02356962dde769038f8ce">More...</a><br /></td></tr>
 <tr class="separator:a9642872bbeb02356962dde769038f8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7172f3c26059b72f097fd762c5aad1be"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a7172f3c26059b72f097fd762c5aad1be">VoxelExplored</a> (<a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> voxelID)</td></tr>
+<tr class="memdesc:a7172f3c26059b72f097fd762c5aad1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whenever a voxel at the given coordinate is revealed (fog of war cleared)  <a href="#a7172f3c26059b72f097fd762c5aad1be">More...</a><br /></td></tr>
 <tr class="separator:a7172f3c26059b72f097fd762c5aad1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae93aaf95c1d73bd481d2989f5e5d39d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ae93aaf95c1d73bd481d2989f5e5d39d1">VoxelChunk</a> (<a class="el" href="class_dwarf_corp_1_1_chunk_manager.html">ChunkManager</a> manager, Vector3 origin, int tileSize, <a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> id, int sizeX, int sizeY, int sizeZ)</td></tr>
+<tr class="memdesc:ae93aaf95c1d73bd481d2989f5e5d39d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a>  <a href="#ae93aaf95c1d73bd481d2989f5e5d39d1">More...</a><br /></td></tr>
 <tr class="separator:ae93aaf95c1d73bd481d2989f5e5d39d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2dfc9dd2b06f1864f02f938772e792b"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ab2dfc9dd2b06f1864f02f938772e792b">GetID</a> ()</td></tr>
+<tr class="memdesc:ab2dfc9dd2b06f1864f02f938772e792b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the chunk's 3D ID into a linear hash value  <a href="#ab2dfc9dd2b06f1864f02f938772e792b">More...</a><br /></td></tr>
 <tr class="separator:ab2dfc9dd2b06f1864f02f938772e792b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc185ec39e177c2fad02805c68b610fb"><td class="memItemLeft" align="right" valign="top">BoundingBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#abc185ec39e177c2fad02805c68b610fb">GetBoundingBox</a> ()</td></tr>
+<tr class="memdesc:abc185ec39e177c2fad02805c68b610fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bounding box completely containing this chunk and all its voxels  <a href="#abc185ec39e177c2fad02805c68b610fb">More...</a><br /></td></tr>
 <tr class="separator:abc185ec39e177c2fad02805c68b610fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab4019e384ffa433f796469bbbc278f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#aab4019e384ffa433f796469bbbc278f4">NotifyExplored</a> (<a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> voxel)</td></tr>
+<tr class="memdesc:aab4019e384ffa433f796469bbbc278f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">notify all subscribers that the given voxel has been explored  <a href="#aab4019e384ffa433f796469bbbc278f4">More...</a><br /></td></tr>
 <tr class="separator:aab4019e384ffa433f796469bbbc278f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a013b631ef689f294694501ffd22d13dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a013b631ef689f294694501ffd22d13dc">NotifyDestroyed</a> (<a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> voxel)</td></tr>
+<tr class="memdesc:a013b631ef689f294694501ffd22d13dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">notify all subscribers that the given voxel has been destroyed  <a href="#a013b631ef689f294694501ffd22d13dc">More...</a><br /></td></tr>
 <tr class="separator:a013b631ef689f294694501ffd22d13dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdc224b93d0d6113946208fca2d731a1"><td class="memItemLeft" align="right" valign="top">BoundingSphere&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#acdc224b93d0d6113946208fca2d731a1">GetBoundingSphere</a> ()</td></tr>
+<tr class="memdesc:acdc224b93d0d6113946208fca2d731a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a sphere centered on this voxel chunk which completely encompasses the chunk.  <a href="#acdc224b93d0d6113946208fca2d731a1">More...</a><br /></td></tr>
 <tr class="separator:acdc224b93d0d6113946208fca2d731a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f3b9f36448553b5faf2087c132ddfd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a8f3b9f36448553b5faf2087c132ddfd5">Update</a> (<a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> t)</td></tr>
+<tr class="memdesc:a8f3b9f36448553b5faf2087c132ddfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the chunk.  <a href="#a8f3b9f36448553b5faf2087c132ddfd5">More...</a><br /></td></tr>
 <tr class="separator:a8f3b9f36448553b5faf2087c132ddfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af51bfe3bc957e68af81105ebe71319ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#af51bfe3bc957e68af81105ebe71319ff">Render</a> (GraphicsDevice device)</td></tr>
+<tr class="memdesc:af51bfe3bc957e68af81105ebe71319ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the chunk to the screen.  <a href="#af51bfe3bc957e68af81105ebe71319ff">More...</a><br /></td></tr>
 <tr class="separator:af51bfe3bc957e68af81105ebe71319ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1adf81ddfb94b0a6ea9eac8bff5afb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac1adf81ddfb94b0a6ea9eac8bff5afb6">RebuildLiquids</a> ()</td></tr>
+<tr class="memdesc:ac1adf81ddfb94b0a6ea9eac8bff5afb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds the liquid vertex buffers (water, lava, etc.) ascciated with this chunk.  <a href="#ac1adf81ddfb94b0a6ea9eac8bff5afb6">More...</a><br /></td></tr>
 <tr class="separator:ac1adf81ddfb94b0a6ea9eac8bff5afb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c18a36d5aafc568eb4182245f9d3e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a37c18a36d5aafc568eb4182245f9d3e8">MakeVoxel</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a37c18a36d5aafc568eb4182245f9d3e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new voxel referencing the one stored at x, y, z in this chunk  <a href="#a37c18a36d5aafc568eb4182245f9d3e8">More...</a><br /></td></tr>
 <tr class="separator:a37c18a36d5aafc568eb4182245f9d3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd261891700333678fd786c2a59cf6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a2cd261891700333678fd786c2a59cf6f">BuildGrassMotes</a> (<a class="el" href="class_dwarf_corp_1_1_overworld.html#ae4a9467f0c0c9d9d6cf30c3bd3734cf2">Overworld.Biome</a> biome)</td></tr>
+<tr class="memdesc:a2cd261891700333678fd786c2a59cf6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the detail motes associated with this chunk and a particular biome.  <a href="#a2cd261891700333678fd786c2a59cf6f">More...</a><br /></td></tr>
 <tr class="separator:a2cd261891700333678fd786c2a59cf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae244c83459c84f8c9c608c2fa6348203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ae244c83459c84f8c9c608c2fa6348203">UpdateRamps</a> ()</td></tr>
+<tr class="memdesc:ae244c83459c84f8c9c608c2fa6348203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the sloping voxels ramp state.  <a href="#ae244c83459c84f8c9c608c2fa6348203">More...</a><br /></td></tr>
 <tr class="separator:ae244c83459c84f8c9c608c2fa6348203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9541a632a6bcfba7f03c5e7fff84a46e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9541a632a6bcfba7f03c5e7fff84a46e">BuildGrassMotes</a> ()</td></tr>
+<tr class="memdesc:a9541a632a6bcfba7f03c5e7fff84a46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the grass detail motes and determines the chunk's biome.  <a href="#a9541a632a6bcfba7f03c5e7fff84a46e">More...</a><br /></td></tr>
 <tr class="separator:a9541a632a6bcfba7f03c5e7fff84a46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada7d664e02c41c42628054c0fcf8b36d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ada7d664e02c41c42628054c0fcf8b36d">Rebuild</a> (GraphicsDevice g)</td></tr>
+<tr class="memdesc:ada7d664e02c41c42628054c0fcf8b36d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds the vertex buffer, grass motes, and other details of the chunk.  <a href="#ada7d664e02c41c42628054c0fcf8b36d">More...</a><br /></td></tr>
 <tr class="separator:ada7d664e02c41c42628054c0fcf8b36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a960c30b98c6ce49b18c3f8bb89b48e6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a960c30b98c6ce49b18c3f8bb89b48e6c">BuildPrimitive</a> (GraphicsDevice g)</td></tr>
+<tr class="memdesc:a960c30b98c6ce49b18c3f8bb89b48e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new vertex buffer for this chunk.  <a href="#a960c30b98c6ce49b18c3f8bb89b48e6c">More...</a><br /></td></tr>
 <tr class="separator:a960c30b98c6ce49b18c3f8bb89b48e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac84e469f3c8abb595e2dd3c3c6be4f7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac84e469f3c8abb595e2dd3c3c6be4f7b">NotifyChangedComponents</a> ()</td></tr>
+<tr class="memdesc:ac84e469f3c8abb595e2dd3c3c6be4f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and notifies all components that are inside the chunk that the chunk has been modified.  <a href="#ac84e469f3c8abb595e2dd3c3c6be4f7b">More...</a><br /></td></tr>
 <tr class="separator:ac84e469f3c8abb595e2dd3c3c6be4f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b8050a1de144470d88a857bf1c847ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a8b8050a1de144470d88a857bf1c847ad">Destroy</a> (GraphicsDevice device)</td></tr>
+<tr class="memdesc:a8b8050a1de144470d88a857bf1c847ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the primitive and associated detail motes.  <a href="#a8b8050a1de144470d88a857bf1c847ad">More...</a><br /></td></tr>
 <tr class="separator:a8b8050a1de144470d88a857bf1c847ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7545a64b751fabcc3537a657c5a87d64"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a7545a64b751fabcc3537a657c5a87d64">WorldToGrid</a> (Vector3 worldLocation)</td></tr>
+<tr class="memdesc:a7545a64b751fabcc3537a657c5a87d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a vector from world coordinates to chunk-relative coordinates.  <a href="#a7545a64b751fabcc3537a657c5a87d64">More...</a><br /></td></tr>
 <tr class="separator:a7545a64b751fabcc3537a657c5a87d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30459a72c48e0d719a3ce9e98283222b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a30459a72c48e0d719a3ce9e98283222b">GetVoxelAtWorldLocation</a> (Vector3 worldLocation, ref <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> voxel)</td></tr>
+<tr class="memdesc:a30459a72c48e0d719a3ce9e98283222b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the voxel at a world location.  <a href="#a30459a72c48e0d719a3ce9e98283222b">More...</a><br /></td></tr>
 <tr class="separator:a30459a72c48e0d719a3ce9e98283222b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a613c0cc998a8cc52f835d92c2b5221f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a613c0cc998a8cc52f835d92c2b5221f7">IsGridPositionValid</a> (Vector3 grid)</td></tr>
+<tr class="memdesc:a613c0cc998a8cc52f835d92c2b5221f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the grid position (relative to the chunk's origin) is inside the chunk.  <a href="#a613c0cc998a8cc52f835d92c2b5221f7">More...</a><br /></td></tr>
 <tr class="separator:a613c0cc998a8cc52f835d92c2b5221f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d0e050627435c5c5f818f3cc271302"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a59d0e050627435c5c5f818f3cc271302">IsWorldLocationValid</a> (Vector3 worldLocation)</td></tr>
+<tr class="memdesc:a59d0e050627435c5c5f818f3cc271302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a specified position in world coordinates is inside the chunk.  <a href="#a59d0e050627435c5c5f818f3cc271302">More...</a><br /></td></tr>
 <tr class="separator:a59d0e050627435c5c5f818f3cc271302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9daf97359917962963a24ea4c6b9718d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9daf97359917962963a24ea4c6b9718d">IsCellValid</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a9daf97359917962963a24ea4c6b9718d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the voxel at [x, y, z] exists.  <a href="#a9daf97359917962963a24ea4c6b9718d">More...</a><br /></td></tr>
 <tr class="separator:a9daf97359917962963a24ea4c6b9718d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331c8090c5d0ce8ddac8d0901ab7ba11"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a331c8090c5d0ce8ddac8d0901ab7ba11">GetIntensity</a> (<a class="el" href="class_dwarf_corp_1_1_dynamic_light.html">DynamicLight</a> light, byte lightIntensity, <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> voxel)</td></tr>
+<tr class="memdesc:a331c8090c5d0ce8ddac8d0901ab7ba11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the brightness of a dynamic light at the given voxel..  <a href="#a331c8090c5d0ce8ddac8d0901ab7ba11">More...</a><br /></td></tr>
 <tr class="separator:a331c8090c5d0ce8ddac8d0901ab7ba11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae865b8a730e49345ac4e4eacdd396920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ae865b8a730e49345ac4e4eacdd396920">ResetSunlightIgnoreEdges</a> (byte sunColor)</td></tr>
+<tr class="memdesc:ae865b8a730e49345ac4e4eacdd396920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the sunlight of the voxels in the chunk without considering chunk edges to the specified intensity.  <a href="#ae865b8a730e49345ac4e4eacdd396920">More...</a><br /></td></tr>
 <tr class="separator:ae865b8a730e49345ac4e4eacdd396920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a4c00bb43d4e4bb5300add6ef20518b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a1a4c00bb43d4e4bb5300add6ef20518b">ResetSunlight</a> (byte sunColor)</td></tr>
+<tr class="memdesc:a1a4c00bb43d4e4bb5300add6ef20518b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the sunlight of the voxels in the chunk to the specified intensity.  <a href="#a1a4c00bb43d4e4bb5300add6ef20518b">More...</a><br /></td></tr>
 <tr class="separator:a1a4c00bb43d4e4bb5300add6ef20518b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0635417c1bf72de7bfaf8ba6b01a7737"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a0635417c1bf72de7bfaf8ba6b01a7737">GetTotalWaterHeight</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> voxRef)</td></tr>
+<tr class="memdesc:a0635417c1bf72de7bfaf8ba6b01a7737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total height of water above the given voxel by summing up all of the water levels for voxels above this one.  <a href="#a0635417c1bf72de7bfaf8ba6b01a7737">More...</a><br /></td></tr>
 <tr class="separator:a0635417c1bf72de7bfaf8ba6b01a7737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4b487ff8c8e43cc140cd3effe0731b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a3b4b487ff8c8e43cc140cd3effe0731b">GetTotalWaterHeightCells</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> voxRef)</td></tr>
+<tr class="memdesc:a3b4b487ff8c8e43cc140cd3effe0731b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total water height in voxels above the current voxel.  <a href="#a3b4b487ff8c8e43cc140cd3effe0731b">More...</a><br /></td></tr>
 <tr class="separator:a3b4b487ff8c8e43cc140cd3effe0731b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a482de97597cf3cb4aa0a2cb0a8bfe241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a482de97597cf3cb4aa0a2cb0a8bfe241">UpdateSunlight</a> (byte sunColor)</td></tr>
+<tr class="memdesc:a482de97597cf3cb4aa0a2cb0a8bfe241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the sunlight for all cells in the chunk by casting rays of sunlight downward from the sky.  <a href="#a482de97597cf3cb4aa0a2cb0a8bfe241">More...</a><br /></td></tr>
 <tr class="separator:a482de97597cf3cb4aa0a2cb0a8bfe241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9d1a4123f54a0e9f8067ea598f13f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a1a9d1a4123f54a0e9f8067ea598f13f9">GetSharedVertices</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v, <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> vertex, List&lt; KeyValuePair&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a>, List&lt; <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> &gt;&gt;&gt; vertices, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; neighbors)</td></tr>
+<tr class="memdesc:a1a9d1a4123f54a0e9f8067ea598f13f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the shared vertices between a voxel and all its neighbors that touch a given vertex of that voxel.  <a href="#a1a9d1a4123f54a0e9f8067ea598f13f9">More...</a><br /></td></tr>
 <tr class="separator:a1a9d1a4123f54a0e9f8067ea598f13f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a744e14ffa5c61a22a66f1ae059443d63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a744e14ffa5c61a22a66f1ae059443d63">CalculateVertexLighting</a> ()</td></tr>
+<tr class="memdesc:a744e14ffa5c61a22a66f1ae059443d63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the vertex lighting for all voxels in the chunk.  <a href="#a744e14ffa5c61a22a66f1ae059443d63">More...</a><br /></td></tr>
 <tr class="separator:a744e14ffa5c61a22a66f1ae059443d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbbb5883b6d9c42682c14c942b09ddd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#acbbb5883b6d9c42682c14c942b09ddd6">CalculateGlobalLight</a> ()</td></tr>
+<tr class="memdesc:acbbb5883b6d9c42682c14c942b09ddd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates thhe sunlight.  <a href="#acbbb5883b6d9c42682c14c942b09ddd6">More...</a><br /></td></tr>
 <tr class="separator:acbbb5883b6d9c42682c14c942b09ddd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5ed83c877796750bc310235b8f8916"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#abf5ed83c877796750bc310235b8f8916">GetFilledVoxelGridHeightAt</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:abf5ed83c877796750bc310235b8f8916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the height of the first filled voxel beneath the specified coordinates.  <a href="#abf5ed83c877796750bc310235b8f8916">More...</a><br /></td></tr>
 <tr class="separator:abf5ed83c877796750bc310235b8f8916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19ac52a92f04383e55a9399918bb3ef4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a19ac52a92f04383e55a9399918bb3ef4">GetFilledHeightOrWaterAt</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a19ac52a92f04383e55a9399918bb3ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the height of the first filled voxel beneath the specified coordinates, considering any cell with water "filled".  <a href="#a19ac52a92f04383e55a9399918bb3ef4">More...</a><br /></td></tr>
 <tr class="separator:a19ac52a92f04383e55a9399918bb3ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bc450a9d451ae8ff52a83090a530cc8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a6bc450a9d451ae8ff52a83090a530cc8">NeedsViewingLevelChange</a> ()</td></tr>
+<tr class="memdesc:a6bc450a9d451ae8ff52a83090a530cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether or not this chunk was affected by the chunk slice changing.  <a href="#a6bc450a9d451ae8ff52a83090a530cc8">More...</a><br /></td></tr>
 <tr class="separator:a6bc450a9d451ae8ff52a83090a530cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ef50c54f1c8de9f2e8045a0eb96f674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a0ef50c54f1c8de9f2e8045a0eb96f674">GetNeighborsVertex</a> (<a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> vertex, <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; toReturn)</td></tr>
+<tr class="memdesc:a0ef50c54f1c8de9f2e8045a0eb96f674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of neighboring voxels of a vertex.  <a href="#a0ef50c54f1c8de9f2e8045a0eb96f674">More...</a><br /></td></tr>
 <tr class="separator:a0ef50c54f1c8de9f2e8045a0eb96f674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ef006a203f00f1d0bd198a4934faf5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a4ef006a203f00f1d0bd198a4934faf5d">IsInterior</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a4ef006a203f00f1d0bd198a4934faf5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the specified x, y and z grid coordinate is inside the chunk, or if it lies on the border.  <a href="#a4ef006a203f00f1d0bd198a4934faf5d">More...</a><br /></td></tr>
 <tr class="separator:a4ef006a203f00f1d0bd198a4934faf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac48b7e14425d4834109e1124d346bb0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_dwarf_corp.html#abe7fae9e027ed31d10e6dc418379ea6a">TransitionTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac48b7e14425d4834109e1124d346bb0c">ComputeTransitionValue</a> (int x, int y, int z, <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a>[] neighbors)</td></tr>
+<tr class="memdesc:ac48b7e14425d4834109e1124d346bb0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a binary hash of the voxel at [x, y, z] telling us which transition texture to use for the top of the voxel.  <a href="#ac48b7e14425d4834109e1124d346bb0c">More...</a><br /></td></tr>
 <tr class="separator:ac48b7e14425d4834109e1124d346bb0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08478a9ad61fd2be5742fc245bd25648"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a08478a9ad61fd2be5742fc245bd25648">Get2DManhattanNeighbors</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a>[] neighbors, int x, int y, int z)</td></tr>
+<tr class="memdesc:a08478a9ad61fd2be5742fc245bd25648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the neighbors of a voxel that touch its x or z faces.  <a href="#a08478a9ad61fd2be5742fc245bd25648">More...</a><br /></td></tr>
 <tr class="separator:a08478a9ad61fd2be5742fc245bd25648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a388da6f050c350f8dc63f8a09039e2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a388da6f050c350f8dc63f8a09039e2c1">GetNeighborsSuccessors</a> (List&lt; Vector3 &gt; succ, int x, int y, int z, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; toReturn)</td></tr>
+<tr class="memdesc:a388da6f050c350f8dc63f8a09039e2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the neighbors of a voxel given an arbitrary successors list.  <a href="#a388da6f050c350f8dc63f8a09039e2c1">More...</a><br /></td></tr>
 <tr class="separator:a388da6f050c350f8dc63f8a09039e2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d5150d9732bc1824c5895fc1cbb4690"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9d5150d9732bc1824c5895fc1cbb4690">GetNeighborsVertex</a> (<a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> vertex, int x, int y, int z, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; toReturn)</td></tr>
+<tr class="memdesc:a9d5150d9732bc1824c5895fc1cbb4690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the neighbors of a vertex.  <a href="#a9d5150d9732bc1824c5895fc1cbb4690">More...</a><br /></td></tr>
 <tr class="separator:a9d5150d9732bc1824c5895fc1cbb4690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84396c90baf4450dd5cb7fb3bc91205f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a84396c90baf4450dd5cb7fb3bc91205f">GetNeighborsVertexDiag</a> (<a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> vertex, int x, int y, int z, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; toReturn)</td></tr>
+<tr class="memdesc:a84396c90baf4450dd5cb7fb3bc91205f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the neighbors a vertex that also share its Y coordinate.  <a href="#a84396c90baf4450dd5cb7fb3bc91205f">More...</a><br /></td></tr>
 <tr class="separator:a84396c90baf4450dd5cb7fb3bc91205f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d53d2abd4ab631b60892ef68fcf67e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac6d53d2abd4ab631b60892ef68fcf67e">GetNeighborsEuclidean</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v)</td></tr>
+<tr class="memdesc:ac6d53d2abd4ab631b60892ef68fcf67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the 26 neighbors that touch the given voxel.  <a href="#ac6d53d2abd4ab631b60892ef68fcf67e">More...</a><br /></td></tr>
 <tr class="separator:ac6d53d2abd4ab631b60892ef68fcf67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ca69c59d0d6b71d6fa3f8d5472fa358"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a3ca69c59d0d6b71d6fa3f8d5472fa358">GetNeighborsEuclidean</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a3ca69c59d0d6b71d6fa3f8d5472fa358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the 26 neighbors that touch the given voxel.  <a href="#a3ca69c59d0d6b71d6fa3f8d5472fa358">More...</a><br /></td></tr>
 <tr class="separator:a3ca69c59d0d6b71d6fa3f8d5472fa358"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434666fd9bfe5565b3bc3d06fb67e27a"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a434666fd9bfe5565b3bc3d06fb67e27a">AllocateVoxels</a> (int num)</td></tr>
+<tr class="memdesc:a434666fd9bfe5565b3bc3d06fb67e27a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a fixed number of voxels.  <a href="#a434666fd9bfe5565b3bc3d06fb67e27a">More...</a><br /></td></tr>
 <tr class="separator:a434666fd9bfe5565b3bc3d06fb67e27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e1a54460d9114b08bba3acaa29d7c76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a5e1a54460d9114b08bba3acaa29d7c76">GetNeighborsManhattan</a> (int x, int y, int z, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; neighbors)</td></tr>
+<tr class="memdesc:a5e1a54460d9114b08bba3acaa29d7c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the 6 neighbors that touch the faces of this voxel.  <a href="#a5e1a54460d9114b08bba3acaa29d7c76">More...</a><br /></td></tr>
 <tr class="separator:a5e1a54460d9114b08bba3acaa29d7c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af32ab1993798d2bf28f12146f375b000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#af32ab1993798d2bf28f12146f375b000">NotifyTotalRebuild</a> (bool neighbors)</td></tr>
+<tr class="memdesc:af32ab1993798d2bf28f12146f375b000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the chunk that it should completely rebuild its vertex buffer, liquid primitives, ramps, and other properties.  <a href="#af32ab1993798d2bf28f12146f375b000">More...</a><br /></td></tr>
 <tr class="separator:af32ab1993798d2bf28f12146f375b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43c9053186d7e78e86b8c25bd5ac68ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a43c9053186d7e78e86b8c25bd5ac68ed">HasNoNeighbors</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v)</td></tr>
+<tr class="memdesc:a43c9053186d7e78e86b8c25bd5ac68ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the given voxel has no filled neighbors.  <a href="#a43c9053186d7e78e86b8c25bd5ac68ed">More...</a><br /></td></tr>
 <tr class="separator:a43c9053186d7e78e86b8c25bd5ac68ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0164e69cd4e94ed0b94b649d35144fa0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a0164e69cd4e94ed0b94b649d35144fa0">IsCompletelySurrounded</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v, bool ramps)</td></tr>
+<tr class="memdesc:a0164e69cd4e94ed0b94b649d35144fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the specified voxel is completely surrounded by other filled voxels.  <a href="#a0164e69cd4e94ed0b94b649d35144fa0">More...</a><br /></td></tr>
 <tr class="separator:a0164e69cd4e94ed0b94b649d35144fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e690272d4949ea0e57bce1433be9a61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a8e690272d4949ea0e57bce1433be9a61">IsCompletelySurrounded</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v)</td></tr>
+<tr class="memdesc:a8e690272d4949ea0e57bce1433be9a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the specified voxel is completely surrounded by other filled voxels.  <a href="#a8e690272d4949ea0e57bce1433be9a61">More...</a><br /></td></tr>
 <tr class="separator:a8e690272d4949ea0e57bce1433be9a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c8978c5f3937e2a1cc9291263b5774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ae6c8978c5f3937e2a1cc9291263b5774">GetNeighborsManhattan</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> v, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; toReturn)</td></tr>
+<tr class="memdesc:ae6c8978c5f3937e2a1cc9291263b5774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the 6 neighbors that are coincident to the voxel's faces.  <a href="#ae6c8978c5f3937e2a1cc9291263b5774">More...</a><br /></td></tr>
 <tr class="separator:ae6c8978c5f3937e2a1cc9291263b5774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84066aaac2e11b62901ed44f4c1a8a81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a84066aaac2e11b62901ed44f4c1a8a81">ResetWaterBuffer</a> ()</td></tr>
+<tr class="memdesc:a84066aaac2e11b62901ed44f4c1a8a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the state of water cells in the chunk.  <a href="#a84066aaac2e11b62901ed44f4c1a8a81">More...</a><br /></td></tr>
 <tr class="separator:a84066aaac2e11b62901ed44f4c1a8a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084c4a6c767caa87e754234b9cd259ac"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a084c4a6c767caa87e754234b9cd259ac">GridToWorld</a> (Vector3 gridCoord)</td></tr>
+<tr class="memdesc:a084c4a6c767caa87e754234b9cd259ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the world coordinates of a specified chunk-relative grid coordinate.  <a href="#a084c4a6c767caa87e754234b9cd259ac">More...</a><br /></td></tr>
 <tr class="separator:a084c4a6c767caa87e754234b9cd259ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82a0bfe190e812afc34606d0794b7c6c"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a82a0bfe190e812afc34606d0794b7c6c">GetVoxelsIntersecting</a> (BoundingBox box)</td></tr>
+<tr class="memdesc:a82a0bfe190e812afc34606d0794b7c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the voxels intersecting the given bounding box.  <a href="#a82a0bfe190e812afc34606d0794b7c6c">More...</a><br /></td></tr>
 <tr class="separator:a82a0bfe190e812afc34606d0794b7c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af23aabb6698afb9429b3a1154da99d04"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#af23aabb6698afb9429b3a1154da99d04">InitializeStatics</a> ()</td></tr>
+<tr class="memdesc:af23aabb6698afb9429b3a1154da99d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate static data for all <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a> instances  <a href="#af23aabb6698afb9429b3a1154da99d04">More...</a><br /></td></tr>
 <tr class="separator:af23aabb6698afb9429b3a1154da99d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ff0c3abca4c5335041d299970fd7c7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html">VoxelData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ae8ff0c3abca4c5335041d299970fd7c7">AllocateData</a> (int sx, int sy, int sz)</td></tr>
+<tr class="memdesc:ae8ff0c3abca4c5335041d299970fd7c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate the raw data associated with this voxel.  <a href="#ae8ff0c3abca4c5335041d299970fd7c7">More...</a><br /></td></tr>
 <tr class="separator:ae8ff0c3abca4c5335041d299970fd7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41b962af5e167a9acc98b4f81c748332"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_dwarf_corp_1_1_water_cell.html">WaterCell</a> [][][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a41b962af5e167a9acc98b4f81c748332">WaterAllocate</a> (int sx, int sy, int sz)</td></tr>
+<tr class="memdesc:a41b962af5e167a9acc98b4f81c748332"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED. DO NOT USE. Water data is now stored inside VoxelData!  <a href="#a41b962af5e167a9acc98b4f81c748332">More...</a><br /></td></tr>
 <tr class="separator:a41b962af5e167a9acc98b4f81c748332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8593a7852c79c398fd0196528a12ea1a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a8593a7852c79c398fd0196528a12ea1a">GetNearestDelta</a> (Vector3 position)</td></tr>
+<tr class="memdesc:a8593a7852c79c398fd0196528a12ea1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given some position relative to a voxel's leastmost coordinate, returns the vertex closest to that position.  <a href="#a8593a7852c79c398fd0196528a12ea1a">More...</a><br /></td></tr>
 <tr class="separator:a8593a7852c79c398fd0196528a12ea1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a208c07bda600e70e4c4c43d74d871299"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_dwarf_corp.html#a6175a6088b77280a629a15b7ca8f8e5b">BoxFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a208c07bda600e70e4c4c43d74d871299">GetNearestFace</a> (Vector3 position)</td></tr>
+<tr class="memdesc:a208c07bda600e70e4c4c43d74d871299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a position relative to a voxel's leastmost coordinate, returns the face closest to that position.  <a href="#a208c07bda600e70e4c4c43d74d871299">More...</a><br /></td></tr>
 <tr class="separator:a208c07bda600e70e4c4c43d74d871299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848ebafe90e263acc5af224e5d5c63b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a848ebafe90e263acc5af224e5d5c63b1">CalculateVertexLight</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> vox, <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a> face, <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html">ChunkManager</a> chunks, List&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> &gt; neighbors, ref <a class="el" href="struct_dwarf_corp_1_1_voxel_chunk_1_1_vertex_color_info.html">VertexColorInfo</a> color)</td></tr>
+<tr class="memdesc:a848ebafe90e263acc5af224e5d5c63b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the vertex color for a specified voxel and vertex  <a href="#a848ebafe90e263acc5af224e5d5c63b1">More...</a><br /></td></tr>
 <tr class="separator:a848ebafe90e263acc5af224e5d5c63b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2678aad5c4f73921f0006e7a1069036c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a2678aad5c4f73921f0006e7a1069036c">NewLiquidReceived</a> = false</td></tr>
+<tr class="memdesc:a2678aad5c4f73921f0006e7a1069036c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the water manager has updated the liquid stored in this chunk (water, lava, etc.). This means we must update the geometry of the chunk.  <a href="#a2678aad5c4f73921f0006e7a1069036c">More...</a><br /></td></tr>
 <tr class="separator:a2678aad5c4f73921f0006e7a1069036c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9bc00b4f6437ad2b67430d5936ebda1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_list_primitive.html">VoxelListPrimitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac9bc00b4f6437ad2b67430d5936ebda1">NewPrimitive</a> = null</td></tr>
+<tr class="memdesc:ac9bc00b4f6437ad2b67430d5936ebda1"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> updates the geometry of this chunk, it puts the new vertex buffer here, rather than directly setting the vertex buffer. This is to help with cases where the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> destroys the vertex buffer as it is being drawn, or other craziness that can happen with threading.  <a href="#ac9bc00b4f6437ad2b67430d5936ebda1">More...</a><br /></td></tr>
 <tr class="separator:ac9bc00b4f6437ad2b67430d5936ebda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af375160742e19099caec978d56175f92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#af375160742e19099caec978d56175f92">NewPrimitiveReceived</a> = false</td></tr>
+<tr class="memdesc:af375160742e19099caec978d56175f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the chunk has received a new vertex buffer, this is set to true.  <a href="#af375160742e19099caec978d56175f92">More...</a><br /></td></tr>
 <tr class="separator:af375160742e19099caec978d56175f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac44f002724b229bb6b1116e934670538"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac44f002724b229bb6b1116e934670538">m_fogOfWar</a> = 1</td></tr>
+<tr class="memdesc:ac44f002724b229bb6b1116e934670538"><td class="mdescLeft">&#160;</td><td class="mdescRight">ambient lighting for voxels that are hidden by fog of war  <a href="#ac44f002724b229bb6b1116e934670538">More...</a><br /></td></tr>
 <tr class="separator:ac44f002724b229bb6b1116e934670538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9269e59db317d2cf1f1d6c3b576710cc"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a>, List&lt; Vector3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9269e59db317d2cf1f1d6c3b576710cc">VertexSuccessors</a></td></tr>
+<tr class="memdesc:a9269e59db317d2cf1f1d6c3b576710cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary caching a map from each of the voxel's 8 vertices to a list of neighbors which touch that vertex. This is useful for determining which vertices are visible from which voxels (a necessary computation for lighting). Maps VoxelVertex to normalized directions corresponding to the neighbors.  <a href="#a9269e59db317d2cf1f1d6c3b576710cc">More...</a><br /></td></tr>
 <tr class="separator:a9269e59db317d2cf1f1d6c3b576710cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b73035fa8bf394b4481b11cc3e75e0"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a>, List&lt; Vector3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a16b73035fa8bf394b4481b11cc3e75e0">VertexSuccessorsDiag</a></td></tr>
+<tr class="memdesc:a16b73035fa8bf394b4481b11cc3e75e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary caching a map from each of the voxel's 8 vertices to a list of neighbors adjacent to that vertex, and which have the same Y value as the voxel in question. This is useful for determining which vertices are visible from which voxels (a necessary computation for lighting). Maps VoxelVertex to normalized directions corresponding to the neighbors.  <a href="#a16b73035fa8bf394b4481b11cc3e75e0">More...</a><br /></td></tr>
 <tr class="separator:a16b73035fa8bf394b4481b11cc3e75e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34e9b0e17fa446fa144daafb94f3581c"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="namespace_dwarf_corp.html#a6175a6088b77280a629a15b7ca8f8e5b">BoxFace</a>, <a class="el" href="namespace_dwarf_corp.html#af768583e10dbc6bc6008eaf788800a58">VoxelVertex</a>[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a34e9b0e17fa446fa144daafb94f3581c">FaceVertices</a></td></tr>
+<tr class="memdesc:a34e9b0e17fa446fa144daafb94f3581c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary caching a map from each of the voxel's 6 faces to a list of 4 vertices. This is useful for determining which vertices are visible on a face, allowing us to hide invisible vertices.  <a href="#a34e9b0e17fa446fa144daafb94f3581c">More...</a><br /></td></tr>
 <tr class="separator:a34e9b0e17fa446fa144daafb94f3581c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b245ecc331d87e9d04bde535a1bbda"><td class="memItemLeft" align="right" valign="top">static List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#aa5b245ecc331d87e9d04bde535a1bbda">ManhattanSuccessors</a></td></tr>
+<tr class="memdesc:aa5b245ecc331d87e9d04bde535a1bbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of normalized offsets corresponding to the 6 neighbors of a voxel which touch exactly one of the voxel's faces. (That is [1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, -1, 0], [0, 0, 1], [0, 0, -1]) This is done for caching.  <a href="#aa5b245ecc331d87e9d04bde535a1bbda">More...</a><br /></td></tr>
 <tr class="separator:aa5b245ecc331d87e9d04bde535a1bbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39a9ef7593d6b73555c9035b41a7d2db"><td class="memItemLeft" align="right" valign="top">static List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a39a9ef7593d6b73555c9035b41a7d2db">Manhattan2DSuccessors</a></td></tr>
+<tr class="memdesc:a39a9ef7593d6b73555c9035b41a7d2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caches a list of 4 offsets corresponding to the neighbors of a voxel which touch its x or z faces and which have the same y coordinate.  <a href="#a39a9ef7593d6b73555c9035b41a7d2db">More...</a><br /></td></tr>
 <tr class="separator:a39a9ef7593d6b73555c9035b41a7d2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ab8492ba4600e04aa2e58b3ded90797"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9ab8492ba4600e04aa2e58b3ded90797">MoteNoise</a> = new <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a>(0)</td></tr>
+<tr class="memdesc:a9ab8492ba4600e04aa2e58b3ded90797"><td class="mdescLeft">&#160;</td><td class="mdescRight">This perlin noise determines how dense detail grass motes are, giving us smooth clumps of grass.  <a href="#a9ab8492ba4600e04aa2e58b3ded90797">More...</a><br /></td></tr>
 <tr class="separator:a9ab8492ba4600e04aa2e58b3ded90797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a851a687cb7eb651c3d1e3bfac3109948"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a851a687cb7eb651c3d1e3bfac3109948">MoteScaleNoise</a> = new <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a>(250)</td></tr>
+<tr class="memdesc:a851a687cb7eb651c3d1e3bfac3109948"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise determines how much detail grass motes get scaled, giving us smooth transitions between large and small blades of grass.  <a href="#a851a687cb7eb651c3d1e3bfac3109948">More...</a><br /></td></tr>
 <tr class="separator:a851a687cb7eb651c3d1e3bfac3109948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ae578953acc8cbdfb13d04a0592af172a"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, List&lt; <a class="el" href="class_dwarf_corp_1_1_instance_data.html">InstanceData</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ae578953acc8cbdfb13d04a0592af172a">Motes</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae578953acc8cbdfb13d04a0592af172a"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each kind of detail mode, contains a list of positions and colors associated with this chunk.  <a href="#ae578953acc8cbdfb13d04a0592af172a">More...</a><br /></td></tr>
 <tr class="separator:ae578953acc8cbdfb13d04a0592af172a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4275418146b967003cc587704ce679be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_list_primitive.html">VoxelListPrimitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a4275418146b967003cc587704ce679be">Primitive</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4275418146b967003cc587704ce679be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vertex buffer associated with this chunk's geometry.  <a href="#a4275418146b967003cc587704ce679be">More...</a><br /></td></tr>
 <tr class="separator:a4275418146b967003cc587704ce679be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb6bc7003dd3894809e99f08cac38b6c"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="namespace_dwarf_corp.html#afa55b9df468a1181fb8bcdca224fa92c">LiquidType</a>, <a class="el" href="class_dwarf_corp_1_1_liquid_primitive.html">LiquidPrimitive</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#adb6bc7003dd3894809e99f08cac38b6c">Liquids</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:adb6bc7003dd3894809e99f08cac38b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains a dictionary from liquid type (water, lava, etc.) to vertex buffers for this chunk.  <a href="#adb6bc7003dd3894809e99f08cac38b6c">More...</a><br /></td></tr>
 <tr class="separator:adb6bc7003dd3894809e99f08cac38b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dd7692eb16840ae4cc86f140034cf85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk_1_1_voxel_data.html">VoxelData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a1dd7692eb16840ae4cc86f140034cf85">Data</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1dd7692eb16840ae4cc86f140034cf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The raw data associated with this chunk's voxels.  <a href="#a1dd7692eb16840ae4cc86f140034cf85">More...</a><br /></td></tr>
 <tr class="separator:a1dd7692eb16840ae4cc86f140034cf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7173aadfb800dd4dae7b18adc8758c1e"><td class="memItemLeft" align="right" valign="top">ConcurrentDictionary&lt; <a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a>, byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a7173aadfb800dd4dae7b18adc8758c1e">Springs</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7173aadfb800dd4dae7b18adc8758c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED. Springs were originally sources of liquid. They were removed because they caused excessive flooding.  <a href="#a7173aadfb800dd4dae7b18adc8758c1e">More...</a><br /></td></tr>
 <tr class="separator:a7173aadfb800dd4dae7b18adc8758c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a951d839f3518179388d0ec922cbba77f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a951d839f3518179388d0ec922cbba77f">SizeX</a><code> [get]</code></td></tr>
+<tr class="memdesc:a951d839f3518179388d0ec922cbba77f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of voxels in the X direction  <a href="#a951d839f3518179388d0ec922cbba77f">More...</a><br /></td></tr>
 <tr class="separator:a951d839f3518179388d0ec922cbba77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a561517d4387767f4ad3d52507c1e87a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a561517d4387767f4ad3d52507c1e87a2">SizeY</a><code> [get]</code></td></tr>
+<tr class="memdesc:a561517d4387767f4ad3d52507c1e87a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of voxels in the Y direction  <a href="#a561517d4387767f4ad3d52507c1e87a2">More...</a><br /></td></tr>
 <tr class="separator:a561517d4387767f4ad3d52507c1e87a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e9879d68684d0fa4fc9d192c1918fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#ac4e9879d68684d0fa4fc9d192c1918fa">SizeZ</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac4e9879d68684d0fa4fc9d192c1918fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of voxels in the Z direction  <a href="#ac4e9879d68684d0fa4fc9d192c1918fa">More...</a><br /></td></tr>
 <tr class="separator:ac4e9879d68684d0fa4fc9d192c1918fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5b3848c35dcaaed4ec78acf18a1ba3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a5a5b3848c35dcaaed4ec78acf18a1ba3">IsVisible</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5a5b3848c35dcaaed4ec78acf18a1ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chunk should be drawn this frame.  <a href="#a5a5b3848c35dcaaed4ec78acf18a1ba3">More...</a><br /></td></tr>
 <tr class="separator:a5a5b3848c35dcaaed4ec78acf18a1ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a908aa8d8b10e1c9561fa5368874541e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a908aa8d8b10e1c9561fa5368874541e8">ShouldRebuild</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a908aa8d8b10e1c9561fa5368874541e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chunk manager should rebuild the vertex buffer for this chunk  <a href="#a908aa8d8b10e1c9561fa5368874541e8">More...</a><br /></td></tr>
 <tr class="separator:a908aa8d8b10e1c9561fa5368874541e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d266e26e2dff19f467906262afe1b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a96d266e26e2dff19f467906262afe1b7">IsRebuilding</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a96d266e26e2dff19f467906262afe1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chunk manager is currently rebuilding this chunk  <a href="#a96d266e26e2dff19f467906262afe1b7">More...</a><br /></td></tr>
 <tr class="separator:a96d266e26e2dff19f467906262afe1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39769cb80094f692c7e9f3e42b7f796f"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a39769cb80094f692c7e9f3e42b7f796f">Origin</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a39769cb80094f692c7e9f3e42b7f796f"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the least most coordinate of this chunk in world space  <a href="#a39769cb80094f692c7e9f3e42b7f796f">More...</a><br /></td></tr>
 <tr class="separator:a39769cb80094f692c7e9f3e42b7f796f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65e42e0d1f74f698e78b3624269891f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a65e42e0d1f74f698e78b3624269891f3">RenderWireframe</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a65e42e0d1f74f698e78b3624269891f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, renders a wireframe representation of the chunk's mesh instead of the real geometry  <a href="#a65e42e0d1f74f698e78b3624269891f3">More...</a><br /></td></tr>
 <tr class="separator:a65e42e0d1f74f698e78b3624269891f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a180ab422b29057efdec2890f8e2f0ee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_chunk_manager.html">ChunkManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a180ab422b29057efdec2890f8e2f0ee5">Manager</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a180ab422b29057efdec2890f8e2f0ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a>  <a href="#a180ab422b29057efdec2890f8e2f0ee5">More...</a><br /></td></tr>
 <tr class="separator:a180ab422b29057efdec2890f8e2f0ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf90e661a213b57604f66368daa86084"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#abf90e661a213b57604f66368daa86084">IsActive</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abf90e661a213b57604f66368daa86084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unnecessary, deprecated. TODO: remove  <a href="#abf90e661a213b57604f66368daa86084">More...</a><br /></td></tr>
 <tr class="separator:abf90e661a213b57604f66368daa86084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a256e06446504a5387a3d99f076530a4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a256e06446504a5387a3d99f076530a4d">FirstWaterIter</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a256e06446504a5387a3d99f076530a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, water hasn't yet been updated for this chunk  <a href="#a256e06446504a5387a3d99f076530a4d">More...</a><br /></td></tr>
 <tr class="separator:a256e06446504a5387a3d99f076530a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a285d9925b7d4f1a49b4ada0d12a209df"><td class="memItemLeft" align="right" valign="top">Mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a285d9925b7d4f1a49b4ada0d12a209df">PrimitiveMutex</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a285d9925b7d4f1a49b4ada0d12a209df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex which controls access to the chunk's vertex buffer mesh  <a href="#a285d9925b7d4f1a49b4ada0d12a209df">More...</a><br /></td></tr>
 <tr class="separator:a285d9925b7d4f1a49b4ada0d12a209df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6d15aa68c91f01c55689b33c2adaf7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a2b6d15aa68c91f01c55689b33c2adaf7">ShouldRecalculateLighting</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2b6d15aa68c91f01c55689b33c2adaf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, sunlight, ambient light, and torchlight should be computed for this voxel.  <a href="#a2b6d15aa68c91f01c55689b33c2adaf7">More...</a><br /></td></tr>
 <tr class="separator:a2b6d15aa68c91f01c55689b33c2adaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a83d3e8d7feaee6889bf081efb380b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a8a83d3e8d7feaee6889bf081efb380b0">ShouldRebuildWater</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8a83d3e8d7feaee6889bf081efb380b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the vertex buffers associated with this chunk's liquids should be rebuilt  <a href="#a8a83d3e8d7feaee6889bf081efb380b0">More...</a><br /></td></tr>
 <tr class="separator:a8a83d3e8d7feaee6889bf081efb380b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05e27e12e150964afaf739de212565ed"><td class="memItemLeft" align="right" valign="top">ConcurrentDictionary&lt; <a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a>, <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html">VoxelChunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a05e27e12e150964afaf739de212565ed">Neighbors</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a05e27e12e150964afaf739de212565ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concurrent dictionary caching the 8-connected neighbors of this chunk  <a href="#a05e27e12e150964afaf739de212565ed">More...</a><br /></td></tr>
 <tr class="separator:a05e27e12e150964afaf739de212565ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dffb6420885253ec5649f2c7fe776f8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_dynamic_light.html">DynamicLight</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a3dffb6420885253ec5649f2c7fe776f8">DynamicLights</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3dffb6420885253ec5649f2c7fe776f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of torchlight producing sources in this chunk  <a href="#a3dffb6420885253ec5649f2c7fe776f8">More...</a><br /></td></tr>
 <tr class="separator:a3dffb6420885253ec5649f2c7fe776f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaab3bf93bfc01d0ac901736024c3e446"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#aaab3bf93bfc01d0ac901736024c3e446">LightingCalculated</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aaab3bf93bfc01d0ac901736024c3e446"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, sunlight, dynamic light and ambient light have already been calculated for this chunk  <a href="#aaab3bf93bfc01d0ac901736024c3e446">More...</a><br /></td></tr>
 <tr class="separator:aaab3bf93bfc01d0ac901736024c3e446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdc8da94190ee9a4ef7c90f245a1c0ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#abdc8da94190ee9a4ef7c90f245a1c0ad">RebuildPending</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abdc8da94190ee9a4ef7c90f245a1c0ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chunk manager knows about this chunk, but has not yet rebuilt its vertex buffer.  <a href="#abdc8da94190ee9a4ef7c90f245a1c0ad">More...</a><br /></td></tr>
 <tr class="separator:abdc8da94190ee9a4ef7c90f245a1c0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d5ee85835447a41844292186b14d9ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a3d5ee85835447a41844292186b14d9ab">RebuildLiquidPending</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3d5ee85835447a41844292186b14d9ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chunk manager knows about this chunk, but has not yet rebuilt its liquid (water, lava) vertex buffers  <a href="#a3d5ee85835447a41844292186b14d9ab">More...</a><br /></td></tr>
 <tr class="separator:a3d5ee85835447a41844292186b14d9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87c21517a0bcb46de8046677babfe7e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a87c21517a0bcb46de8046677babfe7e2">ID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a87c21517a0bcb46de8046677babfe7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global identifier of this chunk  <a href="#a87c21517a0bcb46de8046677babfe7e2">More...</a><br /></td></tr>
 <tr class="separator:a87c21517a0bcb46de8046677babfe7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ca89816fa3240de91dab3878d7dfcb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9ca89816fa3240de91dab3878d7dfcb0">ReconstructRamps</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a9ca89816fa3240de91dab3878d7dfcb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chunk manager will recalculate the slopes of ramping voxels (like dirt) for this chunk  <a href="#a9ca89816fa3240de91dab3878d7dfcb0">More...</a><br /></td></tr>
 <tr class="separator:a9ca89816fa3240de91dab3878d7dfcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
 <tr class="memitem:a1ea4ea5c8d0905238adfa0924905d12c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a9642872bbeb02356962dde769038f8ce">VoxelDestroyed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a1ea4ea5c8d0905238adfa0924905d12c">OnVoxelDestroyed</a></td></tr>
+<tr class="memdesc:a1ea4ea5c8d0905238adfa0924905d12c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called whenever a specific voxel in this chunk is destroyed  <a href="#a1ea4ea5c8d0905238adfa0924905d12c">More...</a><br /></td></tr>
 <tr class="separator:a1ea4ea5c8d0905238adfa0924905d12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e140dcef3650a71b38c6fda3032cab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a7172f3c26059b72f097fd762c5aad1be">VoxelExplored</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html#a59e140dcef3650a71b38c6fda3032cab">OnVoxelExplored</a></td></tr>
+<tr class="memdesc:a59e140dcef3650a71b38c6fda3032cab"><td class="mdescLeft">&#160;</td><td class="mdescRight">called whenever a specific voxel in this chunk is revealed  <a href="#a59e140dcef3650a71b38c6fda3032cab">More...</a><br /></td></tr>
 <tr class="separator:a59e140dcef3650a71b38c6fda3032cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -391,6 +493,20 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Construct a new <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td>The chunk manager </td></tr>
+    <tr><td class="paramname">origin</td><td>The leastmost coordinate of the chunk </td></tr>
+    <tr><td class="paramname">tileSize</td><td>The number of voxels per coordinate (should be exactly 1) </td></tr>
+    <tr><td class="paramname">id</td><td>Integer id of the chunk </td></tr>
+    <tr><td class="paramname">sizeX</td><td>The number of voxels in the X direction </td></tr>
+    <tr><td class="paramname">sizeY</td><td>The number of voxels in the Y direction </td></tr>
+    <tr><td class="paramname">sizeZ</td><td>The number of voxels in the Z direction </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -434,6 +550,16 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Allocate the raw data associated with this voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sx</td><td>The number of voxels in X </td></tr>
+    <tr><td class="paramname">sy</td><td>The number of voxels in Y </td></tr>
+    <tr><td class="paramname">sz</td><td>The number of voxels in Z </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a434666fd9bfe5565b3bc3d06fb67e27a"></a>
@@ -451,6 +577,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a fixed number of voxels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num</td><td>The number of voxels to create.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list containing a number of voxels assigned to this chunk.</dd></dl>
 
 </div>
 </div>
@@ -470,6 +605,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Construct the detail motes associated with this chunk and a particular biome. </p>
+
 </div>
 </div>
 <a id="a9541a632a6bcfba7f03c5e7fff84a46e"></a>
@@ -486,6 +623,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Builds the grass detail motes and determines the chunk's biome. </p>
 
 </div>
 </div>
@@ -505,6 +644,14 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates a new vertex buffer for this chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g</td><td>The graphics device</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="acbbb5883b6d9c42682c14c942b09ddd6"></a>
@@ -521,6 +668,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Calculates thhe sunlight. </p>
 
 </div>
 </div>
@@ -576,6 +725,18 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Calculates the vertex color for a specified voxel and vertex </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vox</td><td>The voxel.</td></tr>
+    <tr><td class="paramname">face</td><td>The vertex to find the light for.</td></tr>
+    <tr><td class="paramname">chunks</td><td>The chunks manager</td></tr>
+    <tr><td class="paramname">neighbors</td><td>The neighbors of the vertex. This will be computed inside and allocated/shared outside the fn.</td></tr>
+    <tr><td class="paramname">color</td><td>The color to return</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a744e14ffa5c61a22a66f1ae059443d63"></a>
@@ -592,6 +753,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Calculates the vertex lighting for all voxels in the chunk. </p>
 
 </div>
 </div>
@@ -633,6 +796,18 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Computes a binary hash of the voxel at [x, y, z] telling us which transition texture to use for the top of the voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">neighbors</td><td>The neighbors of the voxel (preallocated)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A transition texture for the top of the voxel.</dd></dl>
+
 </div>
 </div>
 <a id="a8b8050a1de144470d88a857bf1c847ad"></a>
@@ -650,6 +825,14 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destroys the primitive and associated detail motes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>The graphics device.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -691,6 +874,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the neighbors of a voxel that touch its x or z faces. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">neighbors</td><td>The neighbors of the voxel (preallocated). Fills with null if no neighbor exists.</td></tr>
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="abc185ec39e177c2fad02805c68b610fb"></a>
@@ -707,6 +901,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the bounding box completely containing this chunk and all its voxels </p>
 
 <p>Implements <a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html#ab1511d683a5e7c529fc3fcaf0ac348fa">DwarfCorp.IBoundedObject</a>.</p>
 
@@ -726,6 +922,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Computes a sphere centered on this voxel chunk which completely encompasses the chunk. </p>
 
 </div>
 </div>
@@ -761,6 +959,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the height of the first filled voxel beneath the specified coordinates, considering any cell with water "filled". </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The height of the first filled voxel beneath this one if it exists, or -1 otherwise.</dd></dl>
+
 </div>
 </div>
 <a id="abf5ed83c877796750bc310235b8f8916"></a>
@@ -795,6 +1004,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the height of the first filled voxel beneath the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The height of the first filled voxel beneath this one if it exists, or -1 otherwise.</dd></dl>
+
 </div>
 </div>
 <a id="ab2dfc9dd2b06f1864f02f938772e792b"></a>
@@ -811,6 +1031,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert the chunk's 3D ID into a linear hash value </p>
 
 <p>Implements <a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html#a2b194389f22dba8325bc0fe2287d88fe">DwarfCorp.IBoundedObject</a>.</p>
 
@@ -848,6 +1070,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the brightness of a dynamic light at the given voxel.. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">light</td><td>The light.</td></tr>
+    <tr><td class="paramname">lightIntensity</td><td>The light intensity.</td></tr>
+    <tr><td class="paramname">voxel</td><td>The voxel.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The intensity of the light as observed from the given voxel.</dd></dl>
+
 </div>
 </div>
 <a id="a8593a7852c79c398fd0196528a12ea1a"></a>
@@ -873,6 +1106,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Given some position relative to a voxel's leastmost coordinate, returns the vertex closest to that position. </p>
 
 </div>
 </div>
@@ -900,6 +1135,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Given a position relative to a voxel's leastmost coordinate, returns the face closest to that position. </p>
+
 </div>
 </div>
 <a id="ac6d53d2abd4ab631b60892ef68fcf67e"></a>
@@ -917,6 +1154,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the 26 neighbors that touch the given voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>The voxel to get neighbors of.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>All the neighbors that touch this voxel.</dd></dl>
 
 </div>
 </div>
@@ -951,6 +1197,17 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the 26 neighbors that touch the given voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>All the neighbors that touch this voxel.</dd></dl>
 
 </div>
 </div>
@@ -992,6 +1249,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the 6 neighbors that touch the faces of this voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel..</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of hte voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel</td></tr>
+    <tr><td class="paramname">neighbors</td><td>The neighbors.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ae6c8978c5f3937e2a1cc9291263b5774"></a>
@@ -1019,6 +1287,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the 6 neighbors that are coincident to the voxel's faces. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>The voxel to check.</td></tr>
+    <tr><td class="paramname">toReturn</td><td>A list of voxels touching the voxel's faces.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1066,6 +1343,18 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the neighbors of a voxel given an arbitrary successors list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">succ</td><td>The successors of a voxel (as incremental directions)</td></tr>
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">toReturn</td><td>A list of voxels adjacent to the given voxel given the successor list.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a0ef50c54f1c8de9f2e8045a0eb96f674"></a>
@@ -1099,6 +1388,16 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a list of neighboring voxels of a vertex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertex</td><td>The vertex of a voxel.</td></tr>
+    <tr><td class="paramname">v</td><td>The voxel to check.</td></tr>
+    <tr><td class="paramname">toReturn</td><td>A list of voxels adjacent to that vertex.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1146,6 +1445,18 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the neighbors of a vertex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertex</td><td>The vertex to get neighbors of.</td></tr>
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">toReturn</td><td>List of voxels adjacent to the vertex of the voxel.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a84396c90baf4450dd5cb7fb3bc91205f"></a>
@@ -1192,6 +1503,18 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the neighbors a vertex that also share its Y coordinate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertex</td><td>The vertex to get neighbors of.</td></tr>
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel.</td></tr>
+    <tr><td class="paramname">toReturn</td><td>List of voxels adjacent to the vertex of the voxel..</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a1a9d1a4123f54a0e9f8067ea598f13f9"></a>
@@ -1232,6 +1555,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the shared vertices between a voxel and all its neighbors that touch a given vertex of that voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>The voxel.</td></tr>
+    <tr><td class="paramname">vertex</td><td>The vertex to check.</td></tr>
+    <tr><td class="paramname">vertices</td><td>A list containing the voxels and for each filled voxel a list of vertices that touch the given vertex.</td></tr>
+    <tr><td class="paramname">neighbors</td><td>The neighbors of the voxel vertex (pre-allocated outside the function)</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a0635417c1bf72de7bfaf8ba6b01a7737"></a>
@@ -1250,6 +1584,15 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the total height of water above the given voxel by summing up all of the water levels for voxels above this one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxRef</td><td>The vox reference.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The sum of the water height above the current voxel.</dd></dl>
+
 </div>
 </div>
 <a id="a3b4b487ff8c8e43cc140cd3effe0731b"></a>
@@ -1267,6 +1610,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the total water height in voxels above the current voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxRef</td><td>The vox reference.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The total height of the water in voxels at and above this one.</dd></dl>
 
 </div>
 </div>
@@ -1296,6 +1648,16 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the voxel at a world location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldLocation</td><td>The world location.</td></tr>
+    <tr><td class="paramname">voxel</td><td>The voxel to return.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if a voxel exists in this chunk at the given location. False otherwise.</dd></dl>
+
 </div>
 </div>
 <a id="a82a0bfe190e812afc34606d0794b7c6c"></a>
@@ -1313,6 +1675,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the voxels intersecting the given bounding box. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>The box to test.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of voxels intersecting that box.</dd></dl>
 
 </div>
 </div>
@@ -1332,6 +1703,15 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the world coordinates of a specified chunk-relative grid coordinate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gridCoord</td><td>The grid coordinate relative to the chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A world-relative coordinate.</dd></dl>
+
 </div>
 </div>
 <a id="a43c9053186d7e78e86b8c25bd5ac68ed"></a>
@@ -1349,6 +1729,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines whether the given voxel has no filled neighbors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>The voxel to check.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the voxel has no filled neighbors; otherwise, <code>false</code>. </dd></dl>
 
 </div>
 </div>
@@ -1374,6 +1763,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Generate static data for all <a class="el" href="class_dwarf_corp_1_1_voxel_chunk.html" title="A 3D grid of voxels, water, and light. ">VoxelChunk</a> instances </p>
 
 </div>
 </div>
@@ -1409,6 +1800,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines whether the voxel at [x, y, z] exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate of the voxel in the chunk.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate of the voxel in the chunk.</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate of the voxel in the chunk.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the coordinates are inside the chunk; otherwise, <code>false</code>. </dd></dl>
+
 </div>
 </div>
 <a id="a0164e69cd4e94ed0b94b649d35144fa0"></a>
@@ -1437,6 +1839,16 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines whether the specified voxel is completely surrounded by other filled voxels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>The voxel to check</td></tr>
+    <tr><td class="paramname">ramps</td><td>if set to <code>true</code> consider any ramping voxel to be "empty". This is for lighting calculations.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the specified voxel is completely surrounded; otherwise, <code>false</code>. </dd></dl>
+
 </div>
 </div>
 <a id="a8e690272d4949ea0e57bce1433be9a61"></a>
@@ -1455,6 +1867,15 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines whether the specified voxel is completely surrounded by other filled voxels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>The voxel.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the voxel is completely surrounded; otherwise, <code>false</code>. </dd></dl>
+
 </div>
 </div>
 <a id="a613c0cc998a8cc52f835d92c2b5221f7"></a>
@@ -1472,6 +1893,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines whether the grid position (relative to the chunk's origin) is inside the chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grid</td><td>The grid position (relative to the chunk's origin)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if [is grid position valid] [the specified grid]; otherwise, <code>false</code>. </dd></dl>
 
 </div>
 </div>
@@ -1507,6 +1937,17 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines whether the specified x, y and z grid coordinate is inside the chunk, or if it lies on the border. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coordinate.</td></tr>
+    <tr><td class="paramname">y</td><td>The y coordinate</td></tr>
+    <tr><td class="paramname">z</td><td>The z coordinate</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the specified coordinate is not on the edge of the chunk; otherwise, <code>false</code>. </dd></dl>
+
 </div>
 </div>
 <a id="a59d0e050627435c5c5f818f3cc271302"></a>
@@ -1524,6 +1965,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines whether a specified position in world coordinates is inside the chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldLocation</td><td>The world location.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if [is world location valid] [the specified world location]; otherwise, <code>false</code>. </dd></dl>
 
 </div>
 </div>
@@ -1559,6 +2009,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates a new voxel referencing the one stored at x, y, z in this chunk </p>
+
 </div>
 </div>
 <a id="a6bc450a9d451ae8ff52a83090a530cc8"></a>
@@ -1576,6 +2028,9 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns whether or not this chunk was affected by the chunk slice changing. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if any filled voxel exists above the viewing slice. False otherwise.</dd></dl>
+
 </div>
 </div>
 <a id="ac84e469f3c8abb595e2dd3c3c6be4f7b"></a>
@@ -1592,6 +2047,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Finds and notifies all components that are inside the chunk that the chunk has been modified. </p>
 
 </div>
 </div>
@@ -1611,6 +2068,14 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>notify all subscribers that the given voxel has been destroyed </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxel</td><td>The chunk-relative coordinates of the voxel in question </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aab4019e384ffa433f796469bbbc278f4"></a>
@@ -1628,6 +2093,14 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>notify all subscribers that the given voxel has been explored </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxel</td><td>The chunk-relative coordinates of the voxel in question </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1647,6 +2120,14 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Notify the chunk that it should completely rebuild its vertex buffer, liquid primitives, ramps, and other properties. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">neighbors</td><td>if set to <code>true</code> also rebuild the neighboring chunks.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ada7d664e02c41c42628054c0fcf8b36d"></a>
@@ -1665,6 +2146,14 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Rebuilds the vertex buffer, grass motes, and other details of the chunk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g</td><td>The graphics device.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ac1adf81ddfb94b0a6ea9eac8bff5afb6"></a>
@@ -1681,6 +2170,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Rebuilds the liquid vertex buffers (water, lava, etc.) ascciated with this chunk. </p>
 
 </div>
 </div>
@@ -1700,6 +2191,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Renders the chunk to the screen. </p>
+
 </div>
 </div>
 <a id="a1a4c00bb43d4e4bb5300add6ef20518b"></a>
@@ -1717,6 +2210,14 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Resets the sunlight of the voxels in the chunk to the specified intensity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sunColor</td><td>Color of the sun.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1736,6 +2237,14 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Resets the sunlight of the voxels in the chunk without considering chunk edges to the specified intensity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sunColor</td><td>Intensity of the sun.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a84066aaac2e11b62901ed44f4c1a8a81"></a>
@@ -1752,6 +2261,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Resets the state of water cells in the chunk. </p>
 
 </div>
 </div>
@@ -1771,6 +2282,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates the chunk. </p>
+
 </div>
 </div>
 <a id="ae244c83459c84f8c9c608c2fa6348203"></a>
@@ -1787,6 +2300,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the sloping voxels ramp state. </p>
 
 </div>
 </div>
@@ -1806,6 +2321,14 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Calculates the sunlight for all cells in the chunk by casting rays of sunlight downward from the sky. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sunColor</td><td>Intensity of the sun.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a9642872bbeb02356962dde769038f8ce"></a>
@@ -1824,6 +2347,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Called whenever a voxel at the given coordinate is destroyed </p>
+
 </div>
 </div>
 <a id="a7172f3c26059b72f097fd762c5aad1be"></a>
@@ -1841,6 +2366,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Called whenever a voxel at the given coordinate is revealed (fog of war cleared) </p>
 
 </div>
 </div>
@@ -1884,6 +2411,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>DEPRECATED. DO NOT USE. Water data is now stored inside VoxelData! </p>
+
 </div>
 </div>
 <a id="a7545a64b751fabcc3537a657c5a87d64"></a>
@@ -1901,6 +2430,15 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Transforms a vector from world coordinates to chunk-relative coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldLocation</td><td>The world location.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A floating-point vector relative to the chunk's origin.</dd></dl>
 
 </div>
 </div>
@@ -1925,6 +2463,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            <span class="keyword">new</span> Dictionary&lt;BoxFace, VoxelVertex[]&gt;()</div></div><!-- fragment -->
+<p>A dictionary caching a map from each of the voxel's 6 faces to a list of 4 vertices. This is useful for determining which vertices are visible on a face, allowing us to hide invisible vertices. </p>
+
 </div>
 </div>
 <a id="ac44f002724b229bb6b1116e934670538"></a>
@@ -1946,6 +2486,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>ambient lighting for voxels that are hidden by fog of war </p>
 
 </div>
 </div>
@@ -1969,6 +2511,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Caches a list of 4 offsets corresponding to the neighbors of a voxel which touch its x or z faces and which have the same y coordinate. </p>
+
 </div>
 </div>
 <a id="aa5b245ecc331d87e9d04bde535a1bbda"></a>
@@ -1990,6 +2534,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>A list of normalized offsets corresponding to the 6 neighbors of a voxel which touch exactly one of the voxel's faces. (That is [1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, -1, 0], [0, 0, 1], [0, 0, -1]) This is done for caching. </p>
 
 </div>
 </div>
@@ -2013,6 +2559,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This perlin noise determines how dense detail grass motes are, giving us smooth clumps of grass. </p>
+
 </div>
 </div>
 <a id="a851a687cb7eb651c3d1e3bfac3109948"></a>
@@ -2035,6 +2583,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This <a class="el" href="class_dwarf_corp_1_1_perlin.html">Perlin</a> noise determines how much detail grass motes get scaled, giving us smooth transitions between large and small blades of grass. </p>
+
 </div>
 </div>
 <a id="a2678aad5c4f73921f0006e7a1069036c"></a>
@@ -2048,6 +2598,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If true, the water manager has updated the liquid stored in this chunk (water, lava, etc.). This means we must update the geometry of the chunk. </p>
 
 </div>
 </div>
@@ -2063,6 +2615,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>When the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> updates the geometry of this chunk, it puts the new vertex buffer here, rather than directly setting the vertex buffer. This is to help with cases where the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> destroys the vertex buffer as it is being drawn, or other craziness that can happen with threading. </p>
+
 </div>
 </div>
 <a id="af375160742e19099caec978d56175f92"></a>
@@ -2076,6 +2630,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If the chunk has received a new vertex buffer, this is set to true. </p>
 
 </div>
 </div>
@@ -2099,6 +2655,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            <span class="keyword">new</span> Dictionary&lt;VoxelVertex, List&lt;Vector3&gt;&gt;()</div></div><!-- fragment -->
+<p>A dictionary caching a map from each of the voxel's 8 vertices to a list of neighbors which touch that vertex. This is useful for determining which vertices are visible from which voxels (a necessary computation for lighting). Maps VoxelVertex to normalized directions corresponding to the neighbors. </p>
+
 </div>
 </div>
 <a id="a16b73035fa8bf394b4481b11cc3e75e0"></a>
@@ -2121,6 +2679,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            <span class="keyword">new</span> Dictionary&lt;VoxelVertex, List&lt;Vector3&gt;&gt;()</div></div><!-- fragment -->
+<p>A dictionary caching a map from each of the voxel's 8 vertices to a list of neighbors adjacent to that vertex, and which have the same Y value as the voxel in question. This is useful for determining which vertices are visible from which voxels (a necessary computation for lighting). Maps VoxelVertex to normalized directions corresponding to the neighbors. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
@@ -2144,6 +2704,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The raw data associated with this chunk's voxels. </p>
+
 </div>
 </div>
 <a id="a3dffb6420885253ec5649f2c7fe776f8"></a>
@@ -2165,6 +2727,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>List of torchlight producing sources in this chunk </p>
 
 </div>
 </div>
@@ -2188,6 +2752,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If true, water hasn't yet been updated for this chunk </p>
+
 </div>
 </div>
 <a id="a87c21517a0bcb46de8046677babfe7e2"></a>
@@ -2209,6 +2775,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Global identifier of this chunk </p>
 
 </div>
 </div>
@@ -2232,6 +2800,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Unnecessary, deprecated. TODO: remove </p>
+
 </div>
 </div>
 <a id="a96d266e26e2dff19f467906262afe1b7"></a>
@@ -2253,6 +2823,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, the chunk manager is currently rebuilding this chunk </p>
 
 </div>
 </div>
@@ -2276,6 +2848,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If true, the chunk should be drawn this frame. </p>
+
 </div>
 </div>
 <a id="aaab3bf93bfc01d0ac901736024c3e446"></a>
@@ -2297,6 +2871,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, sunlight, dynamic light and ambient light have already been calculated for this chunk </p>
 
 </div>
 </div>
@@ -2320,6 +2896,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Contains a dictionary from liquid type (water, lava, etc.) to vertex buffers for this chunk. </p>
+
 </div>
 </div>
 <a id="a180ab422b29057efdec2890f8e2f0ee5"></a>
@@ -2341,6 +2919,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>gets the <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html" title="Responsible for keeping track of and accessing large collections of voxels. There is intended to be o...">ChunkManager</a> </p>
 
 </div>
 </div>
@@ -2364,6 +2944,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>For each kind of detail mode, contains a list of positions and colors associated with this chunk. </p>
+
 </div>
 </div>
 <a id="a05e27e12e150964afaf739de212565ed"></a>
@@ -2385,6 +2967,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Concurrent dictionary caching the 8-connected neighbors of this chunk </p>
 
 </div>
 </div>
@@ -2408,6 +2992,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>gets the least most coordinate of this chunk in world space </p>
+
 </div>
 </div>
 <a id="a4275418146b967003cc587704ce679be"></a>
@@ -2429,6 +3015,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The vertex buffer associated with this chunk's geometry. </p>
 
 </div>
 </div>
@@ -2452,6 +3040,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Mutex which controls access to the chunk's vertex buffer mesh </p>
+
 </div>
 </div>
 <a id="a3d5ee85835447a41844292186b14d9ab"></a>
@@ -2473,6 +3063,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, the chunk manager knows about this chunk, but has not yet rebuilt its liquid (water, lava) vertex buffers </p>
 
 </div>
 </div>
@@ -2496,6 +3088,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If true, the chunk manager knows about this chunk, but has not yet rebuilt its vertex buffer. </p>
+
 </div>
 </div>
 <a id="a9ca89816fa3240de91dab3878d7dfcb0"></a>
@@ -2517,6 +3111,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, the chunk manager will recalculate the slopes of ramping voxels (like dirt) for this chunk </p>
 
 </div>
 </div>
@@ -2540,6 +3136,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If true, renders a wireframe representation of the chunk's mesh instead of the real geometry </p>
+
 </div>
 </div>
 <a id="a908aa8d8b10e1c9561fa5368874541e8"></a>
@@ -2561,6 +3159,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, the chunk manager should rebuild the vertex buffer for this chunk </p>
 
 </div>
 </div>
@@ -2584,6 +3184,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If true, the vertex buffers associated with this chunk's liquids should be rebuilt </p>
+
 </div>
 </div>
 <a id="a2b6d15aa68c91f01c55689b33c2adaf7"></a>
@@ -2605,6 +3207,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If true, sunlight, ambient light, and torchlight should be computed for this voxel. </p>
 
 </div>
 </div>
@@ -2628,6 +3232,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>get the number of voxels in the X direction </p>
+
 </div>
 </div>
 <a id="a561517d4387767f4ad3d52507c1e87a2"></a>
@@ -2649,6 +3255,8 @@ Events</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>get the number of voxels in the Y direction </p>
 
 </div>
 </div>
@@ -2672,6 +3280,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>get the number of voxels in the Z direction </p>
+
 </div>
 </div>
 <a id="a7173aadfb800dd4dae7b18adc8758c1e"></a>
@@ -2694,6 +3304,8 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>DEPRECATED. Springs were originally sources of liquid. They were removed because they caused excessive flooding. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
@@ -2709,6 +3321,8 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>called whenever a specific voxel in this chunk is destroyed </p>
+
 </div>
 </div>
 <a id="a59e140dcef3650a71b38c6fda3032cab"></a>
@@ -2722,6 +3336,8 @@ Events</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>called whenever a specific voxel in this chunk is revealed </p>
 
 </div>
 </div>

@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"class_dwarf_corp_1_1_overworld.html#af300edd471bf5afbf26f57e9e6b9b941":[1,0,2,265,3],
 "class_dwarf_corp_1_1_overworld.html#af300edd471bf5afbf26f57e9e6b9b941a149529f6dcbcc198787e69a11235422e":[1,0,2,265,3,1],
 "class_dwarf_corp_1_1_overworld.html#af300edd471bf5afbf26f57e9e6b9b941a38008dd81c2f4d7985ecf6e0ce8af1d1":[1,0,2,265,3,4],
 "class_dwarf_corp_1_1_overworld.html#af300edd471bf5afbf26f57e9e6b9b941a6adf97f83acf6453d4a6a4b1070f3754":[1,0,2,265,3,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "class_dwarf_corp_1_1_polygon_draw_command.html#a9b862f90d2e5f5e5c39737937b40cf3d":[1,0,2,288,0],
 "class_dwarf_corp_1_1_polygon_draw_command.html#ae2bd925e858ddbb73c71f1a9104a9136":[1,0,2,288,6],
 "class_dwarf_corp_1_1_primitive_library.html":[1,0,2,289],
-"class_dwarf_corp_1_1_primitive_library.html#a5e8892dc86b50156de802a3c3b080d88":[1,0,2,289,1]
+"class_dwarf_corp_1_1_primitive_library.html#a5e8892dc86b50156de802a3c3b080d88":[1,0,2,289,1],
+"class_dwarf_corp_1_1_primitive_library.html#a79d43f195a79d3196f51cd0d0f5e6da9":[1,0,2,289,0]
 };

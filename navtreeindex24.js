@@ -1,6 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"class_dwarf_corp_1_1_voxel_chunk.html#a8f3b9f36448553b5faf2087c132ddfd5":[1,0,2,396,51],
 "class_dwarf_corp_1_1_voxel_chunk.html#a908aa8d8b10e1c9561fa5368874541e8":[1,0,2,396,80],
 "class_dwarf_corp_1_1_voxel_chunk.html#a951d839f3518179388d0ec922cbba77f":[1,0,2,396,83],
 "class_dwarf_corp_1_1_voxel_chunk.html#a9541a632a6bcfba7f03c5e7fff84a46e":[1,0,2,396,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX24 =
 "class_dwarf_corp_1_1_while_loop.html#ab6d4d1a75fe86fe2979001a540fb1f7d":[1,0,2,413,3],
 "class_dwarf_corp_1_1_while_loop.html#ac42c1b8ef88c5d2065a66f8192a397ed":[1,0,2,413,5],
 "class_dwarf_corp_1_1_while_loop.html#ac951b4d449243a9d310f6c3bcfe971f4":[1,0,2,413,4],
-"class_dwarf_corp_1_1_while_loop.html#af6ff2b19828a5775dc1162e17c794bac":[1,0,2,413,2]
+"class_dwarf_corp_1_1_while_loop.html#af6ff2b19828a5775dc1162e17c794bac":[1,0,2,413,2],
+"class_dwarf_corp_1_1_window.html":[1,0,2,414]
 };

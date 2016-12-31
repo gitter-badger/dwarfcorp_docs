@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"class_dwarf_corp_1_1_guard_voxel_act.html#a551390c12a2c65208fe8b7237c3c74dc":[1,0,2,194,3],
 "class_dwarf_corp_1_1_guard_voxel_act.html#a618141f4f90edf2f058eb5eb226ab2df":[1,0,2,194,6],
 "class_dwarf_corp_1_1_guard_voxel_act.html#a6ee7b2940f9b5f16468710bc77926665":[1,0,2,194,1],
 "class_dwarf_corp_1_1_guard_voxel_act.html#a7afaabd1eb8b08ed14db5b37263a27c9":[1,0,2,194,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "class_dwarf_corp_1_1_key_editor.html#a3f25a1813300e5badfcebc9fd67d5f74":[1,0,2,215,2],
 "class_dwarf_corp_1_1_key_editor.html#a771d62d7fd8e9a68d038dae14ff32238":[1,0,2,215,1],
 "class_dwarf_corp_1_1_key_editor.html#a97e8a3592a7cee0f8e21de6cdce73200":[1,0,2,215,4],
-"class_dwarf_corp_1_1_key_editor.html#aa6f73affb6578ff16e4704ac61e2ca77":[1,0,2,215,0]
+"class_dwarf_corp_1_1_key_editor.html#aa6f73affb6578ff16e4704ac61e2ca77":[1,0,2,215,0],
+"class_dwarf_corp_1_1_key_editor.html#ab6e0d436f7eaa764b855999a5163871e":[1,0,2,215,3]
 };

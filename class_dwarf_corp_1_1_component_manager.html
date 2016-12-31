@@ -99,7 +99,8 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_component_manager
 Public Types</h2></td></tr>
 <tr class="memitem:a8f81b28fc5985c06e01de33eec4c1fcf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a8f81b28fc5985c06e01de33eec4c1fcf">WaterRenderType</a> { <a class="el" href="class_dwarf_corp_1_1_component_manager.html#a8f81b28fc5985c06e01de33eec4c1fcfa3889e081f93c67991c06d95705cee7e6">WaterRenderType.Reflective</a>, 
 <a class="el" href="class_dwarf_corp_1_1_component_manager.html#a8f81b28fc5985c06e01de33eec4c1fcfa6adf97f83acf6453d4a6a4b1070f3754">WaterRenderType.None</a>
- }</td></tr>
+ }<tr class="memdesc:a8f81b28fc5985c06e01de33eec4c1fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the component is rendered in reflections on water  <a href="class_dwarf_corp_1_1_component_manager.html#a8f81b28fc5985c06e01de33eec4c1fcf">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a8f81b28fc5985c06e01de33eec4c1fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -107,72 +108,103 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61a4fee4aee7f35bb889d73447953913"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a61a4fee4aee7f35bb889d73447953913">ComponentManager</a> ()</td></tr>
 <tr class="separator:a61a4fee4aee7f35bb889d73447953913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80455bfa156124e09c14e2e911ccd335"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a80455bfa156124e09c14e2e911ccd335">ComponentManager</a> (<a class="el" href="class_dwarf_corp_1_1_game_states_1_1_play_state.html">PlayState</a> state, string companyName, string companyMotto, <a class="el" href="class_dwarf_corp_1_1_named_image_frame.html">NamedImageFrame</a> companyLogo, Color companyColor, List&lt; <a class="el" href="class_dwarf_corp_1_1_faction.html">Faction</a> &gt; natives)</td></tr>
+<tr class="memdesc:a80455bfa156124e09c14e2e911ccd335"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new component manager.  <a href="#a80455bfa156124e09c14e2e911ccd335">More...</a><br /></td></tr>
 <tr class="separator:a80455bfa156124e09c14e2e911ccd335"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab32abaa4a85b84231df63c33f2cdaf3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#ab32abaa4a85b84231df63c33f2cdaf3d">IsUnderMouse</a> (<a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> component, MouseState mouse, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, Viewport viewPort)</td></tr>
+<tr class="memdesc:ab32abaa4a85b84231df63c33f2cdaf3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether the given component is under the mouse given a camera and viewport.  <a href="#ab32abaa4a85b84231df63c33f2cdaf3d">More...</a><br /></td></tr>
 <tr class="separator:ab32abaa4a85b84231df63c33f2cdaf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a670115a029f82949843cbfecb5302640"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a670115a029f82949843cbfecb5302640">GetBodiesUnderMouse</a> (MouseState mouse, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, Viewport viewPort, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components)</td></tr>
+<tr class="memdesc:a670115a029f82949843cbfecb5302640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all of the bodies under the mouse given a camera and viewport.  <a href="#a670115a029f82949843cbfecb5302640">More...</a><br /></td></tr>
 <tr class="separator:a670115a029f82949843cbfecb5302640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90dc8ef98ecce4193c0712761e6b0b94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a90dc8ef98ecce4193c0712761e6b0b94">IsVisibleToCamera</a> (<a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> component, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera)</td></tr>
+<tr class="memdesc:a90dc8ef98ecce4193c0712761e6b0b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given <a class="el" href="class_dwarf_corp_1_1_body.html" title="This is a special kind of component which has a position and orientation. The global position of an o...">Body</a> is visible to the given <a class="el" href="class_dwarf_corp_1_1_camera.html" title="Manages a 3D camera with projection and view matrices. ">Camera</a>  <a href="#a90dc8ef98ecce4193c0712761e6b0b94">More...</a><br /></td></tr>
 <tr class="separator:a90dc8ef98ecce4193c0712761e6b0b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58faef6df6ef1d35a509aaaa5f6e2459"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a58faef6df6ef1d35a509aaaa5f6e2459">GetBodiesVisibleToCamera</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components)</td></tr>
+<tr class="memdesc:a58faef6df6ef1d35a509aaaa5f6e2459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a <a class="el" href="class_dwarf_corp_1_1_camera.html" title="Manages a 3D camera with projection and view matrices. ">Camera</a>, gets all the bodies visible to it.  <a href="#a58faef6df6ef1d35a509aaaa5f6e2459">More...</a><br /></td></tr>
 <tr class="separator:a58faef6df6ef1d35a509aaaa5f6e2459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1df6d7a7c55e745c1a7b8394f4e0f5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a1df6d7a7c55e745c1a7b8394f4e0f5d9">GetBodiesInvisibleToCamera</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components)</td></tr>
+<tr class="memdesc:a1df6d7a7c55e745c1a7b8394f4e0f5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a camera, finds all the bodies NOT visible to that camera.  <a href="#a1df6d7a7c55e745c1a7b8394f4e0f5d9">More...</a><br /></td></tr>
 <tr class="separator:a1df6d7a7c55e745c1a7b8394f4e0f5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a073c5859300fd585e54526e7aadaeed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a073c5859300fd585e54526e7aadaeed9">GetBodiesIntersecting</a> (BoundingSphere sphere, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionManager.CollisionType</a> type)</td></tr>
+<tr class="memdesc:a073c5859300fd585e54526e7aadaeed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all the bodies intersecting the given bounding sphere.  <a href="#a073c5859300fd585e54526e7aadaeed9">More...</a><br /></td></tr>
 <tr class="separator:a073c5859300fd585e54526e7aadaeed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a919c9b363f8c0fefd1c20ede28dac3d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a919c9b363f8c0fefd1c20ede28dac3d0">GetBodiesIntersecting</a> (BoundingFrustum frustrum, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionManager.CollisionType</a> type)</td></tr>
+<tr class="memdesc:a919c9b363f8c0fefd1c20ede28dac3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all the bodies intersecting the given bounding frustum.  <a href="#a919c9b363f8c0fefd1c20ede28dac3d0">More...</a><br /></td></tr>
 <tr class="separator:a919c9b363f8c0fefd1c20ede28dac3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae815ac2084049d97128b5b565f261482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#ae815ac2084049d97128b5b565f261482">GetBodiesIntersecting</a> (BoundingBox box, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionManager.CollisionType</a> type)</td></tr>
+<tr class="memdesc:ae815ac2084049d97128b5b565f261482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all the bodies intersecting the given bounding box.  <a href="#ae815ac2084049d97128b5b565f261482">More...</a><br /></td></tr>
 <tr class="separator:ae815ac2084049d97128b5b565f261482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa34fbe8165291f8152e7680b3a673d8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#aa34fbe8165291f8152e7680b3a673d8c">GetBodiesIntersecting</a> (Ray ray, List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt; components, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionManager.CollisionType</a> type)</td></tr>
+<tr class="memdesc:aa34fbe8165291f8152e7680b3a673d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all the bodies intersecting the given ray.  <a href="#aa34fbe8165291f8152e7680b3a673d8c">More...</a><br /></td></tr>
 <tr class="separator:aa34fbe8165291f8152e7680b3a673d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26ff9bca8a7cecd3415005bd02d4b3cb"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a26ff9bca8a7cecd3415005bd02d4b3cb">SelectRootBodiesOnScreen</a> (Rectangle selectionRectangle, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera)</td></tr>
+<tr class="memdesc:a26ff9bca8a7cecd3415005bd02d4b3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all the bodies which are immediate children of the Root body and which are inside the given selection rectangle on the screen.  <a href="#a26ff9bca8a7cecd3415005bd02d4b3cb">More...</a><br /></td></tr>
 <tr class="separator:a26ff9bca8a7cecd3415005bd02d4b3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c8238701f491fad03f66184e093683"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#aa9c8238701f491fad03f66184e093683">SelectAllBodiesOnScreen</a> (Rectangle selectionRectangle, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera)</td></tr>
+<tr class="memdesc:aa9c8238701f491fad03f66184e093683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Findds all the bodies on screen inside the given selection rectangle.  <a href="#aa9c8238701f491fad03f66184e093683">More...</a><br /></td></tr>
 <tr class="separator:aa9c8238701f491fad03f66184e093683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b93d79d5589247ba601bb1e2d86cf0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a7b93d79d5589247ba601bb1e2d86cf0b">AddComponent</a> (<a class="el" href="class_dwarf_corp_1_1_game_component.html">GameComponent</a> component)</td></tr>
+<tr class="memdesc:a7b93d79d5589247ba601bb1e2d86cf0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the <a class="el" href="class_dwarf_corp_1_1_component_manager.html" title="This class is responsible for handling components. &quot;Components&quot; are one of the most important parts o...">ComponentManager</a> to add a component on the next frame  <a href="#a7b93d79d5589247ba601bb1e2d86cf0b">More...</a><br /></td></tr>
 <tr class="separator:a7b93d79d5589247ba601bb1e2d86cf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71637c0597e1a671549cf026cff0091b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a71637c0597e1a671549cf026cff0091b">RemoveComponent</a> (<a class="el" href="class_dwarf_corp_1_1_game_component.html">GameComponent</a> component)</td></tr>
+<tr class="memdesc:a71637c0597e1a671549cf026cff0091b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the <a class="el" href="class_dwarf_corp_1_1_component_manager.html" title="This class is responsible for handling components. &quot;Components&quot; are one of the most important parts o...">ComponentManager</a> to remove a component on the next frame  <a href="#a71637c0597e1a671549cf026cff0091b">More...</a><br /></td></tr>
 <tr class="separator:a71637c0597e1a671549cf026cff0091b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8ce7a2a6c017c55dfbda20912383f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a2b8ce7a2a6c017c55dfbda20912383f6">Update</a> (<a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> gameTime, <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html">ChunkManager</a> chunks, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera)</td></tr>
+<tr class="memdesc:a2b8ce7a2a6c017c55dfbda20912383f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all the GameComponents  <a href="#a2b8ce7a2a6c017c55dfbda20912383f6">More...</a><br /></td></tr>
 <tr class="separator:a2b8ce7a2a6c017c55dfbda20912383f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a116a9f9cf5262c851f02803bbc288b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a116a9f9cf5262c851f02803bbc288b5f">HandleAddRemoves</a> ()</td></tr>
+<tr class="memdesc:a116a9f9cf5262c851f02803bbc288b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add and remove any components this frame  <a href="#a116a9f9cf5262c851f02803bbc288b5f">More...</a><br /></td></tr>
 <tr class="separator:a116a9f9cf5262c851f02803bbc288b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac8df4ec115472615e3ade4ddca54288"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#aac8df4ec115472615e3ade4ddca54288">FrustrumCullLocatableComponents</a> (<a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera)</td></tr>
+<tr class="memdesc:aac8df4ec115472615e3ade4ddca54288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of bodies that intersect the camera's view frustum  <a href="#aac8df4ec115472615e3ade4ddca54288">More...</a><br /></td></tr>
 <tr class="separator:aac8df4ec115472615e3ade4ddca54288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70e4ec7d358f7823872477e98582daf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#ab70e4ec7d358f7823872477e98582daf">RenderReflective</a> (<a class="el" href="class_dwarf_corp_1_1_game_component.html">GameComponent</a> component, float waterLevel)</td></tr>
+<tr class="memdesc:ab70e4ec7d358f7823872477e98582daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render all of the components for reflection in the water.  <a href="#ab70e4ec7d358f7823872477e98582daf">More...</a><br /></td></tr>
 <tr class="separator:ab70e4ec7d358f7823872477e98582daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6889eebbd8d36c3f47d29abdea47a267"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a6889eebbd8d36c3f47d29abdea47a267">Render</a> (<a class="el" href="class_dwarf_corp_1_1_dwarf_time.html">DwarfTime</a> gameTime, <a class="el" href="class_dwarf_corp_1_1_chunk_manager.html">ChunkManager</a> chunks, <a class="el" href="class_dwarf_corp_1_1_camera.html">Camera</a> camera, SpriteBatch spriteBatch, GraphicsDevice graphicsDevice, Effect effect, <a class="el" href="class_dwarf_corp_1_1_component_manager.html#a8f81b28fc5985c06e01de33eec4c1fcf">WaterRenderType</a> waterRenderMode, float waterLevel)</td></tr>
+<tr class="memdesc:a6889eebbd8d36c3f47d29abdea47a267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render all of the components.  <a href="#a6889eebbd8d36c3f47d29abdea47a267">More...</a><br /></td></tr>
 <tr class="separator:a6889eebbd8d36c3f47d29abdea47a267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc220daa86a1dcf69b61a07946775b70"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#abc220daa86a1dcf69b61a07946775b70">GetMaxComponentID</a> ()</td></tr>
+<tr class="memdesc:abc220daa86a1dcf69b61a07946775b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum global ID needed for a component. This is only used during deserialization for book-keeping  <a href="#abc220daa86a1dcf69b61a07946775b70">More...</a><br /></td></tr>
 <tr class="separator:abc220daa86a1dcf69b61a07946775b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1d758a3538da71a20934d200bae61e7"><td class="memItemLeft" align="right" valign="top">static List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#aa1d758a3538da71a20934d200bae61e7">FilterComponentsWithoutTag&lt; T &gt;</a> (string tag, List&lt; T &gt; toFilter)</td></tr>
+<tr class="memdesc:aa1d758a3538da71a20934d200bae61e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of components of type T without the given tag.  <a href="#aa1d758a3538da71a20934d200bae61e7">More...</a><br /></td></tr>
 <tr class="separator:aa1d758a3538da71a20934d200bae61e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ea8f6592f22eaf137cc755a04ff821b"><td class="memItemLeft" align="right" valign="top">static List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a6ea8f6592f22eaf137cc755a04ff821b">FilterComponentsWithTag&lt; T &gt;</a> (string tag, List&lt; T &gt; toFilter)</td></tr>
+<tr class="memdesc:a6ea8f6592f22eaf137cc755a04ff821b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of components of type T with the given tag.  <a href="#a6ea8f6592f22eaf137cc755a04ff821b">More...</a><br /></td></tr>
 <tr class="separator:a6ea8f6592f22eaf137cc755a04ff821b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a2181b2b7d360300fce3fe004e2145"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a05a2181b2b7d360300fce3fe004e2145">CompareZDepth</a> (<a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> A, <a class="el" href="class_dwarf_corp_1_1_body.html">Body</a> B)</td></tr>
+<tr class="memdesc:a05a2181b2b7d360300fce3fe004e2145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparator that tells us which body is closer to the camera  <a href="#a05a2181b2b7d360300fce3fe004e2145">More...</a><br /></td></tr>
 <tr class="separator:a05a2181b2b7d360300fce3fe004e2145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ac3089453ae40f0f7460b4e66bfe6bac7"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; uint, <a class="el" href="class_dwarf_corp_1_1_game_component.html">GameComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#ac3089453ae40f0f7460b4e66bfe6bac7">Components</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac3089453ae40f0f7460b4e66bfe6bac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary from global ID to component containing all the GameComponents.  <a href="#ac3089453ae40f0f7460b4e66bfe6bac7">More...</a><br /></td></tr>
 <tr class="separator:ac3089453ae40f0f7460b4e66bfe6bac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e2b64853223acfcd0decff6181f0582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a5e2b64853223acfcd0decff6181f0582">RootComponent</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5e2b64853223acfcd0decff6181f0582"><td class="mdescLeft">&#160;</td><td class="mdescRight">The root component. All other components are children of this one.  <a href="#a5e2b64853223acfcd0decff6181f0582">More...</a><br /></td></tr>
 <tr class="separator:a5e2b64853223acfcd0decff6181f0582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6566ff81f873def99784359378752851"><td class="memItemLeft" align="right" valign="top">Mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a6566ff81f873def99784359378752851">AdditionMutex</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6566ff81f873def99784359378752851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock thsi mutex when adding bodies  <a href="#a6566ff81f873def99784359378752851">More...</a><br /></td></tr>
 <tr class="separator:a6566ff81f873def99784359378752851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2b62c05e591475922573934bdd790d4"><td class="memItemLeft" align="right" valign="top">Mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#ab2b62c05e591475922573934bdd790d4">RemovalMutex</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab2b62c05e591475922573934bdd790d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">lock this mutex when removing bodies  <a href="#ab2b62c05e591475922573934bdd790d4">More...</a><br /></td></tr>
 <tr class="separator:ab2b62c05e591475922573934bdd790d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bc91a9a0d62e515b2396c36fe4ca19b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_particle_manager.html">ParticleManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a3bc91a9a0d62e515b2396c36fe4ca19b">ParticleManager</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3bc91a9a0d62e515b2396c36fe4ca19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">manages particle effects.  <a href="#a3bc91a9a0d62e515b2396c36fe4ca19b">More...</a><br /></td></tr>
 <tr class="separator:a3bc91a9a0d62e515b2396c36fe4ca19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13084420da8120324d0e127794615965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html">CollisionManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a13084420da8120324d0e127794615965">CollisionManager</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a13084420da8120324d0e127794615965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial hash of all bodies used to test collisions  <a href="#a13084420da8120324d0e127794615965">More...</a><br /></td></tr>
 <tr class="separator:a13084420da8120324d0e127794615965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a042dfe9106e1ad25a6545cbece134e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_faction_library.html">FactionLibrary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#a042dfe9106e1ad25a6545cbece134e31">Factions</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a042dfe9106e1ad25a6545cbece134e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">static library of all the factions in the game  <a href="#a042dfe9106e1ad25a6545cbece134e31">More...</a><br /></td></tr>
 <tr class="separator:a042dfe9106e1ad25a6545cbece134e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae931b878adea00b144ac31ae9cff918c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_corp_1_1_diplomacy.html">Diplomacy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_component_manager.html#ae931b878adea00b144ac31ae9cff918c">Diplomacy</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae931b878adea00b144ac31ae9cff918c"><td class="mdescLeft">&#160;</td><td class="mdescRight">static library of the diplomatic relationships in the game  <a href="#ae931b878adea00b144ac31ae9cff918c">More...</a><br /></td></tr>
 <tr class="separator:ae931b878adea00b144ac31ae9cff918c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -197,6 +229,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Whether the component is rendered in reflections on water </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8f81b28fc5985c06e01de33eec4c1fcfa3889e081f93c67991c06d95705cee7e6"></a>Reflective&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8f81b28fc5985c06e01de33eec4c1fcfa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
@@ -272,6 +306,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>create a new component manager. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -290,6 +326,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tells the <a class="el" href="class_dwarf_corp_1_1_component_manager.html" title="This class is responsible for handling components. &quot;Components&quot; are one of the most important parts o...">ComponentManager</a> to add a component on the next frame </p>
 
 </div>
 </div>
@@ -327,6 +365,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Comparator that tells us which body is closer to the camera </p>
+
 </div>
 </div>
 <a id="aa1d758a3538da71a20934d200bae61e7"></a>
@@ -362,6 +402,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a list of components of type T without the given tag. </p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -406,6 +448,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a list of components of type T with the given tag. </p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -432,6 +476,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get a list of bodies that intersect the camera's view frustum </p>
 
 </div>
 </div>
@@ -467,6 +513,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Finds all the bodies intersecting the given bounding sphere. </p>
+
 </div>
 </div>
 <a id="a919c9b363f8c0fefd1c20ede28dac3d0"></a>
@@ -500,6 +548,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Finds all the bodies intersecting the given bounding frustum. </p>
 
 </div>
 </div>
@@ -535,6 +585,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Finds all the bodies intersecting the given bounding box. </p>
+
 </div>
 </div>
 <a id="aa34fbe8165291f8152e7680b3a673d8c"></a>
@@ -569,6 +621,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Finds all the bodies intersecting the given ray. </p>
+
 </div>
 </div>
 <a id="a1df6d7a7c55e745c1a7b8394f4e0f5d9"></a>
@@ -596,6 +650,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Given a camera, finds all the bodies NOT visible to that camera. </p>
 
 </div>
 </div>
@@ -637,6 +693,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Finds all of the bodies under the mouse given a camera and viewport. </p>
+
 </div>
 </div>
 <a id="a58faef6df6ef1d35a509aaaa5f6e2459"></a>
@@ -665,6 +723,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Given a <a class="el" href="class_dwarf_corp_1_1_camera.html" title="Manages a 3D camera with projection and view matrices. ">Camera</a>, gets all the bodies visible to it. </p>
+
 </div>
 </div>
 <a id="abc220daa86a1dcf69b61a07946775b70"></a>
@@ -682,6 +742,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the maximum global ID needed for a component. This is only used during deserialization for book-keeping </p>
+
 </div>
 </div>
 <a id="a116a9f9cf5262c851f02803bbc288b5f"></a>
@@ -698,6 +760,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add and remove any components this frame </p>
 
 </div>
 </div>
@@ -739,6 +803,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determine whether the given component is under the mouse given a camera and viewport. </p>
+
 </div>
 </div>
 <a id="a90dc8ef98ecce4193c0712761e6b0b94"></a>
@@ -767,6 +833,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines if the given <a class="el" href="class_dwarf_corp_1_1_body.html" title="This is a special kind of component which has a position and orientation. The global position of an o...">Body</a> is visible to the given <a class="el" href="class_dwarf_corp_1_1_camera.html" title="Manages a 3D camera with projection and view matrices. ">Camera</a> </p>
+
 </div>
 </div>
 <a id="a71637c0597e1a671549cf026cff0091b"></a>
@@ -784,6 +852,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tells the <a class="el" href="class_dwarf_corp_1_1_component_manager.html" title="This class is responsible for handling components. &quot;Components&quot; are one of the most important parts o...">ComponentManager</a> to remove a component on the next frame </p>
 
 </div>
 </div>
@@ -849,6 +919,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Render all of the components. </p>
+
 </div>
 </div>
 <a id="ab70e4ec7d358f7823872477e98582daf"></a>
@@ -876,6 +948,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Render all of the components for reflection in the water. </p>
 
 </div>
 </div>
@@ -905,6 +979,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Findds all the bodies on screen inside the given selection rectangle. </p>
+
 </div>
 </div>
 <a id="a26ff9bca8a7cecd3415005bd02d4b3cb"></a>
@@ -932,6 +1008,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Finds all the bodies which are immediate children of the Root body and which are inside the given selection rectangle on the screen. </p>
 
 </div>
 </div>
@@ -967,6 +1045,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Updates all the GameComponents </p>
+
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
@@ -990,6 +1070,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Lock thsi mutex when adding bodies </p>
+
 </div>
 </div>
 <a id="a13084420da8120324d0e127794615965"></a>
@@ -1011,6 +1093,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Spatial hash of all bodies used to test collisions </p>
 
 </div>
 </div>
@@ -1034,6 +1118,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>A dictionary from global ID to component containing all the GameComponents. </p>
+
 </div>
 </div>
 <a id="ae931b878adea00b144ac31ae9cff918c"></a>
@@ -1055,6 +1141,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>static library of the diplomatic relationships in the game </p>
 
 </div>
 </div>
@@ -1078,6 +1166,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>static library of all the factions in the game </p>
+
 </div>
 </div>
 <a id="a3bc91a9a0d62e515b2396c36fe4ca19b"></a>
@@ -1099,6 +1189,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>manages particle effects. </p>
 
 </div>
 </div>
@@ -1122,6 +1214,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>lock this mutex when removing bodies </p>
+
 </div>
 </div>
 <a id="a5e2b64853223acfcd0decff6181f0582"></a>
@@ -1143,6 +1237,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The root component. All other components are children of this one. </p>
 
 </div>
 </div>

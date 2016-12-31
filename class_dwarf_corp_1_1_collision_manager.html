@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('class_dwarf_corp_1_1_collision_manager
 </div><!--header-->
 <div class="contents">
 
-<p>Maintains a number of labeled octrees, and allows collision queries for different kinds of objects in the world.  
+<p>Maintains a number of labeled spatial hashes, and allows collision queries for different kinds of objects in the world.  
  <a href="class_dwarf_corp_1_1_collision_manager.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -99,7 +99,8 @@ Public Types</h2></td></tr>
 <tr class="memitem:a53dd4c93c47450e4c1bc20f143d6e211"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> { <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211a6adf97f83acf6453d4a6a4b1070f3754">CollisionType.None</a> = 0, 
 <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211a84a8921b25f505d0d2077aeb5db4bc16">CollisionType.Static</a> = 2, 
 <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211a971fd8cc345d8bd9f92e9f7d88fdf20c">CollisionType.Dynamic</a> = 4
- }</td></tr>
+ }<tr class="memdesc:a53dd4c93c47450e4c1bc20f143d6e211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Objects are either static, dynamic or both.  <a href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a53dd4c93c47450e4c1bc20f143d6e211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -107,35 +108,47 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a88630e1474772de0840b9fe743bb7464"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a88630e1474772de0840b9fe743bb7464">CollisionManager</a> ()</td></tr>
 <tr class="separator:a88630e1474772de0840b9fe743bb7464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a082cc54c71340d7962542045218fbfe1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a082cc54c71340d7962542045218fbfe1">CollisionManager</a> (BoundingBox bounds)</td></tr>
+<tr class="memdesc:a082cc54c71340d7962542045218fbfe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_dwarf_corp_1_1_collision_manager.html" title="Maintains a number of labeled spatial hashes, and allows collision queries for different kinds of obj...">CollisionManager</a> class.  <a href="#a082cc54c71340d7962542045218fbfe1">More...</a><br /></td></tr>
 <tr class="separator:a082cc54c71340d7962542045218fbfe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa87e3b0bf3d6762262224ab25791b513"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#aa87e3b0bf3d6762262224ab25791b513">AddObject</a> (<a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html">IBoundedObject</a> bounded, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> type)</td></tr>
+<tr class="memdesc:aa87e3b0bf3d6762262224ab25791b513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the specified object to the hash map.  <a href="#aa87e3b0bf3d6762262224ab25791b513">More...</a><br /></td></tr>
 <tr class="separator:aa87e3b0bf3d6762262224ab25791b513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8dee91d0f65c7874691c406b627e31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a7d8dee91d0f65c7874691c406b627e31">RemoveObject</a> (<a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html">IBoundedObject</a> bounded, BoundingBox oldLocation, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> type)</td></tr>
+<tr class="memdesc:a7d8dee91d0f65c7874691c406b627e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the bounded object from a location it was previously in.  <a href="#a7d8dee91d0f65c7874691c406b627e31">More...</a><br /></td></tr>
 <tr class="separator:a7d8dee91d0f65c7874691c406b627e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48e277d7836ffded9f310dbc77f5ad73"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html">IBoundedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a48e277d7836ffded9f310dbc77f5ad73">GetObjectsAt</a> (<a class="el" href="class_dwarf_corp_1_1_voxel.html">Voxel</a> voxel, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> queryType)</td></tr>
+<tr class="memdesc:a48e277d7836ffded9f310dbc77f5ad73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of bounded objects at a voxel.  <a href="#a48e277d7836ffded9f310dbc77f5ad73">More...</a><br /></td></tr>
 <tr class="separator:a48e277d7836ffded9f310dbc77f5ad73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9867d32f0cb1f8d30aa1b657b8fa149"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html">IBoundedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#ac9867d32f0cb1f8d30aa1b657b8fa149">GetObjectsAt</a> (<a class="el" href="struct_dwarf_corp_1_1_point3.html">Point3</a> pos, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> queryType)</td></tr>
+<tr class="memdesc:ac9867d32f0cb1f8d30aa1b657b8fa149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of objects at a point.  <a href="#ac9867d32f0cb1f8d30aa1b657b8fa149">More...</a><br /></td></tr>
 <tr class="separator:ac9867d32f0cb1f8d30aa1b657b8fa149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af19cf4ad366b8969f31a16df30d01182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#af19cf4ad366b8969f31a16df30d01182">GetObjectsIntersecting&lt; TObject &gt;</a> (BoundingBox box, HashSet&lt; TObject &gt; set, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> queryType)</td></tr>
+<tr class="memdesc:af19cf4ad366b8969f31a16df30d01182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of bounded objects intersecting a bounding box.  <a href="#af19cf4ad366b8969f31a16df30d01182">More...</a><br /></td></tr>
 <tr class="separator:af19cf4ad366b8969f31a16df30d01182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b3d7ad0f049d92fe51c0245a5f6310e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a2b3d7ad0f049d92fe51c0245a5f6310e">GetObjectsIntersecting&lt; TObject &gt;</a> (BoundingFrustum frustum, HashSet&lt; TObject &gt; set, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> queryType)</td></tr>
+<tr class="memdesc:a2b3d7ad0f049d92fe51c0245a5f6310e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of bounded objects intersecting the given bounding frustum.  <a href="#a2b3d7ad0f049d92fe51c0245a5f6310e">More...</a><br /></td></tr>
 <tr class="separator:a2b3d7ad0f049d92fe51c0245a5f6310e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a167f6b61ba24a15e29e8789ab97907"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a0a167f6b61ba24a15e29e8789ab97907">GetObjectsIntersecting&lt; TObject &gt;</a> (BoundingSphere sphere, HashSet&lt; TObject &gt; set, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> queryType)</td></tr>
+<tr class="memdesc:a0a167f6b61ba24a15e29e8789ab97907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of objects intersecting the given bounding sphere.  <a href="#a0a167f6b61ba24a15e29e8789ab97907">More...</a><br /></td></tr>
 <tr class="separator:a0a167f6b61ba24a15e29e8789ab97907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a532f10c4ec6fe7762577c88e8c90e6b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a532f10c4ec6fe7762577c88e8c90e6b1">GetObjectsIntersecting&lt; TObject &gt;</a> (Ray ray, HashSet&lt; TObject &gt; set, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> queryType)</td></tr>
+<tr class="memdesc:a532f10c4ec6fe7762577c88e8c90e6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the objects intersectin the given ray.  <a href="#a532f10c4ec6fe7762577c88e8c90e6b1">More...</a><br /></td></tr>
 <tr class="separator:a532f10c4ec6fe7762577c88e8c90e6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa47b83134f7e7f29c2f7fccde9c60f86"><td class="memItemLeft" align="right" valign="top">List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#aa47b83134f7e7f29c2f7fccde9c60f86">GetVisibleObjects&lt; T &gt;</a> (BoundingFrustum getFrustrum, <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a> collisionType)</td></tr>
+<tr class="memdesc:aa47b83134f7e7f29c2f7fccde9c60f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of objects visible to the given bounding frustum.  <a href="#aa47b83134f7e7f29c2f7fccde9c60f86">More...</a><br /></td></tr>
 <tr class="separator:aa47b83134f7e7f29c2f7fccde9c60f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50ee68f08122913f5dac9668dbcf6bef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a50ee68f08122913f5dac9668dbcf6bef">DebugDraw</a> ()</td></tr>
+<tr class="memdesc:a50ee68f08122913f5dac9668dbcf6bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws dummy text telling us how many objects are in each hash.  <a href="#a50ee68f08122913f5dac9668dbcf6bef">More...</a><br /></td></tr>
 <tr class="separator:a50ee68f08122913f5dac9668dbcf6bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:abf015b44779dbf23c0cb1f5467e1cb3f"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="class_dwarf_corp_1_1_collision_manager.html#a53dd4c93c47450e4c1bc20f143d6e211">CollisionType</a>, <a class="el" href="class_dwarf_corp_1_1_spatial_hash.html">SpatialHash</a>&lt; <a class="el" href="interface_dwarf_corp_1_1_i_bounded_object.html">IBoundedObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_corp_1_1_collision_manager.html#abf015b44779dbf23c0cb1f5467e1cb3f">Hashes</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abf015b44779dbf23c0cb1f5467e1cb3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dictionary of different spatial hash maps for each collision type.  <a href="#abf015b44779dbf23c0cb1f5467e1cb3f">More...</a><br /></td></tr>
 <tr class="separator:abf015b44779dbf23c0cb1f5467e1cb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Maintains a number of labeled octrees, and allows collision queries for different kinds of objects in the world. </p>
+<div class="textblock"><p>Maintains a number of labeled spatial hashes, and allows collision queries for different kinds of objects in the world. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a53dd4c93c47450e4c1bc20f143d6e211"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53dd4c93c47450e4c1bc20f143d6e211">&sect;&nbsp;</a></span>CollisionType</h2>
@@ -156,6 +169,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Objects are either static, dynamic or both. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a53dd4c93c47450e4c1bc20f143d6e211a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a53dd4c93c47450e4c1bc20f143d6e211a84a8921b25f505d0d2077aeb5db4bc16"></a>Static&#160;</td><td class="fielddoc"></td></tr>
@@ -198,6 +213,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes a new instance of the <a class="el" href="class_dwarf_corp_1_1_collision_manager.html" title="Maintains a number of labeled spatial hashes, and allows collision queries for different kinds of obj...">CollisionManager</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounds</td><td>The bounds of the world (unused for now).</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -227,6 +250,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Adds the specified object to the hash map. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounded</td><td>The bounded object to add.</td></tr>
+    <tr><td class="paramname">type</td><td>The type of the object..</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a50ee68f08122913f5dac9668dbcf6bef"></a>
@@ -243,6 +275,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Draws dummy text telling us how many objects are in each hash. </p>
 
 </div>
 </div>
@@ -272,6 +306,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets a list of bounded objects at a voxel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxel</td><td>The voxel.</td></tr>
+    <tr><td class="paramname">queryType</td><td>Type of the query.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of bounded objects intersecting the voxel.</dd></dl>
+
 </div>
 </div>
 <a id="ac9867d32f0cb1f8d30aa1b657b8fa149"></a>
@@ -299,6 +343,16 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a list of objects at a point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>The position.</td></tr>
+    <tr><td class="paramname">queryType</td><td>Type of the query.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The list of objects intersecting that point.</dd></dl>
 
 </div>
 </div>
@@ -333,6 +387,22 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a list of bounded objects intersecting a bounding box. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TObject</td><td>The type of the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>The box.</td></tr>
+    <tr><td class="paramname">set</td><td>The set intersecting the box.</td></tr>
+    <tr><td class="paramname">queryType</td><td>Type of the query.</td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -375,6 +445,22 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a list of bounded objects intersecting the given bounding frustum. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TObject</td><td>The type of the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frustum</td><td>The frustum.</td></tr>
+    <tr><td class="paramname">set</td><td>The set.</td></tr>
+    <tr><td class="paramname">queryType</td><td>Type of the query.</td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -417,6 +503,22 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the list of objects intersecting the given bounding sphere. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TObject</td><td>The type of the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sphere</td><td>The sphere.</td></tr>
+    <tr><td class="paramname">set</td><td>The set of objects intersecting the given bounding sphere.</td></tr>
+    <tr><td class="paramname">queryType</td><td>Type of the query.</td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -459,6 +561,22 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the objects intersectin the given ray. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TObject</td><td>The type of the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ray</td><td>The ray.</td></tr>
+    <tr><td class="paramname">set</td><td>The set.</td></tr>
+    <tr><td class="paramname">queryType</td><td>Type of the query.</td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -495,6 +613,22 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the list of objects visible to the given bounding frustum. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">getFrustrum</td><td>The get frustrum.</td></tr>
+    <tr><td class="paramname">collisionType</td><td>Type of the collision.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of objects intersecting the frustum.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -538,6 +672,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Removes the bounded object from a location it was previously in. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounded</td><td>The bounded.</td></tr>
+    <tr><td class="paramname">oldLocation</td><td>The old location.</td></tr>
+    <tr><td class="paramname">type</td><td>The type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
@@ -560,6 +704,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>A dictionary of different spatial hash maps for each collision type. </p>
+<p>The hashes. </p>
 
 </div>
 </div>

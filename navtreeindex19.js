@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_dwarf_corp_1_1_primitive_library.html#a79d43f195a79d3196f51cd0d0f5e6da9":[1,0,2,289,0],
 "class_dwarf_corp_1_1_priority_queue.html":[1,0,2,290],
 "class_dwarf_corp_1_1_progress_bar.html":[1,0,2,291],
 "class_dwarf_corp_1_1_progress_bar.html#a304fa01bd7db47efb702cf909e1e59a3":[1,0,2,291,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "class_dwarf_corp_1_1_room_builder.html#a351b6888c35637de9c01e42d3b2e524f":[1,0,2,310,12],
 "class_dwarf_corp_1_1_room_builder.html#a3586278f4e7a2e75fd65f8786e18b1b5":[1,0,2,310,1],
 "class_dwarf_corp_1_1_room_builder.html#a35ff1eded095b96529f9ce5095cbe8e4":[1,0,2,310,6],
-"class_dwarf_corp_1_1_room_builder.html#a402cb939ec040a0701690064496ba913":[1,0,2,310,16]
+"class_dwarf_corp_1_1_room_builder.html#a402cb939ec040a0701690064496ba913":[1,0,2,310,16],
+"class_dwarf_corp_1_1_room_builder.html#a6601b6e9dbe7bd4e24d6c69ae0e91cd1":[1,0,2,310,5]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"class_dwarf_corp_1_1_key_editor.html#ab6e0d436f7eaa764b855999a5163871e":[1,0,2,215,3],
 "class_dwarf_corp_1_1_key_editor.html#aff29b4f942e621f1b25c178adda206bd":[1,0,2,215,5],
 "class_dwarf_corp_1_1_key_manager.html":[1,0,2,216],
 "class_dwarf_corp_1_1_key_manager.html#a17dcd13b9d03f945a583ec30e2d8122b":[1,0,2,216,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "class_dwarf_corp_1_1_minimap_icon.html#a73598b3e5acd64156e7e7a0af26095f5":[1,0,2,243,3],
 "class_dwarf_corp_1_1_minimap_icon.html#ab4fdb1de943c036f58cbfe7630500aaf":[1,0,2,243,2],
 "class_dwarf_corp_1_1_minimap_icon.html#ada30a0c864abfcc5baf26baced37dd4a":[1,0,2,243,1],
-"class_dwarf_corp_1_1_minion_panel.html":[1,0,2,244]
+"class_dwarf_corp_1_1_minion_panel.html":[1,0,2,244],
+"class_dwarf_corp_1_1_minion_panel.html#a0711634fa0aabd2522a8ade65b661b61":[1,0,2,244,1]
 };
